@@ -1,0 +1,1 @@
+The 'max_wal_size' in Postgres should be set based on your workload and how much disk space you are willing to use for recovery purposes, with a general recommendation being 1GB per 1TB of storage, but it can be increased if a heavy write load is expected.

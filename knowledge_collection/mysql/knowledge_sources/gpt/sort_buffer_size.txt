@@ -1,0 +1,1 @@
+The 'sort_buffer_size' in MySQL is a per-session buffer that is allocated when sorting rows for ORDER BY and GROUP BY statements, and its value can be set between the minimum of 32KB and the maximum of 4GB, but a good starting point could be 256KB to 1MB, and then adjust based on your workload and performance.

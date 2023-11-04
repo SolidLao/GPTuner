@@ -1,0 +1,1 @@
+{"think_procedure": "Step 1: Look up the documentation for the 'rpl_stop_slave_timeout' knob in MySQL. Step 2: Check if the knob has any special values that change its behavior significantly. Step 3: If such special values exist, classify the knob as a 'special knob'. If not, it's a regular knob.", "special_knob": true, "special_value": 0}

@@ -1,0 +1,1 @@
+The 'archive_mode' knob in Postgres can be set to either 'on' or 'off', where 'on' enables the archiving of transaction logs and 'off' disables it; it is usually set to 'on' for systems requiring point-in-time recovery.

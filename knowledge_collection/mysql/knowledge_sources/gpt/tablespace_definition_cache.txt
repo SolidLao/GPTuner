@@ -1,0 +1,1 @@
+The 'tablespace_definition_cache' knob in MySQL can be set to a specific value that determines the number of tablespace definitions that can be stored in the definition cache, with the default value being 256, but it can be increased if you have a large number of tablespaces.

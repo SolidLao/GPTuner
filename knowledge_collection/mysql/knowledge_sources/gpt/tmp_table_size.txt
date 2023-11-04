@@ -1,0 +1,1 @@
+The 'tmp_table_size' knob in MySQL should be set based on the size of your temporary tables, typically starting at 16M, but it can be increased if you have complex queries that create large temporary tables, but it should not exceed the maximum heap table size, which is typically set at 16M to 32M.

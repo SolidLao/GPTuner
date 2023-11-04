@@ -1,0 +1,1 @@
+The 'autovacuum_analyze_scale_factor' knob is a parameter that determines if an ANALYZE should be triggered by adding a fraction of the table size to the autovacuum_analyze_threshold, with the default set at 0.1, or 10% of the table size, and can be adjusted in the postgresql.conf file or server command line.

@@ -1,0 +1,1 @@
+To set the value for 'open_files_limit' in MySQL, you should first check the current limit by running 'show variables like 'open_files_limit';' in MySQL, then adjust the value in your MySQL configuration file (my.cnf or my.ini) under the [mysqld] section, e.g., 'open_files_limit=5000', and finally restart the MySQL server for changes to take effect.

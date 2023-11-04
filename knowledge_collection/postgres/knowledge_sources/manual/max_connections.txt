@@ -1,0 +1,1 @@
+The 'max_connections' knob sets the limit for concurrent connections to the database server, typically defaulted at 100, and must be set equal to or higher than the master server's value on a standby server, with adjustments only possible at server start.

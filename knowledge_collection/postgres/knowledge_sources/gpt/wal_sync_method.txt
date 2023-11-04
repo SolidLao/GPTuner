@@ -1,0 +1,1 @@
+The 'wal_sync_method' knob in Postgres is set to determine the method used for forcing WAL updates out to disk, with options including open_datasync, fdatasync (default), fsync, fsync_writethrough, and open_sync, but the specific value should be set based on your system's capabilities and requirements, as improper settings can impact database reliability.

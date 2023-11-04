@@ -1,0 +1,1 @@
+The 'track_activity_query_size' knob reserves memory to store the text of the current command for each active session, defaulting to 1024 bytes, and can only be set at server start.

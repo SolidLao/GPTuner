@@ -1,0 +1,1 @@
+The 'log_temp_files' knob in Postgres can be set to a specific size in kilobytes, and any temporary file larger than this size will have its details logged; for instance, setting it to 0 logs all temporary files, while -1 disables logging.

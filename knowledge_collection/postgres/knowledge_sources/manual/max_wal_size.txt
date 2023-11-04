@@ -1,0 +1,1 @@
+The 'max_wal_size' knob in PostgreSQL controls the maximum size the Write-Ahead Log (WAL) can grow during automatic checkpoints, with a soft limit default of 1 GB, which can be exceeded under certain conditions like heavy load or high wal_keep_size setting, and increasing this value may extend the time required for crash recovery.

@@ -1,0 +1,1 @@
+If you turn on ‘log_connections’, you may also want to turn this on to understand session durations.

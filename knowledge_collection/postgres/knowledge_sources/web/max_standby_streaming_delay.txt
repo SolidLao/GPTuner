@@ -1,0 +1,1 @@
+Set to ‘0’ if your primary use of the replica is for failover and read-only queries run may get cancelled. Set it to the maximum lag tolerable, which also acts as a ceiling for the maximum query duration before a conflicting query gets cancelled, if ‘hot_standby_feedback’ is set.

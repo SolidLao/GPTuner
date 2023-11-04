@@ -1,0 +1,1 @@
+The 'checkpoint_timeout' knob in PostgreSQL is used to set the maximum time between automatic WAL checkpoints, ranging from 30 seconds to one day, with a default setting of five minutes, and altering this parameter could affect the time required for crash recovery.

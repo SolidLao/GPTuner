@@ -1,0 +1,1 @@
+The 'log_connections' knob, adjustable only by superusers at session start, logs each attempted and successfully authenticated connection to the server, with the default setting being off, and it's important to note that duplicate connection messages may not indicate an issue as some client programs, like psql, attempt to connect twice to determine password requirements.

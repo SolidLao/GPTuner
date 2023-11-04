@@ -1,0 +1,1 @@
+{"think_procedure": "Step 1: Check the MySQL documentation or other reliable sources to understand the function of the 'innodb_spin_wait_delay' knob. Step 2: Look for any special values that this knob can take and what they mean. Step 3: If there are special values that change the function of the knob, classify it as a 'special knob'.", "special_knob": false}

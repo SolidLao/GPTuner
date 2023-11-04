@@ -1,0 +1,1 @@
+The 'binlog_row_image' knob in MySQL can be set to one of three values: 'full', 'minimal', or 'noblob', where 'full' logs all columns in both the before and after image, 'minimal' logs only the columns that were changed, and 'noblob' logs all columns except for un-changed BLOB or TEXT columns.

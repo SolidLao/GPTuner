@@ -1,0 +1,1 @@
+Logging connections is useful to understand line-rate information about session establishment. Turn it on unless you don’t use connection pooling and you are dealing with a huge number of connections (if this is the case: setup connection pooling).

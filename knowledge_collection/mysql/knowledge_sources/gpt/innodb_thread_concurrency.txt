@@ -1,0 +1,1 @@
+Set the 'innodb_thread_concurrency' value in MySQL to 0 for unlimited concurrency, allowing the system to automatically adjust to the workload, or set it to a specific number based on the number of CPUs and disks if you want to limit the number of threads.

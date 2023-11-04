@@ -1,0 +1,1 @@
+The 'innodb_log_spin_cpu_abs_lwm' knob in MySQL is used to set the lower limit for CPU usage, and its value can be adjusted according to the specific CPU usage of your system, but it generally ranges from 0 to 100, with the default value being 80.

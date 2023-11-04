@@ -1,0 +1,1 @@
+Very useful to detect excessive usage of temporary files (which may be indicative of low work_mem or maintenance_work_mem).

@@ -1,0 +1,1 @@
+The 'innodb_read_ahead_threshold' knob in MySQL can be set to a value between 0 and 64, which determines the number of pages that must be accessed sequentially before InnoDB initiates a read-ahead request, with a lower value triggering read-ahead more quickly.

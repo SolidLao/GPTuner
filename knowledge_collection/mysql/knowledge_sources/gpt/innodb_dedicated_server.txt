@@ -1,0 +1,1 @@
+Set the value of 'innodb_dedicated_server' to 'ON' if MySQL is the only substantial service on your machine and MySQL can use all or nearly all available memory, otherwise, leave it as 'OFF'.

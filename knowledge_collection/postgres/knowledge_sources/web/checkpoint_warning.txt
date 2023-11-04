@@ -1,0 +1,1 @@
+This alerts you in the logs if checkpoints are happening too often. Set it to a fraction of checkpoint_timeout (e.g. ‘5min’) or ‘1min’ if checkpoint_timeout is not tuned.

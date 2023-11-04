@@ -1,0 +1,1 @@
+The 'innodb_concurrency_tickets' in MySQL can be set to a higher value like 5000 if there are many fast queries, but for a workload with long queries, a lower value like 100 may be more suitable to allow them to enter more frequently.

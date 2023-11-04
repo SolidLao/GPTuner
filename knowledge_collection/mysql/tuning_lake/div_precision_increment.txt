@@ -1,0 +1,1 @@
+The 'div_precision_increment' knob in MySQL can be set to a value between 0 and 30, which determines the number of decimal places in the result of division operations; a higher value increases precision but may slow down calculations.

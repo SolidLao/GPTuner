@@ -1,0 +1,1 @@
+The 'log_disconnections' knob enables logging of session terminations, providing information similar to log_connections along with the session duration, can only be altered by superusers at session start, and is unchangeable within a session, with its default setting being off.

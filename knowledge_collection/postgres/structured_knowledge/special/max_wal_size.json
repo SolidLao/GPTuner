@@ -1,0 +1,1 @@
+{"think_procedure": "The description of the knob 'max_wal_size' does not mention any special values that would change the function of the knob. It only mentions that the value can be exceeded under certain circumstances, but this does not change the function of the knob itself. Therefore, it is not a special knob.", "special_knob": false, "special_value": null}

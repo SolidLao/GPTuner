@@ -1,0 +1,1 @@
+The 'wal_sync_method' knob is used to determine the method for forcing WAL updates to disk, with possible values including open_datasync, fdatasync, fsync, fsync_writethrough, and open_sync, and the default being the first supported method by the platform or fdatasync on Linux, though this may need to be changed for optimal performance or crash-safe configuration.

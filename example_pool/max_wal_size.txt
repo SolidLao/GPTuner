@@ -1,0 +1,16 @@
+KNOB: max_wal_size
+SUGGESTIONS:
+Based on the workload and available disk space, it is suggested to adjust the 'max_wal_size' value. Typically, this is set to about 1GB, but for heavier workloads, it can be increased to 4GB or more. However, unless there are disk space constraints, it is recommended to raise this value to ensure automatic checkpoints are typically caused by timeout and not by disk space. It's important to note that the 'max_wal_size' parameter controls the maximum size the WAL can grow during automatic checkpoints, with a soft limit default of 1 GB, which can be exceeded under certain conditions like heavy load or high wal_keep_size setting. Be aware that increasing this parameter may extend the time required for crash recovery.
+
+ANS:
+Step 1: The suggestion offers a recommended value as "Typically, this is set to about 1GB, but for heavier workloads, it can be increased to 4GB or more." Proceed to Step 2.
+Step 2: The knob is not related to hardware information; proceed to Step 4.
+Step 4: The suggestion recommends two specific discrete values as "Typically, this is set to about 1GB" and "it can be increased to 4GB or more." Note that "4 GB" does not provide a bound of a range, so it should be a suggested_value. No suggested range is given.
+Step 5: No suggested range is given.
+Step 6: The discrete suggested values are "1GB" and "4GB".
+Step 7: Return the result in JSON format, i.e.:
+{
+    "suggested_values": ["1 GB", "4 GB"],
+    "min_value": null,
+    "max_value": null
+}

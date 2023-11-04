@@ -1,0 +1,1 @@
+{"think_procedure": "The knob 'seq_page_cost' is a numerical knob that sets the planner's estimate of the cost of a disk page fetch. The description does not mention any special values that would change the function of the knob, such as disabling a feature. Therefore, it is not a 'special' numerical knob.", "special_knob": false, "special_value": null}

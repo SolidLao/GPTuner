@@ -1,0 +1,1 @@
+Set the 'work_mem' knob in postgres by estimating the maximum number of concurrent connections and dividing the available memory by this number, but ensure it's not set too high (over 200MB) to avoid out-of-memory errors.

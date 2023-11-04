@@ -1,0 +1,1 @@
+The 'bgwriter_lru_multiplier' in postgres should be set based on your workload, with a default value of 2.0, but it can be increased to a maximum of 10.0 for heavy workloads to allow more buffers to be written by the background writer.

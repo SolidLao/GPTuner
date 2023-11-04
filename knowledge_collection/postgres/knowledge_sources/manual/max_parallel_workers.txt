@@ -1,0 +1,1 @@
+The 'max_parallel_workers' knob sets the limit for parallel operation workers in the system, with a default value of 8, and changes to this value should be accompanied by adjustments to 'max_parallel_maintenance_workers' and 'max_parallel_workers_per_gather', but any value exceeding 'max_worker_processes' will be ineffective.

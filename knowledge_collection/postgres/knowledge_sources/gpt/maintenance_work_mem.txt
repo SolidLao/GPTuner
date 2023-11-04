@@ -1,0 +1,1 @@
+The 'maintenance_work_mem' knob in Postgres should be set based on the size of your database and the amount of memory available, typically between 50MB to a few GBs, but it should not exceed the amount of memory that can be spared during maintenance operations, as it determines the maximum amount of memory used for maintenance operations such as VACUUM, CREATE INDEX, and others.

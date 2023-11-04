@@ -1,0 +1,1 @@
+The 'innodb_max_undo_log_size' in MySQL is set to control the maximum size of UNDO logs, and it's recommended to set it to a large value, such as 4GB, to avoid unnecessary resizing, but it should not exceed 50% of the total InnoDB redo log size.

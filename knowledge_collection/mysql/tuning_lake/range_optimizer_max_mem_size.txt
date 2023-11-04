@@ -1,0 +1,1 @@
+The 'range_optimizer_max_mem_size' knob in MySQL can be set to limit the amount of memory used for the range optimizer, with the default value being 1536000 (1.5 MB) and it can be increased or decreased based on the system's memory capacity and performance requirements.

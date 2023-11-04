@@ -1,0 +1,1 @@
+The 'innodb_doublewrite_batch_size' in MySQL is set to 127 by default, but it can be increased to improve write performance, especially on systems with high I/O capacity; however, it should not exceed the total number of pages that can fit into the doublewrite buffer, which is 1200 by default.

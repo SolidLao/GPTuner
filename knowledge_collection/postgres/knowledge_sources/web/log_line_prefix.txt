@@ -1,0 +1,1 @@
+Enrich your log information! If you want to use external log processing tools like PgBadger, check the documentation to make sure you use a compatible ‘log_line_prefix’.

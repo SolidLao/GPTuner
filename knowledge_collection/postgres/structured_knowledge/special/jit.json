@@ -1,0 +1,1 @@
+{"think_procedure": "First, I read the description of the knob. The knob 'jit' is used to determine whether JIT compilation may be used by PostgreSQL. It does not mention any special values that would change the function of the knob, such as -1 or 0. Therefore, it does not seem to be a special knob.", "special_knob": false, "special_value": null}

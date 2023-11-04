@@ -1,0 +1,1 @@
+The 'logging_collector' is a parameter that activates a background process to capture and redirect log messages into log files, providing a reliable method for high volume logging and preventing message loss even under high load, but can only be set at server start.

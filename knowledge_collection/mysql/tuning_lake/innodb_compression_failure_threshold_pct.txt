@@ -1,0 +1,1 @@
+The 'innodb_compression_failure_threshold_pct' knob in MySQL is set as a percentage, typically between 5 and 50, which determines the threshold for compression failures, after which the InnoDB engine will stop attempting to compress and will store the page uncompressed.

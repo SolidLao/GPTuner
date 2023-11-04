@@ -1,0 +1,1 @@
+The 'autovacuum_max_workers' knob sets the limit for autovacuum processes that can run simultaneously, with the default setting being three, and this parameter can only be adjusted at server startup.

@@ -1,0 +1,1 @@
+Set the value for 'table_open_cache' in MySQL based on the number of tables your server will be using simultaneously, typically starting with a value around 2000 and increasing it if you see a high rate of table cache misses, but be cautious as setting it too high can consume a lot of memory.

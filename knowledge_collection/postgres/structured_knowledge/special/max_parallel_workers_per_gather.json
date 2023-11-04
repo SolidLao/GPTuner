@@ -1,0 +1,1 @@
+{"think_procedure": "First, I read the description of the knob. I noticed that it mentioned a specific value, 0, that changes the function of the knob. In this case, setting the value to 0 disables parallel query execution. This indicates that this knob is a 'special' knob, as it has a special value that changes its function.", "special_knob": true, "special_value": 0}

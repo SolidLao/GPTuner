@@ -1,0 +1,17 @@
+KNOB: shared_buffers
+SUGGESTION:
+The 'shared_buffers' parameter determines the amount of memory used by the database server for shared memory buffers. It's advisable to set 'shared_buffers' to 25% of the system's memory for systems with 1GB or more RAM, but not exceeding 40% to allow PostgreSQL to rely on the operating system cache. For systems with less than 1GB of RAM, a smaller percentage is appropriate to leave adequate space for the operating system. However, any larger settings would necessitate an increase in 'max_wal_size'. Remember that each Postgres instance will reserve its own memory allocations and this variable is directly related to OS kernel parameters `shmmax` and `shmall`. If your system has hundreds of GBs, consider setting up huge pages. It's also recommended to conduct your own benchmarks varying this parameter and adjust accordingly, especially for non-dedicated servers.
+
+ANS:
+Step 1: The suggestion provides values for the knob 'shared_buffers'. It suggests setting 'shared_buffers' to 25% of the system's memory for systems with 1GB or more RAM, but not exceeding 40% to allow PostgreSQL to rely on the operating system cache. For systems with less than 1GB of RAM, a smaller percentage is appropriate. Proceed to Step 2.
+Step 2: The suggestion recommends values related to hardware information, specifically the system's memory. Proceed to Step 3.
+Step 3: The hardware information indicates that the machine has a RAM of 110 GB. Therefore, the 'shared_buffers' parameter should be set to 25% of 110 GB, which is 27.5 GB, but not exceeding 40% of 110 GB, which is 44 GB.
+Step 4: The suggestion offers a recommended discrete value as "25% of the system's memory for systems with 1GB or more RAM," and a range for good performance, which is not exceeding 40% of the system's memory.  
+Step 5: 25% of the system's memory is proposed as a discrete suggested value. Therefore, "27.5 GB" is put into the "suggested_values".
+Step 6: The suggested range is not exceeding 40% of the system's memory. Therefore, the the 'max_value' is "44 GB".
+Step 7: Return the result in JSON format. The result is:
+{
+"suggested_values": ["27.5 GB"],
+"min_value": null,
+"max_value": "44 GB"
+}

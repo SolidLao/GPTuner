@@ -1,0 +1,1 @@
+The 'log_min_duration_statement' knob logs the duration of each completed statement that runs for at least the specified time, such as 250ms, which can help identify unoptimized queries; it defaults to -1 (disabling logging), can be set to zero to log all durations, and is only adjustable by superusers.

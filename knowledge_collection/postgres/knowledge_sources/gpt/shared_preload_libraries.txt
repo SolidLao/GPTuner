@@ -1,0 +1,1 @@
+The 'shared_preload_libraries' knob in postgres should be set to the list of shared libraries that need to be preloaded at server start, separated by commas, for example, 'shared_preload_libraries = 'pg_stat_statements,auto_explain''.

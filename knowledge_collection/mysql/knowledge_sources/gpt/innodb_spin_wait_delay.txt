@@ -1,0 +1,1 @@
+The 'innodb_spin_wait_delay' knob in MySQL can be set to a value between 0 and 1 million, with the default being 6; increasing this value can reduce CPU usage, but may also increase response time, so it should be adjusted carefully based on system performance.

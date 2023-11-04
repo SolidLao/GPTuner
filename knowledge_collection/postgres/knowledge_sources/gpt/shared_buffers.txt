@@ -1,0 +1,1 @@
+Set the 'shared_buffers' value in Postgres to around 25% of the total RAM available on your system, but not more than 8GB, as this is the amount of memory reserved for caching data blocks.

@@ -1,0 +1,1 @@
+The 'log_destination' knob in Postgres can be set to a string of output methods including 'stderr', 'csvlog', 'syslog', or 'eventlog', and you can use multiple methods separated by commas, for example, 'stderr,csvlog'.

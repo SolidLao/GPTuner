@@ -1,0 +1,1 @@
+{"think_procedure": "First, we identify the function of the 'host_cache_size' knob in MySQL. It is used to set the size of the host cache. Then, we check if there are any special values that change the behavior of this knob. In this case, a value of 0 disables the host cache. Therefore, we can classify this knob as a 'special knob'.", "special_knob": true, "special_value": 0}

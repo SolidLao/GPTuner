@@ -1,0 +1,1 @@
+The 'max_standby_streaming_delay' in Postgres can be set to a specific number of milliseconds, such as 30000, to determine the maximum delay that the standby server will tolerate when streaming data from the primary server before canceling queries; if you want to disable this feature, set the value to -1.

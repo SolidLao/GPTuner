@@ -1,0 +1,1 @@
+The 'bgwriter_lru_multiplier' knob in PostgreSQL controls the number of dirty buffers written in each round, which is calculated by multiplying the average recent need by the value of 'bgwriter_lru_multiplier', with the default value being 2.0, and it can only be set in the postgresql.conf file or on the server command line.

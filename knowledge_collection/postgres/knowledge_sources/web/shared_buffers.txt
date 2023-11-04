@@ -1,0 +1,1 @@
+Conventional wisdom suggests 25% of the RAM. Do your own benchmarks varying this parameter. If you are into hundreds of GBs, consider setting up huge pages. Adjust accordingly for non-dedicated servers, considering that each Postgres instance will reserve its own memory allocations. This variable is in direct relation with OS kernel parameters `shmmax` and `shmall`.

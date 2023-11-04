@@ -1,0 +1,1 @@
+{"think_procedure": "First, I looked up the function of the sort_buffer_size knob in MySQL. I found that it is used to specify the amount of memory allocated to each thread for sorting data. Then, I checked if there are any special values for this knob that change its function. I found that there are no such special values.", "special_knob": false, "special_value": null}

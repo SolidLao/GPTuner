@@ -1,0 +1,16 @@
+KNOB:autovacuum_freeze_max_age
+SUGGESTIONS:
+I suggest setting the 'autovacuum_freeze_max_age' value between 100,000 to 2,000,000,000. This parameter specifies the maximum age, in transactions, that a table's pg_class.relfrozenxid field can reach before an automatic VACUUM operation is initiated to prevent transaction ID wraparound within the table. However, it's recommended to keep this value within 500,000 to avoid aggressive autovacuuming, which can negatively impact performance. Please note that this parameter can only be set at server start.
+
+ANS:
+Step 1: The suggestion offers a recommended range as "between 100,000 to 2,000,000,000" and "within 500,000". Proceed to Step 2.
+Step 2: The knob is not related to hardware information; proceed to Step 4.
+Step 4: The suggestion offers two recommended range rather. Proceed to Step 5.
+Step 5: The range is "between 100,000 to 2,000,000,000" and "within 500,000". Note that two ranges are offered, but one upper bound(500,000) is contained in the range "between 100,000 to 2,000,000,000" and "within 500,000". So it would be nice to put "500,000" in suggested_values. Since no unit is mentioned, we assume it's a unitless value. 
+Step 6: The larger recommended range is ""between 100,000 to 2,000,000,000", so we set "100,000" as "min_value", set "2,000,000,000" as "max_value"
+Step 7: Return the result in JSON format, i.e.:
+{
+"suggested_values": ["500,000"],
+"min_value": "100,000",
+"max_value": "2,000,000,000"
+}

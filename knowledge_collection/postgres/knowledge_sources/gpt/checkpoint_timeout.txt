@@ -1,0 +1,1 @@
+The 'checkpoint_timeout' knob in Postgres should be set to a value between 30 seconds to 1 hour, depending on the workload, with a higher value reducing the frequency of checkpoints but increasing the potential for data loss, and a lower value increasing the frequency of checkpoints but potentially impacting performance.

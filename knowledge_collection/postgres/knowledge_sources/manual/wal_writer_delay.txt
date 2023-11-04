@@ -1,0 +1,1 @@
+The 'wal_writer_delay' knob in PostgreSQL specifies the frequency at which the WAL writer flushes WAL, defaulting to 200 milliseconds, and if set without units, it's considered in milliseconds; it only writes to the operating system and not flushed to disk if the last flush was less than this delay and less than 'wal_writer_flush_after' worth of WAL has been produced.

@@ -1,0 +1,1 @@
+The 'commit_siblings' knob sets the minimum number of concurrent open transactions needed before performing the commit_delay delay, with a default value of five transactions, increasing this value enhances the likelihood of another transaction getting ready to commit during the delay interval.

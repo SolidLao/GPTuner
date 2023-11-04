@@ -1,0 +1,1 @@
+The 'max_worker_processes' knob sets the maximum number of background processes the system can support, which can only be set at server start with a default value of 8, and it should be the same or higher on a standby server as on the master server to allow queries.

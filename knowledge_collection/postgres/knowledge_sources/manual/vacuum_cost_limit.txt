@@ -1,0 +1,1 @@
+The 'vacuum_cost_limit' knob controls the accumulated cost at which the vacuuming process will sleep, with the default value set at 200.

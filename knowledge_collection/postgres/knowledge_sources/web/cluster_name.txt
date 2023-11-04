@@ -1,0 +1,1 @@
+Set it if you have more than one PostgreSQL instance running per server, to distinguish them when listing processes and logs. Also convenient to set it anyway.

@@ -1,0 +1,1 @@
+Unless there are disk space constraints, raise this value to make sure automatic checkpoints are typically caused by timeout and not by disk space. Increasing this value increases the recovery time after a database crash.

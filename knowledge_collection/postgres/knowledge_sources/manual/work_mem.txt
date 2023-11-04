@@ -1,0 +1,1 @@
+The 'work_mem' knob sets the base maximum memory to be used by a query operation, such as a sort or hash table, before writing to temporary disk files, defaulting to four megabytes (4MB), and it's important to note that the total memory used could be many times the value of work_mem due to parallel or concurrent operations.

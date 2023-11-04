@@ -1,0 +1,1 @@
+The 'innodb_adaptive_hash_index_parts' knob in MySQL can be set to a value between 1 and 512, with the default being 8, to determine the number of partitions for the Adaptive Hash Index, which can be increased to improve concurrency on multi-core systems.

@@ -1,0 +1,1 @@
+Set the value of 'max_parallel_workers' in Postgres by considering the number of CPU cores your system has, typically setting it to the number of cores or less, as setting it too high can lead to increased CPU contention.

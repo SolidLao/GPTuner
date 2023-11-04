@@ -1,0 +1,1 @@
+The 'seq_page_cost' knob is a planner's estimate of the cost of a disk page fetch in a series of sequential fetches, with a default value of 1.0, which can be specifically adjusted for tables and indexes in a particular tablespace.

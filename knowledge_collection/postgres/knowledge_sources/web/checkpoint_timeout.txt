@@ -1,0 +1,1 @@
+Normally you want to raise it (e.g. ‘15min’). The larger the parameter is, you may experience larger I/O spikes (which may be smoothed out tuning checkpoint_completion_target and bgwriter activity) and the larger recovery time you may experience after a database crash. However, more frequent checkpoints create in aggregation more I/O, so raising it typically improves I/O usage.

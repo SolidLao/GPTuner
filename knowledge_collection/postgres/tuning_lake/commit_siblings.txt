@@ -1,0 +1,1 @@
+The 'commit_siblings' knob in Postgres is used to set the minimum number of concurrent open transactions required before the system starts delaying commits. This delay enhances the chance of commit grouping and increases the likelihood of another transaction getting ready to commit during the delay interval. The default value for this setting is five transactions.

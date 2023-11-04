@@ -1,0 +1,1 @@
+{"think_procedure": "Step 1: Check if the knob has any special values that change its function. Step 2: Check the MySQL documentation for any special values. Step 3: Determine if the knob has a natural order. Step 4: Determine if the special value breaks the natural order.", "special_knob": true, "special_value": 0}

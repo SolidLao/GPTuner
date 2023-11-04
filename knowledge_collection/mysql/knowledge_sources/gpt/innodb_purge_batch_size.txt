@@ -1,0 +1,1 @@
+The 'innodb_purge_batch_size' knob in MySQL can be set to a value between 1 and 5000, with the default being 300, and it determines the number of UNDO log pages that a purge operation will remove in one batch from the history list.

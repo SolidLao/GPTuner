@@ -1,0 +1,1 @@
+The 'innodb_buffer_pool_chunk_size' in MySQL should be set to a value that is a multiple of 'innodb_page_size' (default is 16KB), and it should be equal to or less than the 'innodb_buffer_pool_size' (default is 128MB), with the recommended value being 1/64th of the 'innodb_buffer_pool_size'.

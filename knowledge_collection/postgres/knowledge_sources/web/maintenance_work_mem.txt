@@ -1,0 +1,1 @@
+Increasing this value will speed up maintenance tasks such as VACUUM and index rebuilds, therefore it is recommended to raise it notably with large RAM resources and write operations. Note that this is -unless directly controlled by autovacuum_work_mem- also the amount of memory *each* autovacuum workers might use.

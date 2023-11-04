@@ -1,0 +1,1 @@
+The 'rpl_stop_slave_timeout' in MySQL is set to specify the number of seconds that the slave thread waits for the master to become available during network outages, with the default value being 31536000 seconds (1 year), and it can be adjusted based on the specific needs of your database environment.

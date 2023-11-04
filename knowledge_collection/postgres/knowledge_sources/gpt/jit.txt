@@ -1,0 +1,1 @@
+The 'jit' knob in PostgreSQL can be set by modifying the 'jit' configuration parameter in the postgresql.conf file or by using the SET command in an SQL query, where a value of 'on' enables Just-In-Time compilation for certain functions and expressions in the query executor, while 'off' disables it.

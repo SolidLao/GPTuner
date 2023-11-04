@@ -1,0 +1,1 @@
+The 'log_disconnections' knob in Postgres is a boolean type, so it can be set to either 0 (off) or 1 (on). If set to 1, it logs the end of each session, including the duration and the final connection state.

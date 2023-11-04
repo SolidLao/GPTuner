@@ -1,0 +1,1 @@
+The 'hot_standby_feedback' knob in Postgres can be set to either 0 or 1, where 0 disables the feature and 1 enables it, allowing queries on the standby to affect the master's query cancellation decisions.

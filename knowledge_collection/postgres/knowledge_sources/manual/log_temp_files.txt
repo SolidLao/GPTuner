@@ -1,0 +1,1 @@
+The 'log_temp_files' knob controls the logging of temporary file names and sizes, logging an entry for each file when deleted, with a value of zero logging all files, positive values logging files larger than the specified data amount in kilobytes, and the default setting of -1 disabling logging, a setting only changeable by superusers.

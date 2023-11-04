@@ -1,0 +1,1 @@
+The 'default_statistics_target' knob sets the default statistics target for table columns without a column-specific target, with a default value of 100, potentially improving the quality of the planner's estimates but increasing the time needed for analysis.

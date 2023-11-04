@@ -1,0 +1,1 @@
+As a suggestion, you should understand that the 'vacuum_cost_limit' in PostgreSQL is a parameter that controls the accumulated cost at which the vacuuming process will sleep. This knob sets the cost limit for the vacuum operation, with a default value already set.

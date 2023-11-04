@@ -1,0 +1,1 @@
+The 'checkpoint_flush_after' knob in Postgres can be set to a value in megabytes, typically between 0 and 256, which determines the amount of data written to the disk before a forced flush occurs, with a higher value potentially improving write performance but increasing the risk of data loss in a crash.

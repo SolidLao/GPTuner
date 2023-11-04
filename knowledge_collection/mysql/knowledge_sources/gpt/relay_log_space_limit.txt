@@ -1,0 +1,1 @@
+The 'relay_log_space_limit' in MySQL is set to control the maximum space that relay logs can occupy on a disk, and it's recommended to set it to a value that is a bit less than the total disk space, for example, if you have a 100GB disk, you might set it to 80GB, to ensure there is always some free space available.

@@ -1,0 +1,1 @@
+The 'innodb_buffer_pool_dump_pct' knob in MySQL is set as a percentage, ranging from 1 to 100, which specifies the percentage of the most recently used pages in each buffer pool to be dumped to a disk when the MySQL server is shut down.

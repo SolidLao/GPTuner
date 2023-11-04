@@ -1,0 +1,1 @@
+The 'vacuum_cost_delay' knob refers to the pause duration when the cost limit is exceeded during a process, measured in milliseconds by default, with a default value of zero that disables cost-based vacuum delay; positive values activate cost-based vacuuming, typically less than 1 millisecond, but large delays are not recommended.

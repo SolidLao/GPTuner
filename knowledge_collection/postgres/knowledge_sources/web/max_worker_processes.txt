@@ -1,0 +1,1 @@
+An easy approach is to set it to 75% up to 90% (for high core count) of the number of cores. A more detailed approach is the sum of all worker parameters.

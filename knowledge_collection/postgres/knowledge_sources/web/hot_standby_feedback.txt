@@ -1,0 +1,1 @@
+Set to ‘on’ if you want to avoid read-only query cancellations running in the replicas. However, this creates pressure on the master (increased bloat, WAL disk space consumption).

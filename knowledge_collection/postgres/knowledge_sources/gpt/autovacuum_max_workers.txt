@@ -1,0 +1,1 @@
+The 'autovacuum_max_workers' knob in Postgres should be set based on the number of CPU cores in your system, typically set to the number of cores minus one, but it should not exceed 9 as it's the maximum limit.

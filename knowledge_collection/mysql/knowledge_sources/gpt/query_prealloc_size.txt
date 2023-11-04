@@ -1,0 +1,1 @@
+The 'query_prealloc_size' knob in MySQL is used to specify the size in bytes for preallocation of memory to store queries; the default value is 8192, but if your queries are larger, you may need to increase this value to improve performance.

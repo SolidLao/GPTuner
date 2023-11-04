@@ -1,0 +1,1 @@
+Set the value for 'huge_pages' in postgres by determining the total amount of shared memory needed by the database, then divide it by the size of a huge page (typically 2MB or 1GB depending on the system), and add a small number for overhead, such as 10%.

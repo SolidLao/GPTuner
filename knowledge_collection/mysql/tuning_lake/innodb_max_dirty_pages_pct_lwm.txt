@@ -1,0 +1,1 @@
+The 'innodb_max_dirty_pages_pct_lwm' in MySQL is set as a percentage, typically between 0 and 100, which represents the percentage of the total InnoDB buffer pool size at which point the system starts to flush dirty pages in the background to prevent the total dirty page percentage from exceeding 'innodb_max_dirty_pages_pct'.

@@ -1,0 +1,1 @@
+Set the 'max_wal_senders' value in postgres by considering the number of standby servers you have, plus the number of additional connections needed for WAL senders, such as for pg_basebackup commands, with a recommended minimum value of 3.

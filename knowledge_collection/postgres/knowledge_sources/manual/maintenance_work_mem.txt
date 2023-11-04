@@ -1,0 +1,1 @@
+The 'maintenance_work_mem' knob specifies the maximum memory used for maintenance operations like VACUUM, CREATE INDEX, and ALTER TABLE ADD FOREIGN KEY, defaulting to 64MB, and can be set larger than work_mem for improved performance, but should not be set too high as it may allocate up to autovacuum_max_workers times this memory when autovacuum runs.

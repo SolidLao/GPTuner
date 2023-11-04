@@ -1,0 +1,1 @@
+Set the value of 'innodb_max_dirty_pages_pct' in MySQL to a percentage (0-100) to specify the maximum amount of InnoDB buffer pool that can contain dirty pages; for instance, setting it to 90 means 90% of the buffer pool can be dirty pages before InnoDB starts to flush them.

@@ -1,0 +1,1 @@
+The 'innodb_doublewrite' knob in MySQL can be set to 1 (enabled) or 0 (disabled), with the default being 1, enabling the doublewrite buffer, which adds a layer of safety in case of a crash or power loss during a write, but may slightly decrease performance.

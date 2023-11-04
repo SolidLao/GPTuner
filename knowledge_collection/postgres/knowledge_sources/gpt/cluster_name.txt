@@ -1,0 +1,1 @@
+The 'cluster_name' knob in Postgres is not meant to be tuned as it is used to specify the name of the cluster and does not have a direct impact on performance.

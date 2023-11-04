@@ -1,0 +1,1 @@
+The 'innodb_log_files_in_group' knob in MySQL should be set to 2, which is the default and recommended value, as increasing it can cause a delay in the startup time and doesn't provide any significant performance improvement.

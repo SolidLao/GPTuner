@@ -1,0 +1,1 @@
+The 'bgwriter_lru_maxpages' knob in postgres controls the maximum number of buffers the background writer will clean/flush to disk per round, and its value can be set depending on the workload, but a common starting point could be 100, and it can be increased if a high dirty buffer allocation is noticed.

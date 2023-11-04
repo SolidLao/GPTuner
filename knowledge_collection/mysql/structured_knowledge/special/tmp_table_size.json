@@ -1,0 +1,1 @@
+{"think_procedure": "1. Look up the documentation for the 'tmp_table_size' knob in MySQL. 2. Check if the knob has any special values that change its behavior drastically. 3. If it does, it is a special knob. If not, it is a regular knob.", "special_knob": false}

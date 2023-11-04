@@ -1,0 +1,1 @@
+The 'random_page_cost' knob in Postgres is used to set the estimated cost of a non-sequentially fetched disk page, and its default value is 4.0; however, for SSDs, this can be reduced to 1.1 to 2.0 due to their faster random read performance.

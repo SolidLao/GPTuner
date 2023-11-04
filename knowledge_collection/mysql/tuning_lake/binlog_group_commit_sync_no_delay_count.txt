@@ -1,0 +1,1 @@
+The 'binlog_group_commit_sync_no_delay_count' knob in MySQL can be set to a specific number to control the number of transactions that can be committed without delay; for instance, setting it to 10,000 means that up to 10,000 transactions can be committed without any delay.

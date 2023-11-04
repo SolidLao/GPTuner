@@ -1,0 +1,1 @@
+The 'innodb_ft_total_cache_size' knob in MySQL is used to set the total memory allocated for the InnoDB full-text search index cache, and it's recommended to set this value to about half of the system memory, but not more than 800MB, to ensure optimal performance.

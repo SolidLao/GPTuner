@@ -1,0 +1,1 @@
+The 'commit_siblings' knob in Postgres is used to specify the number of concurrent transactions that must be active before the system will start delaying commits to increase the chance of commit grouping, and it can be set to any integer value, with the default being 5.

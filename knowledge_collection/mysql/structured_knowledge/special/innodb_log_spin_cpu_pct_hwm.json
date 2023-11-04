@@ -1,0 +1,1 @@
+{"think_procedure": "Step 1: Research the knob 'innodb_log_spin_cpu_pct_hwm'. Step 2: Check if this knob has any special values. Step 3: Determine if this knob is a 'special knob'.", "special_knob": false, "special_value": null}

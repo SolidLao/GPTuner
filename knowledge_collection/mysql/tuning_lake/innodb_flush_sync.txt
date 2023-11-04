@@ -1,0 +1,1 @@
+The 'innodb_flush_sync' knob in MySQL can be set to ON or OFF, where ON enables flushing of dirty pages from the buffer pool during each commit operation, while OFF disables this, potentially improving performance but at the risk of losing about one second of transactions in a crash.

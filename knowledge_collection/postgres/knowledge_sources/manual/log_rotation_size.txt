@@ -1,0 +1,1 @@
+The 'log_rotation_size' knob, when the logging_collector is enabled, sets the maximum size of an individual log file, defaulting to 10 megabytes, and creates a new log file once this limit is reached; it can be set to zero to disable size-based creation of new logs and can only be adjusted in the postgresql.conf file or on the server command line.

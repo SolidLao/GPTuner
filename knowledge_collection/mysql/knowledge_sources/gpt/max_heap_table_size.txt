@@ -1,0 +1,1 @@
+The 'max_heap_table_size' in MySQL can be set by determining the maximum size for internal in-memory temporary tables, with the default value being 16MB, but it can be increased if your queries demand more memory, keeping in mind that setting it too high can lead to out of memory errors.

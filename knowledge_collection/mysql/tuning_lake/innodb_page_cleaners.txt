@@ -1,0 +1,1 @@
+Set the 'innodb_page_cleaners' value in MySQL to match the number of buffer pool instances, but not more than 64, which is the maximum value allowed.

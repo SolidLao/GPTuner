@@ -1,0 +1,1 @@
+Set the value for 'autovacuum_analyze_scale_factor' in postgres by specifying a fraction of the total number of tuples in a table, for example, setting it to 0.1 means an ANALYZE operation will be triggered after 10% of the table's rows have been updated or inserted.

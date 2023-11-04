@@ -1,0 +1,1 @@
+Set it to (approximately): system RAM - (shared_buffers + work_mem * max_connections * 2) * 1.1, or a lower value if the server is not dedicated exclusively to PostgreSQL. Note that this setting does not affect the amount of physical RAM used by queries.

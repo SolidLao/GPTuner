@@ -1,0 +1,17 @@
+KNOB: vacuum_cost_delay
+SUGGESTIONS: 
+- The 'vacuum_cost_delay' knob can be set to a value between 0 and 100 milliseconds, where a lower value will make the vacuum process faster but consume more resources, while a higher value will slow down the vacuum process but consume fewer resources.
+- The 'vacuum_cost_delay' knob refers to the pause duration when the cost limit is exceeded during a process, measured in milliseconds by default, with a default value of zero disabling the cost-based vacuum delay feature, and positive values enabling it; optimal values are typically less than 1 millisecond, but larger delays may not be accurately measured on older platforms.
+
+ANS:
+Step 1: The suggestion offers a recommended value as "optimal values are typically less than 1 millisecond." Proceed to Step 2.
+Step 2: The knob is not related to hardware information; proceed to Step 4.
+Step 4: The suggestion offers a recommended range rather than specific discrete values. Proceed to Step 5.
+Step 5: No discrete suggested values are given.
+Step 6: The range is "less than 1 millisecond." Only the upper bound of the recommended range is given. Since the unit is millisecond, which corresponds to "ms" in the permitted units, set "1 ms" as "max_value". Although we can infer that the lower bound permitted for the knob is 0, the recommended lower bound is not given, so leave it alone.
+Step 7: Return the result in JSON format, i.e.:
+{{
+"suggested_values": [],
+"min_value": null,
+"max_value": "1 ms"
+}}

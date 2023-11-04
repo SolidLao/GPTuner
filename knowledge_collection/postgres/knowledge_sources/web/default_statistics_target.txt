@@ -1,0 +1,1 @@
+Raise this value if you have large tables. Understand well the effects on raising this value. Medium-sized systems typically do well with values around 200 and large systems may need to increase it to 500 or 1000.

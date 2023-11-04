@@ -1,0 +1,1 @@
+Set the 'effective_io_concurrency' knob in postgres to a value that matches the number of concurrent disk I/O operations your storage system can perform, typically between 1 and 200, with SSDs often set around 100-200 and traditional HDDs around 1-10.

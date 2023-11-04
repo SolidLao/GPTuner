@@ -1,0 +1,1 @@
+The 'binlog_group_commit_sync_delay' knob in MySQL can be set to delay the binary log group commit operation for a specified number of microseconds, typically ranging from 0 (no delay) to 1000000 (1 second), depending on the specific needs of your workload and system performance.

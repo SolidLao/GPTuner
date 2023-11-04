@@ -1,0 +1,1 @@
+The 'join_buffer_size' in MySQL should be set based on the size of the tables you are joining; a larger size allows for faster performance but uses more memory, so a common starting point is 128KB and you can increase it incrementally while monitoring performance and memory usage.

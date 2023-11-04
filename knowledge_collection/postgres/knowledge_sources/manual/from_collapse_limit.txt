@@ -1,0 +1,1 @@
+The 'from_collapse_limit' knob in the planner merges sub-queries into upper queries if the resulting FROM list has no more than the set limit, default being eight, which can affect planning time and query plan quality, and setting this value to geqo_threshold or more may trigger the GEQO planner, potentially leading to non-optimal plans.

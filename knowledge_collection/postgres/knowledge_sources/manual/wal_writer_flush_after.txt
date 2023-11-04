@@ -1,0 +1,1 @@
+The 'wal_writer_flush_after' knob in PostgreSQL determines the frequency of the WAL writer flushing WAL in terms of volume, with the default set at 1MB, and if set to 0, WAL data is always immediately flushed; this parameter can only be adjusted in the postgresql.conf file or on the server command line.

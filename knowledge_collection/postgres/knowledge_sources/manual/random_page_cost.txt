@@ -1,0 +1,1 @@
+The 'random_page_cost' knob sets the planner's estimate of the cost of a non-sequentially-fetched disk page, with a default value of 4.0, which can be adjusted to reflect the true cost of random storage reads based on the cache rate, the size of the database relative to server memory, and the type of storage used.

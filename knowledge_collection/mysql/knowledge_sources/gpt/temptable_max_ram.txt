@@ -1,0 +1,1 @@
+The 'temptable_max_ram' knob in MySQL determines the maximum amount of RAM that can be used by internal temporary tables. The value should be set according to the available system memory, but it's recommended not to exceed 20% of the total RAM to avoid system instability.

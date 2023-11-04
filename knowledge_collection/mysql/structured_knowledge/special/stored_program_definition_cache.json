@@ -1,0 +1,1 @@
+{"think_procedure": "1. Check the knob's documentation to understand its function and possible values. 2. Identify if the knob has any special values that change its behavior significantly. 3. In this case, the value 0 disables the cache, which is a significant change from its regular operation.", "special_knob": true, "special_value": 0}

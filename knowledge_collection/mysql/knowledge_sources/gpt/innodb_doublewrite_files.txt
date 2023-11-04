@@ -1,0 +1,1 @@
+The 'innodb_doublewrite_files' knob in MySQL can be set to a value between 1 and 127, which represents the number of doublewrite files that InnoDB uses, with a higher number potentially improving write performance but consuming more disk space.

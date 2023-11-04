@@ -1,0 +1,1 @@
+The 'innodb_adaptive_max_sleep_delay' knob in MySQL can be set to a value which determines the maximum delay between write requests in microseconds, with the default value being 150000. The value can be increased to reduce the system load or decreased to improve the response time, but it should not be set to less than 10000 to avoid excessive spinning.

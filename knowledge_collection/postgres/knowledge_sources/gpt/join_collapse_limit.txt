@@ -1,0 +1,1 @@
+The 'join_collapse_limit' in Postgres is set to control the planner's ability to reorder explicit JOIN clauses; the default value is 8, meaning the planner has full flexibility for up to 8-table joins, but for larger joins, it uses the join order specified in the query.

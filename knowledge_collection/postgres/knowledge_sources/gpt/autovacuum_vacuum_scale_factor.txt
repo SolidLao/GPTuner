@@ -1,0 +1,1 @@
+The 'autovacuum_vacuum_scale_factor' in Postgres is a fraction of the total number of tuples that indicates the threshold for triggering autovacuum; it is typically set between 0.1 and 0.2, meaning autovacuum will start when around 10% to 20% of rows are updated or deleted.

@@ -1,0 +1,1 @@
+Don’t set it to ‘0’ (log all queries) unless you have and will always have a low-traffic service. ‘0’ may bring down a very busy server. Find a reasonable value for your application (e.g. ‘1s’) and use other tools to understand query performance, like pg_stat_statements or pg_stat_monitor.

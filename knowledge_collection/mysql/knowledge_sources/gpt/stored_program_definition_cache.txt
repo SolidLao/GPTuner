@@ -1,0 +1,1 @@
+The 'stored_program_definition_cache' knob in MySQL determines the number of stored program definitions that the server should keep in the cache and its default value is 256; you can increase this value if you have a large number of stored programs and you want to minimize disk I/O, but be aware that the memory used by the cache will increase accordingly.

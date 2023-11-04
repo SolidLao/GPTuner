@@ -1,0 +1,1 @@
+The 'commit_delay' knob in Postgres can be set to a value between 0 and 100000, with a default of 0, and it represents the delay in microseconds that the system waits before sending a commit to the disk, which can be increased to improve system performance by allowing multiple transactions to be committed with a single disk write.

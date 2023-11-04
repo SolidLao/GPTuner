@@ -1,0 +1,1 @@
+The 'log_output' knob in MySQL determines where the output from general query and slow query logs should be written, and it can be set to 'FILE', 'TABLE', or 'NONE', with 'FILE' being the default value.

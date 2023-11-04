@@ -1,0 +1,1 @@
+The 'huge_pages' knob controls the request for huge pages for the main shared memory area, with valid values being 'try' (default), 'on', and 'off', and it's currently supported only on Linux and Windows, leading to smaller page tables and less CPU time spent on memory management, thus increasing performance.

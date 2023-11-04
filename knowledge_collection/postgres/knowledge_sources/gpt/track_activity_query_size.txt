@@ -1,0 +1,1 @@
+The 'track_activity_query_size' knob in Postgres determines the number of bytes reserved to track the currently executing command for each active session, with the default value being 1024 bytes, and it can be increased if you have queries that exceed this length.

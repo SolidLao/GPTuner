@@ -1,0 +1,1 @@
+The 'bgwriter_delay' in Postgres can be set to a value between 10ms to 10000ms, with the default being 200ms, which determines the delay between activity rounds for the background writer.

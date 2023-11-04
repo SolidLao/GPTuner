@@ -1,0 +1,1 @@
+The 'log_checkpoints' knob in PostgreSQL can be set to either 0 or 1, with 0 disabling the logging of each checkpoint start and completion, and 1 enabling it, which can be useful for performance diagnostics.

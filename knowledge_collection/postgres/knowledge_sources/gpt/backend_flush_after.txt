@@ -1,0 +1,1 @@
+The 'backend_flush_after' knob in Postgres can be set to a value that represents the amount of data written by a backend before it is forced to be flushed to disk, with the default value being 0, which disables this feature, but it can be set anywhere from 0 to 2147483647 kilobytes, depending on the specific needs of your system.

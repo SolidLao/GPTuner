@@ -1,0 +1,1 @@
+Beware of setting to a high value for high throughput OLTP systems. Oftentimes it is better to leave it on 1 or 2 at most. Raise it for analytical/DW systems, always to a fraction of cores. This parameter is affected by work_mem, we recommend to review that value accordingly.

@@ -1,0 +1,1 @@
+Adjust it accordingly to max_parallel_workers_per_gather (which is limited by this parameter).

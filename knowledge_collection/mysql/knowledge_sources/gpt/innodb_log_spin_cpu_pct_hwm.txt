@@ -1,0 +1,1 @@
+The 'innodb_log_spin_cpu_pct_hwm' knob in MySQL is used to set the high-water mark for CPU usage, beyond which spinning will be paused; it can be set to a value between 0 to 100, with the default being 50, meaning if CPU usage exceeds 50%, spinning will be paused to reduce CPU load.

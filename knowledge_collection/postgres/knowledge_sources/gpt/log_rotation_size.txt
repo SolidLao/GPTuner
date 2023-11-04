@@ -1,0 +1,1 @@
+The 'log_rotation_size' knob in Postgres controls the maximum size of a single log file, and once this size is reached, a new log file will be created. It's typically set to a value between 10MB to 1GB depending on the amount of log data your system generates, but it should not exceed the available disk space.

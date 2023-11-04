@@ -1,0 +1,1 @@
+Set the 'innodb_log_file_size' in MySQL to about 25% of the size of your buffer pool, but not larger than 4GB, to ensure optimal performance and efficiency.

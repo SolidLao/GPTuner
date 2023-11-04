@@ -1,0 +1,1 @@
+The 'autovacuum_freeze_max_age' knob specifies the maximum age, in transactions (default is 200 million), that a table's pg_class.relfrozenxid field can reach before a VACUUM operation is automatically initiated to prevent transaction ID wraparound within the table, and this parameter can only be set at server start.

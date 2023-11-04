@@ -1,0 +1,1 @@
+If you use track query performance, you may want to raise this a bit (recommended not above 8KB) to log up to 8KB of your queries text.

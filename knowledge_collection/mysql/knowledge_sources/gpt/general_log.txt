@@ -1,0 +1,1 @@
+The 'general_log' knob in MySQL is a boolean type, so it can be set to either 0 (OFF) or 1 (ON), with the default being 0; turning it ON enables the general query log, which logs every query received from a client, not just those that fail.

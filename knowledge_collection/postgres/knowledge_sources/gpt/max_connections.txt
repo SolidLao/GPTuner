@@ -1,0 +1,1 @@
+Set the 'max_connections' knob in postgres according to the number of concurrent connections your system needs, keeping in mind that the default is typically 100, but it can be increased up to 1000 if your system has sufficient resources, as each additional connection consumes about 10MB of memory.

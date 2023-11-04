@@ -1,0 +1,1 @@
+Set the value of 'max_worker_processes' in postgres based on the number of CPUs in your system, typically setting it to the number of CPU cores available, but not exceeding the maximum limit of 262144.

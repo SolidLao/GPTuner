@@ -1,0 +1,1 @@
+The 'innodb_purge_rseg_truncate_frequency' knob in MySQL can be set to a value between 1 and 128, where a higher value means the system will more frequently attempt to truncate the undo log, which can help to reclaim disk space more quickly.

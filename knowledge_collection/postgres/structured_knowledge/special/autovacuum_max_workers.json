@@ -1,0 +1,1 @@
+{"think_procedure": "The description of the knob 'autovacuum_max_workers' does not mention any special values that would change the function of the knob. It only specifies that it determines the maximum number of autovacuum processes that can run at one time. Therefore, it seems to behave like a regular numerical knob.", "special_knob": false, "special_value": null}

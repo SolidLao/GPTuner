@@ -1,0 +1,1 @@
+Set the value for 'wal_buffers' in postgres to be either 1/32nd of shared_buffers, or 64MB, whichever is smaller, as it determines the number of disk-page-sized buffers used for WAL (Write Ahead Log) operations.

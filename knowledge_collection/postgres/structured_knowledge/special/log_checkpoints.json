@@ -1,0 +1,1 @@
+{"think_procedure": "The description of the knob 'log_checkpoints' does not mention any special values that would change the function of the knob. It only mentions that it can be set in the postgresql.conf file or on the server command line and that the default is off. Therefore, it does not seem to be a 'special' numerical knob.", "special_knob": false, "special_value": null}

@@ -1,0 +1,1 @@
+The 'checkpoint_completion_target' in Postgres is a floating point number between 0.0 and 1.0, which sets the target of checkpoint completion, with the recommended value being 0.9, meaning the system will aim to complete the checkpoint within 90% of the checkpoint timeout period.

@@ -1,0 +1,1 @@
+The 'checkpoint_warning' in Postgres is set in seconds and it generates a warning if the time between checkpoints exceeds this value, which is by default set to 30 seconds, but can be increased or decreased based on the specific needs of your database system.

@@ -1,0 +1,1 @@
+The 'log_line_prefix' knob is a printf-style string that is output at the start of each log line, with % characters beginning escape sequences replaced with status information, and can be set in the postgresql.conf file or on the server command line, with the default being '%m [%p] ' which logs a time stamp and the process ID.

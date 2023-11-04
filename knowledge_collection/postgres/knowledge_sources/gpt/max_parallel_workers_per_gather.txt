@@ -1,0 +1,1 @@
+Set the value for 'max_parallel_workers_per_gather' in postgres by considering the number of cores in your system, as it determines the maximum number of parallel workers that can be started by a single Gather or Gather Merge node; a good starting point could be half the number of cores, but never exceed the number of cores.

@@ -1,0 +1,1 @@
+The 'max_replication_slots' knob specifies the maximum number of replication slots the server can support, with a default setting of 10, and can only be adjusted at server start; if set lower than the current number of replication slots, the server will not start, and 'wal_level' must be set to replica or higher for replication slots to be used.

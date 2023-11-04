@@ -1,0 +1,1 @@
+The 'innodb_online_alter_log_max_size' knob in MySQL can be set to control the maximum size of the temporary log files used during the InnoDB online DDL operations, and its default value is 128MB, but it can be increased if the operation requires more space.

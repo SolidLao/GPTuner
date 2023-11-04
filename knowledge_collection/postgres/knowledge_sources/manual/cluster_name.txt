@@ -1,0 +1,1 @@
+The 'cluster_name' knob sets an identifying name for the database cluster, appearing in all server processes and acting as the default application name for a standby connection, with a maximum length of 64 characters in a standard build, and only printable ASCII characters are allowed.

@@ -1,0 +1,1 @@
+The 'archive_command' knob in Postgres is set with a string that may include '%p' and '%f' which are replaced by the current WAL file path and name respectively, for example, 'archive_command = 'cp %p /mnt/server/archivedir/%f''; ensure the command returns a zero exit status on success, otherwise, WAL archiving will fail.

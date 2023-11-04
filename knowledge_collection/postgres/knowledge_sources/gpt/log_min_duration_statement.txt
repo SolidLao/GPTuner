@@ -1,0 +1,1 @@
+The 'log_min_duration_statement' knob in Postgres can be set to log any statement that takes longer than the specified number of milliseconds to execute, for example, setting it to 1000 will log any statement that takes more than 1 second to execute.

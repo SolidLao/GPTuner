@@ -1,0 +1,1 @@
+The 'hot_standby_feedback' knob in PostgreSQL controls whether a hot standby sends feedback about executing queries to the primary or upstream standby, which can prevent query cancels but may cause database bloat; feedback is sent no more than once per wal_receiver_status_interval, and the default setting is off.

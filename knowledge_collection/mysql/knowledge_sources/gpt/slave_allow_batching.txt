@@ -1,0 +1,1 @@
+The 'slave_allow_batching' knob in MySQL can be set to 1 to enable or 0 to disable the batching of transactions on the slave, where enabling can improve the performance of the replication process, but it should be used with caution as it can cause data loss if the slave server crashes.

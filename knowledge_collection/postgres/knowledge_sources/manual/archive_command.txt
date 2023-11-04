@@ -1,0 +1,1 @@
+The 'archive_command' is a local shell command used to archive a completed WAL file segment, replacing any %p with the file path and %f with the file name, and it should return a zero exit status only if successful; it can only be set in the postgresql.conf file or on the server command line and is ignored unless archive_mode was enabled at server start.

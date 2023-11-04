@@ -1,0 +1,1 @@
+The 'innodb_disable_sort_file_cache' is a Boolean value that controls whether to disable the operating system's file system cache for sorted data files. You can set it to 0 to enable the cache (default) or 1 to disable the cache, depending on your system's performance and requirements.

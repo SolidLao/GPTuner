@@ -1,0 +1,1 @@
+The 'innodb_compression_pad_pct_max' knob in MySQL can be set to a value between 0 to 50, which represents the percentage of additional space on a page to be reserved for further insertions, with a higher value potentially improving compression rates but at the cost of increased storage usage.

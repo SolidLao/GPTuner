@@ -1,0 +1,1 @@
+Set the value for 'autovacuum_freeze_max_age' in postgres between 100,000 to 2,000,000,000 transactions, but it's recommended to not exceed 200,000,000 to prevent transaction ID wraparound issues.

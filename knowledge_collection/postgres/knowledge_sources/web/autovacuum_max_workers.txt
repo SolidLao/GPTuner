@@ -1,0 +1,1 @@
+Raise it to smooth I/O activity of checkpoints over larger periods of time. If you rely on this value for feeding non-streaming replicas, it is recommended to keep this within a low percentage. On development instances, it is usual to set it to ‘0.9’.

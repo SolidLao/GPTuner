@@ -1,0 +1,1 @@
+The 'innodb_change_buffering' knob in MySQL can be set to one of seven options: none, inserts, deletes, changes, purges, all, or its default value which is 'all', and it controls the extent of change buffering that InnoDB performs, with 'all' enabling buffering of all types of operations and 'none' disabling the buffering.

@@ -1,0 +1,1 @@
+Set it to the requirements of the extensions you are planning to use. At the very least, you probably want ‘pg_stat_statements’ or ‘pg_stat_monitor’.

@@ -1,0 +1,1 @@
+The 'bgwriter_delay' knob specifies the delay between activity rounds for the background writer, which writes for a number of dirty buffers then sleeps for the length of 'bgwriter_delay', defaulting to 200 milliseconds, and can only be set in the postgresql.conf file or on the server command line.

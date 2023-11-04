@@ -1,0 +1,1 @@
+The 'deadlock_timeout' knob in Postgres is set to control the time period, in milliseconds, that the system will wait for a resolution after a deadlock is detected, typically set between 1 to 100 milliseconds, with a default value of 1 second (1000 milliseconds).
