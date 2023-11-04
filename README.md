@@ -6,10 +6,10 @@
 - GPTuner collects and refines heterogeneous domain knowledge, unifies a structured view of the refined knowledge, and uses the knowlege to (1) select important knobs, (2) optimize the value range of each knob and (3) explore the optimized space with a novel Coarse-to-Fine Bayesian Optimization Framework.
 
 ## Table of Contents
--[System Overview](#system-overview)
--[Quick Start](#quick-start)
--[Experimental Results](#experimental-result)
--[Code Structure](#code-structure)
+- [System Overview](#system-overview)
+- [Quick Start](#quick-start)
+- [Experimental Results](#experimental-result)
+- [Code Structure](#code-structure)
 
 ## System Overview
 
