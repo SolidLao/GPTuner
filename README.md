@@ -147,3 +147,16 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
     - `coarse_stage.py`: Recommender for coarse stage configuration (**Sec. 7**)
     - `fine_stage.py`: Recommender for fine stage configuration (**Sec. 7**)
   - `run_gptuner.py`: Main script to run GPTuner
+
+## Citation
+If you use this codebase, or otherwise found our work valuable, please cite:
+```
+@misc{lao2023gptuner,
+    title={GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization}, 
+    author={Jiale Lao and Yibo Wang and Yufei Li and Jianping Wang and Yunjia Zhang and Zhiyuan Cheng and Wanghu Chen and Mingjie Tang and Jianguo Wang},
+    year={2023},
+    eprint={2311.03157},
+    archivePrefix={arXiv},
+    primaryClass={cs.DB}
+}
+```
