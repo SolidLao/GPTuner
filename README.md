@@ -2,7 +2,7 @@
 
 # GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization
 
-- This repository hosts the source code and supplementary materials for our VLDB 2024 submission, "GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization". 
+- This repository hosts the source code and supplementary materials for our VLDB 2024 submission, [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://web1.arxiv.org/abs/2311.03157). 
 - GPTuner collects and refines heterogeneous domain knowledge, unifies a structured view of the refined knowledge, and uses the knowlege to (1) select important knobs, (2) optimize the value range of each knob and (3) explore the optimized space with a novel Coarse-to-Fine Bayesian Optimization Framework.
 
 ## Table of Contents
@@ -10,6 +10,7 @@
 - [Quick Start](#quick-start)
 - [Experimental Results](#experimental-result)
 - [Code Structure](#code-structure)
+- [Citation](#citation)
 
 ## System Overview
 
@@ -95,7 +96,7 @@ We compare GPTuner with state-of-the-art methods both using or not using natural
 - DDPG++: a RL-based tuning method proposed in [CDBTune SIGMOD'19](https://dl.acm.org/doi/10.1145/3299869.3300085) and improved in [Inquiry VLDB'21](https://dl.acm.org/doi/10.14778/3450980.3450992)
 
 ### Result on PostgreSQL
-We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benchmarks (TPC-H and TPC-C) and metrics (throughput and latency). We present the results on PostgreSQL in this repository. For more details, please refer to our paper.
+We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benchmarks (TPC-H and TPC-C) and metrics (throughput and latency). We present the results on PostgreSQL in this repository. For more details, please refer to our [paper](https://web1.arxiv.org/abs/2311.03157).
 
 <img src="/assets/gptuner_result_postgresql.png" alt="GPTuner result on postgres" width="500">
 
