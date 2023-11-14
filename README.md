@@ -5,6 +5,9 @@
 - This repository hosts the source code and supplementary materials for our VLDB 2024 submission, [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://web1.arxiv.org/abs/2311.03157). 
 - GPTuner collects and refines heterogeneous domain knowledge, unifies a structured view of the refined knowledge, and uses the knowlege to (1) select important knobs, (2) optimize the value range of each knob and (3) explore the optimized space with a novel Coarse-to-Fine Bayesian Optimization Framework.
 
+>Stay tuned for the latest updates and enhancements in this project! 🚀<br/>
+>Remember to star ⭐ and subscribe 🔔 for the newest features and improvements!
+
 ## Table of Contents
 - [System Overview](#system-overview)
 - [Quick Start](#quick-start)
