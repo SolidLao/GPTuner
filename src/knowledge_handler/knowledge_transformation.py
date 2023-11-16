@@ -1,34 +1,21 @@
-import openai
-import re
 import psutil
 import textwrap
 import json
 import os
 import random
-import tiktoken
 from collections import Counter
 import time
+from knowledge_handler.gpt import GPT
 
-class KGTrans:
-    def __init__(self, api_base, api_key, db="postgres", model="gpt-4"):
+class KGTrans(GPT):
+    def __init__(self, api_base, api_key, db="postgres", model=GPT.__init__.__defaults__[0]):
+        super().__init__(api_base, api_key, model=model)
         self.db = db
-        self.api_base = api_base
-        self.api_key = api_key
-        self.model = model
         self.knob_path = f"./knowledge_collection/{self.db}"
         self.knob_num = 0
-        self.money = 0
-        self.token = 0
         self.total_time = 0
-        self.cur_token = 0
-        self.cur_money = 0
         self.cur_time = time.time()
-        self.__connect()
         self._define_path()
-        
-    def __connect(self):
-        openai.api_base = self.api_base
-        openai.api_key = self.api_key
 
     def _define_path(self):
         self.knob_info_path = os.path.join(self.knob_path, "knob_info/system_view.json")
@@ -37,43 +24,6 @@ class KGTrans:
         self.max_path = os.path.join(self.knob_path, "structured_knowledge/max/")
         self.official_path = os.path.join(self.knob_path, "/knob_info/official_document.json")
         self.special_path = os.path.join(self.knob_path, "structured_knowledge/special/")
-    
-    def get_answer(self, prompt):
-        response = openai.ChatCompletion.create(
-            model=self.model,
-            messages = [{
-            "role": "user",
-            "content": prompt
-            }],
-            n=1,
-            stop=None,
-            temperature=0
-        )
-        return response.choices[0].message["content"].strip()
-    
-    def calc_token(self, in_text, out_text=""):
-        enc = tiktoken.encoding_for_model("gpt-4")
-        return len(enc.encode(out_text+in_text))
-
-    def calc_money(self, in_text, out_text):
-        """money for gpt4"""
-        return (self.calc_token(in_text) * 0.03 + self.calc_token(out_text) * 0.06) / 1000
-
-    def remove_html_tags(self, text):
-        clean = re.compile('<.*?>')
-        return re.sub(clean, '', text)
-    
-    def extract_json_from_text(self, text):
-        json_pattern = r'\{[^{}]*\}'
-        match = re.search(json_pattern, text)
-        if match:
-            try:
-                json_data = json.loads(match.group())
-                return json_data
-            except json.JSONDecodeError:
-                return None
-        else:
-            return None
 
     def get_hardware_info(self):
         available_cpu_cores = psutil.cpu_count(logical=False)
@@ -102,7 +52,7 @@ class KGTrans:
     def get_examples(self):
         example_path = f"./example_pool/"
         file_list = os.listdir(example_path)
-        # 使用random.sample()函数从文件列表中随机选择三个文件
+        # sample examples from example pool
         random_examples_name = random.sample(file_list, 3)
         random_examples = []
         for i in range(3):
@@ -298,7 +248,7 @@ class KGTrans:
         return answer
 
     def pipeline(self, knob):
-        print(f"begin to prepare structured knowledge for {knob}")
+        print(f"begin {knob}")
         self.cur_time = time.time()
         skill_json_files = os.listdir(self.skill_json_path)
         if knob + ".json" not in skill_json_files:

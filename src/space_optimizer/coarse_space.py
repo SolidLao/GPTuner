@@ -21,6 +21,7 @@ class CoarseSpace(DefaultSpace):
 
     def define_search_space(self):
         for knob in self.target_knobs:
+            print(knob)
             info = self.dbms.knob_info[knob]
             if info is None:
                 self.target_knobs.remove(knob) # this knob is not by the DBMS under specific version

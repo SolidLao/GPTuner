@@ -23,17 +23,15 @@ class PgDBMS(DBMSTemplate):
                     password = self.password, host = "localhost"
                 )
                 print(f"Success to connect to {db} with user {self.user}")
-                self.failed_times = 0
                 return True
             except Exception as e:
                 self.failed_times += 1
                 print(f'Exception while trying to connect: {e}')
-                if self.failed_times == 4:
+                if self.failed_times >= 4:
                     self.recover_dbms()
                     return False
                 print("Reconnet again")
                 time.sleep(3)
-
             
     def _disconnect(self):
         """ Disconnect from database. """
@@ -43,13 +41,13 @@ class PgDBMS(DBMSTemplate):
             print('Disconnecting done ...')
             self.connection = None
 
-
     def copy_db(self, target_db, source_db):
         # for tpcc, recover the data for the target db(benchbase)
         self.update_dbms(f'drop database if exists {target_db}')
+        print('Dropped old database')
         self.update_dbms(f'create database {target_db} with template {source_db}')
+        print('Initialized new database')
 
-    
     def reset_config(self):
         """ Reset all parameters to default values. """
         self.update_dbms('alter system reset all;')
@@ -105,8 +103,6 @@ class PgDBMS(DBMSTemplate):
             json.dump(knob_info, json_file, indent=4, sort_keys=True)
         print(f"The knob info is written to {dest_path}")
 
-
-    
     def update_dbms(self, sql):
         """ Execute sql query on dbms to update knob value and return success flag """
         try:
@@ -130,12 +126,10 @@ class PgDBMS(DBMSTemplate):
         """ Get the current value for a knob """
         result, _ = self.get_sql_result(f"show {knob}")
         return result
-
         
     def check_knob_exists(self, knob):
         cursor = self.connection.cursor()
         cursor.execute("SELECT * FROM pg_settings WHERE name = %s", (knob,))
         row = cursor.fetchone()
         cursor.close()
-        
         return row is not None

@@ -73,8 +73,10 @@ class DefaultSpace:
     def knob_select(self):
         """ 
             Select which knobs to be tuned, store the names in 'self.target_knobs' 
-            Read knobs from 'knowledge_collection/{dbms}/target_knobs.txt'. Provide the path to the file containing the knobs' names.
+            Default implementation is to use fixed knobs. Provide the path to the file containing the knobs' names.
         """
+        current_directory = os.getcwd()
+        print(current_directory)
         with open(self.target_knobs_path, 'r') as file:
             lines = file.readlines()
         candidate_knobs = [line.strip() for line in lines]
@@ -126,50 +128,10 @@ class DefaultSpace:
                 default_value = str(boot_value)
             )
         return knob
-    
-    def get_latest_summary_file(self):
-        files = glob.glob(os.path.join(self.summary_path, '*summary.json'))
-        files.sort(key=os.path.getmtime, reverse=True)  
-        return files[0] if files else None
-    
-    def clear_summary_dir(self):
-        for filename in os.listdir(self.summary_path):
-            print(f"REMOVE {filename}")
-            filepath = os.path.join(self.summary_path, filename)
-            os.remove(filepath)
-
-    def get_throughput(self):
-        summary_file = self.get_latest_summary_file()
-        try:
-            with open(summary_file, 'r') as file:
-                data = json.load(file)
-            throughput = data["Throughput (requests/second)"]
-            if throughput==-1 or throughput == 2147483647:
-                raise ValueError(f"Benchbase return error throughput:{throughput}")
-            print(f"Throughput: {throughput}")
-        except Exception as e:
-            print(f'Exception for JSON: {e}')
-            throughput = self.penalty - 2
-        return throughput
-
-    def get_latency(self):
-        summary_file = self.get_latest_summary_file()
-        try:
-            with open(summary_file, 'r') as file:
-                data = json.load(file)
-            average_latency = data["Latency Distribution"]["Average Latency (microseconds)"]
-            if average_latency == -1 or average_latency == 2147483647:
-                raise ValueError(f"Benchbase return error average_latency:{average_latency}")
-            print(f"Latency: {average_latency}")
-        except Exception as e:
-            print(f'Exception for JSON: {e}')
-            average_latency = self.penalty - 2
-        return average_latency
 
     def get_default_result(self):
         print("Test the result in default conf")
         dbms = self.dbms
-        self.clear_summary_dir()
         print(f"--- Restore the dbms to default configuration ---")
         dbms.reset_config()
         dbms.reconfigure()
@@ -178,6 +140,8 @@ class DefaultSpace:
             if self.test in self.benchmark_copy_db:
             # reload the data
                 print("Reloading the data")
+                dbms._disconnect()
+                dbms._connect(f"{self.test}_template")
                 dbms.copy_db(target_db="benchbase", source_db=f"{self.test}_template")
                 print("Reloading completed")
                 time.sleep(12)
@@ -188,11 +152,12 @@ class DefaultSpace:
                 pass
                 
             print("Begin to run benchbase...")
-            runner = BenchbaseRunner(dbms=dbms, test=self.test)
+            runner = BenchbaseRunner(dbms=dbms, test=self.test, target_path=self.summary_path)
+            runner.clear_summary_dir()
             t = threading.Thread(target=runner.run_benchmark)
             t.start()
             t.join()
-            throughput, average_latency = self.get_throughput(), self.get_latency()
+            throughput, average_latency = runner.get_throughput(), runner.get_latency()
         except Exception as e:
             print(f'Exception for {self.test}: {e}')
 
@@ -205,10 +170,22 @@ class DefaultSpace:
         self.round += 1
         print(f"Tuning round {self.round} ...")
         dbms = self.dbms
-        self.clear_summary_dir()
         print(f"--- Restore the dbms to default configuration ---")
         dbms.reset_config()
         dbms.reconfigure()
+        # reload the data
+        if self.test in self.benchmark_copy_db:
+            print("Reloading the data")
+            dbms._disconnect()
+            dbms._connect(f"{self.test}_template")
+            dbms.copy_db(target_db="benchbase", source_db=f"{self.test}_template")
+            print("Reloading completed")
+            time.sleep(12)
+            dbms._disconnect()
+            time.sleep(4)
+            dbms._connect('benchbase')
+            time.sleep(3)
+
         print(f"--- knob setting procedure ---")
         for knob in self.target_knobs:
             try:
@@ -230,20 +207,9 @@ class DefaultSpace:
                 return self.penalty * 2
             
         try:
-            if self.test in self.benchmark_copy_db:
-            # reload the data
-                print("Reloading the data")
-                dbms.copy_db(target_db="benchbase", source_db=f"{self.test}_template")
-                print("Reloading completed")
-                time.sleep(12)
-                dbms._disconnect()
-                time.sleep(4)
-                dbms._connect('benchbase')
-                time.sleep(3)
-                pass
-                
             print("Begin to run benchbase...")
-            runner = BenchbaseRunner(dbms=dbms, test=self.test)
+            runner = BenchbaseRunner(dbms=dbms, test=self.test, target_path=self.summary_path)
+            runner.clear_summary_dir()
             t = threading.Thread(target=runner.run_benchmark)
             t.start()
             t.join(timeout=self.timeout)
@@ -255,7 +221,7 @@ class DefaultSpace:
                 average_latency =  self.penalty - 2
             else:
                 print("Benchmark has finished.")
-                throughput, average_latency = self.get_throughput(), self.get_latency()
+                throughput, average_latency = runner.get_throughput(), runner.get_latency()
         except Exception as e:
             print(f'Exception for {self.test}: {e}')
             # update worst_perf

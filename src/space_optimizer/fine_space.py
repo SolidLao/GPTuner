@@ -83,7 +83,7 @@ class FineSpace(DefaultSpace):
                 # Since the upper bound of some knob in mysql is too big, use GPT's offered upperbound for mysql
                 if isinstance(self.dbms, MysqlDBMS):
                     if max_from_sys or max_value >= sys.maxsize / 10:  
-                        max_path = "./skill_library/mysql/max"
+                        max_path = "./knowledge_collection/mysql/structured_knowledge/max"
                         with open(os.path.join(max_path, knob+".txt"), 'r') as file:
                             upperbound = file.read()
                         if upperbound != 'null':

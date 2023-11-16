@@ -31,12 +31,12 @@ class MysqlDBMS(DBMSTemplate):
                     password=self.password,
                     host="localhost"
                 )
-                print(f"Success to connect to {self.db} with user {self.user}")
+                print(f"Success to connect to {db} with user {self.user}")
                 return True
             except Exception as e:
                 self.failed_times += 1
                 print(f'Exception while trying to connect: {e}')
-                if self.failed_times == 4:
+                if self.failed_times >= 4:
                     self.recover_dbms()
                 print("Reconnet again")
                 time.sleep(3)

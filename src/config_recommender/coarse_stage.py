@@ -7,6 +7,7 @@ class CoarseStage(CoarseSpace):
         super().__init__(dbms, test, timeout, target_knobs_path, seed)
 
     def optimize(self, name, trials_number, initial_config_number):
+        print(self.seed)
         scenario = Scenario(
             configspace=self.search_space,
             name=name,
