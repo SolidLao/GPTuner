@@ -58,7 +58,7 @@ sudo pip install -r requirements.txt
 
 ### Step 5: Execute the GPTuner to optimize your DBMS:
 
-- Note: modify `configs/postgres.ini` to determine the target DBMS first
+- Note: modify `configs/postgres.ini` to determine the target DBMS first, the `restart` and `recover` commands depend on the environment and we provide Docker version
 - Note: modify `src/run_gptuner.py` to set up your `api_base`, `api_key` and `model` first
 ```
 # PYTHONPATH=src python src/run_gptuner.py <dbms> <benchmark> <timeout> <seed>
