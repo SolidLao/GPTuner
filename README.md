@@ -133,12 +133,14 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
       - `special/`: Specialized structured knowledge
       - `normal/`: General structured knowledge
 - `example_pool/`: Pool of examples for prompt ensemble algorithm
-- `src/`
+- `sql`: Provide sql statements if you need query-level knob selection
+- `src/`: Source code
   - `dbms/`
     - `dbms_template.py`: Template for database management systems
     - `postgres.py`: Implementation for PostgreSQL
     - `mysql.py`: Implementation for MySQL
   - `knowledge_handler/`
+    - `gpt.py`: Module for interactions with GPT
     - `knowledge_preparation.py`: Module for knowledge preparation (**Sec. 5.1**)
     - `knowledge_transformation.py`: Module for knowledge transformation (**Sec. 5.2**)
   - `space_optimizer/`
