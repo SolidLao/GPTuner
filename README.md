@@ -161,12 +161,12 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
   - [x] GPTuner supports `PostgreSQL` and `MySQL`
   - [x] GPTuner stress-tests workloads through the `BenchBase` tool
 - Future implementation
-  - [] GPTuner employs `locally depolyed large language models` as well
-  - [] GPTuner collects web contents through `web-gpt` and `web-crawler`
-  - [] GPTuner uses a `generic` stress-test tool, supporting `any given workload` optimization
-  - [] GPTuner refines its `knowledge_collection` with a `human-in-the-loop` mechanism
-  - [] GPTuner supports more `DBMS`
-  - [] to be continued...
+  - [ ] GPTuner employs `locally depolyed large language models` as well
+  - [ ] GPTuner collects web contents through `web-gpt` and `web-crawler`
+  - [ ] GPTuner uses a `generic` stress-test tool, supporting `any given workload` optimization
+  - [ ] GPTuner refines its `knowledge_collection` with a `human-in-the-loop` mechanism
+  - [ ] GPTuner supports more `DBMS`
+  - [ ] to be continued...
 
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
