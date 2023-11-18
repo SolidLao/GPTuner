@@ -156,16 +156,16 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
 
 ## Roadmap
 - Paper version
-  - GPTuner uses OpenAI completion API of `gpt-4` or `gpt-3.5-turbo`
-  - GPTuner leverages tuning knowledge from `GPT-4`, `DBMS official manuals` and `web contents`
-  - GPTuner supports `PostgreSQL` and `MySQL`
-  - GPTuner stress-tests workloads through the `BenchBase` tool
+  - [x] GPTuner uses OpenAI completion API of `gpt-4` or `gpt-3.5-turbo`
+  - [x] GPTuner leverages tuning knowledge from `GPT-4`, `DBMS official manuals` and `web contents`
+  - [x] GPTuner supports `PostgreSQL` and `MySQL`
+  - [x] GPTuner stress-tests workloads through the `BenchBase` tool
 - Future implementation
   - [] GPTuner employs `locally depolyed large language models` as well
   - [] GPTuner collects web contents through `web-gpt` and `web-crawler`
   - [] GPTuner uses a `generic` stress-test tool, supporting `any given workload` optimization
-  - [] GPTuner supports more `DBMS`
   - [] GPTuner refines its `knowledge_collection` with a `human-in-the-loop` mechanism
+  - [] GPTuner supports more `DBMS`
   - [] to be continued...
 
 ## Citation
