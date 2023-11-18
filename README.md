@@ -13,6 +13,7 @@
 - [Quick Start](#quick-start)
 - [Experimental Results](#experimental-result)
 - [Code Structure](#code-structure)
+- [Roadmap](#roadmap)
 - [Citation](#citation)
 
 ## System Overview
@@ -160,7 +161,7 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
   - [x] GPTuner leverages tuning knowledge from `GPT-4`, `DBMS official manuals` and `web contents`
   - [x] GPTuner supports `PostgreSQL` and `MySQL`
   - [x] GPTuner stress-tests workloads through the `BenchBase` tool
-- Future implementation
+- Future implementation (We warmly invite and appreciate your contributions! 👫)
   - [ ] GPTuner employs `locally depolyed large language models` as well
   - [ ] GPTuner collects web contents through `web-gpt` and `web-crawler`
   - [ ] GPTuner uses a `generic` stress-test tool, supporting `any given workload` optimization
@@ -169,7 +170,7 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
   - [ ] to be continued...
 
 ## Citation
-If you use this codebase, or otherwise found our work valuable, please cite:
+If you use this codebase, or otherwise found our work valuable, please cite 📒:
 ```
 @misc{lao2023gptuner,
     title={GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization}, 
