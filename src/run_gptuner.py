@@ -1,6 +1,7 @@
 from configparser import ConfigParser
 import argparse
 import time
+import os
 from dbms.postgres import PgDBMS
 from dbms.mysql import  MysqlDBMS
 from config_recommender.coarse_stage import CoarseStage
@@ -65,6 +66,10 @@ if __name__ == '__main__':
     else:
         raise ValueError("Illegal dbms!")
     
+    # store the optimization results
+    folder_path = "../optimization_results/"
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)  
 
     gptuner_coarse = CoarseStage(
         dbms=dbms, 
