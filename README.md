@@ -14,6 +14,7 @@
 ## Table of Contents
 - [System Overview](#system-overview)
 - [Quick Start](#quick-start)
+- [Demo Guidance](#demo-usage-guide)
 - [Experimental Results](#experimental-result)
 - [Code Structure](#code-structure)
 - [Roadmap](#roadmap)
@@ -100,6 +101,12 @@ The optimization result is stored in `optimization_results/{dbms}/{stage}/{seed}
 ```
 PYTHONPATH=src python -m streamlit run src/demo/entrypage.py
 ```
+
+### Step 3: Follow our [video demonstration](https://youtu.be/Hz5Zck-9TlA) to use the GUI
+<img src="/assets/demo_page.png" alt="GPTuner demo page" width="800">
+
+### Step 4: Visualize the Optimization Result
+<img src="/assets/demo_result.png" alt="GPTuner demo result" width="800">
 
 
 ## Experimental Result
