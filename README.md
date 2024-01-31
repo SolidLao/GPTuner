@@ -155,6 +155,7 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
 - `example_pool/`: Pool of examples for prompt ensemble algorithm
 - `sql`: Provide sql statements if you need query-level knob selection
 - `src/`: Source code
+  - `demo/`: Module to execute the GUI (Demonstration Code)
   - `dbms/`
     - `dbms_template.py`: Template for database management systems
     - `postgres.py`: Implementation for PostgreSQL
