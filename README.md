@@ -3,9 +3,10 @@
 # GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization
 
 - This repository hosts the source code and supplementary materials for our: 
-  - VLDB 2024 submission, [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://web1.arxiv.org/abs/2311.03157). 
+  - VLDB 2024 submission, [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://web1.arxiv.org/abs/2311.03157) 
   - SIGMOD 2024 Demo submission, [A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System](https://youtu.be/Hz5Zck-9TlA)
 - GPTuner collects and refines heterogeneous domain knowledge, unifies a structured view of the refined knowledge, and uses the knowlege to (1) select important knobs, (2) optimize the value range of each knob and (3) explore the optimized space with a novel Coarse-to-Fine Bayesian Optimization Framework.
+- A video demonstration is available at [YouTube!](https://youtu.be/Hz5Zck-9TlA)!
 
 >Stay tuned for the latest updates and enhancements in this project! 🚀<br/>
 >Remember to star ⭐ and subscribe 🔔 for the newest features and improvements!
@@ -34,32 +35,32 @@
 ## Quick Start
 The following instructions have been tested on Ubuntu 20.04 and PostgreSQL v14.9:
 
-### Step 1: Install PostgreSQL:
+### Step 1: Install PostgreSQL
 ```
 sudo apt-get update
 sudo apt-get install postgresql-14
 ```
 
-### Step 2: Install [BenchBase](https://github.com/cmu-db/benchbase) with our script:
+### Step 2: Install [BenchBase](https://github.com/cmu-db/benchbase) with our script
 - Note: the script is tested on `openjdk version "17.0.8.1" 2023-08-24`, please prepare your JAVA environment first
 ```
 cd ./scripts
 sh install_benchbase.sh postgres
 ```
 
-### Step 3: Install Benchmark with our script:
+### Step 3: Install Benchmark with our script
 
 - Note: modify `./benchbase/target/benchbase-postgres/config/postgres/sample_{your_target_benchmark}_config.xml` to customize your tuning setting first
 ```
 sh build_benchmark.sh postgres tpch
 ```
 
-### Step 4: Install dependencies:
+### Step 4: Install dependencies
 ```
 sudo pip install -r requirements.txt
 ```
 
-### Step 5: Execute the GPTuner to optimize your DBMS:
+### Step 5: Execute the GPTuner to optimize your DBMS
 
 - Note: modify `configs/postgres.ini` to determine the target DBMS first, the `restart` and `recover` commands depend on the environment and we provide Docker version
 - Note: modify `src/run_gptuner.py` to set up your `api_base`, `api_key` and `model` first
@@ -91,6 +92,15 @@ The optimization result is stored in `optimization_results/{dbms}/{stage}/{seed}
     },
 }
 ```
+
+## Demo Usage Guide
+### Step 1: Complete Steps 1 to 4 in the [Quick Start](#quick-start) section
+
+### Step 2: Execute the Demo
+```
+PYTHONPATH=src python -m streamlit run src/demo/entrypage.py
+```
+
 
 ## Experimental Result
 
