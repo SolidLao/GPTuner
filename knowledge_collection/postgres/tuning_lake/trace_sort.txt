@@ -1,0 +1,1 @@
+The 'trace_sort' knob in PostgreSQL, when activated, provides detailed information about resource usage during sort operations. This feature is primarily a debugging aid, typically used by developers rather than users. However, it's important to note that this feature is only available if the TRACE_SORT macro was defined during compilation, which is currently set as default.

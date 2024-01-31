@@ -1,0 +1,1 @@
+The 'autovacuum_naptime' knob in Postgres should be set to the number of seconds the system waits between autovacuum runs, with the default value being 60 seconds, but this can be increased or decreased based on the frequency of data updates and the performance of the system.

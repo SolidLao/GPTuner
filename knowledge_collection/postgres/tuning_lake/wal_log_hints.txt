@@ -1,0 +1,1 @@
+As a suggestion, consider enabling the 'wal_log_hints' knob in PostgreSQL. This feature logs the entire content of each disk page to the Write-Ahead Log (WAL) during the first modification after a checkpoint, even for non-critical modifications. However, please note that this setting is ignored if data checksums are enabled and it can only be set at the server start.

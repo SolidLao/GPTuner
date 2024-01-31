@@ -1,0 +1,1 @@
+The 'wal_level' knob determines the amount of information written to the WAL, with default value 'replica' supporting WAL archiving and replication, 'minimal' only logging information for crash recovery, and 'logical' adding information for logical decoding, with each level including the information logged at lower levels, and can only be set at server start.

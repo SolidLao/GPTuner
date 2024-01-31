@@ -1,0 +1,1 @@
+The 'max_sync_workers_per_subscription' knob controls the maximum number of synchronization workers per subscription, which is used for parallelism during initial data copy in subscription initialization or when new tables are added, with a current limit of one worker per table and a default value of 2.

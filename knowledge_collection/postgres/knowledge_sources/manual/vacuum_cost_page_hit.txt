@@ -1,0 +1,1 @@
+The 'vacuum_cost_page_hit' knob is the estimated cost for vacuuming a buffer found in the shared buffer cache, involving the process of locking the buffer pool, looking up the shared hash table, and scanning the page content, with a default value of one.

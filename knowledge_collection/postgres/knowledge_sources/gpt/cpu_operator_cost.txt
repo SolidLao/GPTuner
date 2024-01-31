@@ -1,0 +1,1 @@
+The 'cpu_operator_cost' knob in Postgres can be set by estimating the cost of processing each operator or function in your CPU, with the default value being 0.0025; however, you should adjust this value based on your specific workload and hardware, keeping in mind that a lower value will make CPU operations appear cheaper to the query planner.

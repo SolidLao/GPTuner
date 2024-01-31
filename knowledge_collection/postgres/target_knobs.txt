@@ -29,7 +29,6 @@ log_checkpoints
 log_connections
 log_disconnections
 log_line_prefix
-log_min_duration_statement
 log_temp_files
 checkpoint_timeout
 checkpoint_completion_target

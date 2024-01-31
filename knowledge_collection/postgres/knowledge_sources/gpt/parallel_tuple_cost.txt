@@ -1,0 +1,1 @@
+The 'parallel_tuple_cost' knob in Postgres is set to a default value of 0.1, but it can be adjusted based on the cost of transferring a tuple from a worker process to a parallel leader, with a lower value encouraging more parallelism, but it should be set carefully to avoid excessive system load.

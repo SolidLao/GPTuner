@@ -1,0 +1,1 @@
+The 'geqo_seed' is a floating-point number between 0 and 1 that determines the initial value of the random number generator used by the GEQO module in Postgres, and changing it can lead to different query plans being chosen, but it doesn't typically need to be adjusted from its default value of 0.5.

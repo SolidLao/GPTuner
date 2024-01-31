@@ -1,0 +1,1 @@
+The 'cpu_index_tuple_cost' knob is used to adjust the planner's estimated cost of processing each index entry during an index scan, with the default setting being 0.005.

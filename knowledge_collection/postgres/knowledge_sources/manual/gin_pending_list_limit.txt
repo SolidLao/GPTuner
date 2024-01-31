@@ -1,0 +1,1 @@
+The 'gin_pending_list_limit' knob sets the maximum size of a GIN index's pending list, defaulting to four megabytes (4MB), and if the list exceeds this size, the entries are moved to the main GIN data structure; this setting can be customized for individual GIN indexes.

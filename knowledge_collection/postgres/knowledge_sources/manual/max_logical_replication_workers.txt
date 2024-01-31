@@ -1,0 +1,1 @@
+The knob 'max_logical_replication_workers' sets the maximum number of logical replication workers, including apply workers and table synchronization workers, taken from the pool defined by max_worker_processes, with a default value of 4.

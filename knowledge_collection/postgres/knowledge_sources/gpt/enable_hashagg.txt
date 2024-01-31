@@ -1,0 +1,1 @@
+The 'enable_hashagg' knob in Postgres can be set to either 'on' or 'off', with 'on' enabling the hash aggregate plan type and 'off' disabling it, and the default value is 'on', which should be adjusted based on the specific workload and performance requirements.

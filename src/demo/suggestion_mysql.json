@@ -1,0 +1,3920 @@
+{
+    "activate_all_roles_on_login": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_address": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_port": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_ca": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_capath": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_cert": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_cipher": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_crl": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_crlpath": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_ssl_key": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_tls_ciphersuites": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "admin_tls_version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "authentication_policy": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "auto_generate_certs": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "auto_increment_increment": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "auto_increment_offset": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "autocommit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "automatic_sp_privileges": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "avoid_temporal_upgrade": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "back_log": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "basedir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "big_tables": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "bind_address": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_cache_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_checksum": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_direct_non_transactional_updates": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_encryption": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_error_action": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_expire_logs_auto_purge": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_expire_logs_seconds": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_format": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_group_commit_sync_delay": {
+        "gpt": "The 'binlog_group_commit_sync_delay' knob in MySQL can be set to delay the binary log group commit operation for a specified number of microseconds, typically ranging from 0 (no delay) to 1000000 (1 second), depending on the specific needs of your workload and system performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'binlog_group_commit_sync_delay' knob in MySQL can be set to delay the binary log group commit operation for a specified number of microseconds, typically ranging from 0 (no delay) to 1000000 (1 second), depending on the specific needs of your workload and system performance."
+    },
+    "binlog_group_commit_sync_no_delay_count": {
+        "gpt": "The 'binlog_group_commit_sync_no_delay_count' knob in MySQL can be set to a specific number to control the number of transactions that can be committed without delay; for instance, setting it to 10,000 means that up to 10,000 transactions can be committed without any delay.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'binlog_group_commit_sync_no_delay_count' knob in MySQL can be set to a specific number to control the number of transactions that can be committed without delay; for instance, setting it to 10,000 means that up to 10,000 transactions can be committed without any delay."
+    },
+    "binlog_gtid_simple_recovery": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_max_flush_queue_time": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_order_commits": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_rotate_encryption_master_key_at_startup": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_row_event_max_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_row_image": {
+        "gpt": "The 'binlog_row_image' knob in MySQL can be set to one of three values: 'full', 'minimal', or 'noblob', where 'full' logs all columns in both the before and after image, 'minimal' logs only the columns that were changed, and 'noblob' logs all columns except for un-changed BLOB or TEXT columns.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'binlog_row_image' knob in MySQL can be set to one of three values: 'full', 'minimal', or 'noblob', where 'full' logs all columns in both the before and after image, 'minimal' logs only the columns that were changed, and 'noblob' logs all columns except for un-changed BLOB or TEXT columns."
+    },
+    "binlog_row_metadata": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_row_value_options": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_rows_query_log_events": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_stmt_cache_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_transaction_compression": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_transaction_compression_level_zstd": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_transaction_dependency_history_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "binlog_transaction_dependency_tracking": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "block_encryption_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "bulk_insert_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "caching_sha2_password_auto_generate_rsa_keys": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "caching_sha2_password_digest_rounds": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "caching_sha2_password_private_key_path": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "caching_sha2_password_public_key_path": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_client": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_connection": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_database": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_filesystem": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_results": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_server": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_set_system": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "character_sets_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "check_proxy_users": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "collation_connection": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "collation_database": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "collation_server": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "completion_type": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "concurrent_insert": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "connect_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "connection_memory_chunk_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "connection_memory_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "core_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "create_admin_listener_thread": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "cte_max_recursion_depth": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "datadir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_authentication_plugin": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_collation_for_utf8mb4": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_password_lifetime": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_storage_engine": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_table_encryption": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_tmp_storage_engine": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "default_week_format": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "delay_key_write": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "delayed_insert_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "delayed_insert_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "delayed_queue_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "disabled_storage_engines": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "disconnect_on_expired_password": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "div_precision_increment": {
+        "gpt": "The 'div_precision_increment' knob in MySQL can be set to a value between 0 and 30, which determines the number of decimal places in the result of division operations; a higher value increases precision but may slow down calculations.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'div_precision_increment' knob in MySQL can be set to a value between 0 and 30, which determines the number of decimal places in the result of division operations; a higher value increases precision but may slow down calculations."
+    },
+    "end_markers_in_json": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "enforce_gtid_consistency": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "eq_range_index_dive_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "error_count": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "event_scheduler": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "expire_logs_days": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "explicit_defaults_for_timestamp": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "external_user": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "flush": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "flush_time": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "foreign_key_checks": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ft_boolean_syntax": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ft_max_word_len": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ft_min_word_len": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ft_query_expansion_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ft_stopword_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "general_log": {
+        "gpt": "The 'general_log' knob in MySQL is a boolean type, so it can be set to either 0 (OFF) or 1 (ON), with the default being 0; turning it ON enables the general query log, which logs every query received from a client, not just those that fail.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'general_log' knob in MySQL is a boolean type, so it can be set to either 0 (OFF) or 1 (ON), with the default being 0; turning it ON enables the general query log, which logs every query received from a client, not just those that fail."
+    },
+    "general_log_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "generated_random_password_length": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "global_connection_memory_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "global_connection_memory_tracking": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "group_concat_max_len": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "group_replication_consistency": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "gtid_executed": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "gtid_executed_compression_period": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "gtid_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "gtid_next": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "gtid_owned": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "gtid_purged": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_compress": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_dynamic_loading": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_geometry": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_openssl": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_profiling": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_query_cache": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_rtree_keys": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_ssl": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_statement_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "have_symlink": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "histogram_generation_max_mem_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "host_cache_size": {
+        "gpt": "The 'host_cache_size' knob in MySQL should be set based on the number of distinct client hosts that make connections to the server, with the default value being 128 and the maximum being 65536, but it should be increased if performance issues are noticed due to DNS lookups.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'host_cache_size' knob in MySQL should be set based on the number of distinct client hosts that make connections to the server, with the default value being 128 and the maximum being 65536, but it should be increased if performance issues are noticed due to DNS lookups."
+    },
+    "hostname": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "identity": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "immediate_server_version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "information_schema_stats_expiry": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "init_connect": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "init_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "init_replica": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "init_slave": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_adaptive_flushing": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_adaptive_flushing_lwm": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_adaptive_hash_index": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_adaptive_hash_index_parts": {
+        "gpt": "The 'innodb_adaptive_hash_index_parts' knob in MySQL can be set to a value between 1 and 512, with the default being 8, to determine the number of partitions for the Adaptive Hash Index, which can be increased to improve concurrency on multi-core systems.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_adaptive_hash_index_parts' knob in MySQL can be set to a value between 1 and 512, with the default being 8, to determine the number of partitions for the Adaptive Hash Index, which can be increased to improve concurrency on multi-core systems."
+    },
+    "innodb_adaptive_max_sleep_delay": {
+        "gpt": "The 'innodb_adaptive_max_sleep_delay' knob in MySQL can be set to a value which determines the maximum delay between write requests in microseconds, with the default value being 150000. The value can be increased to reduce the system load or decreased to improve the response time, but it should not be set to less than 10000 to avoid excessive spinning.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_adaptive_max_sleep_delay' knob in MySQL can be set to a value which determines the maximum delay between write requests in microseconds, with the default value being 150000. The value can be increased to reduce the system load or decreased to improve the response time, but it should not be set to less than 10000 to avoid excessive spinning."
+    },
+    "innodb_api_bk_commit_interval": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_api_disable_rowlock": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_api_enable_binlog": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_api_enable_mdl": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_api_trx_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_autoextend_increment": {
+        "gpt": "The 'innodb_autoextend_increment' knob in MySQL can be set to control the increment size (in MB) for extending the size of an InnoDB shared tablespace file when it becomes full, with the default value being 8MB, but it can be increased if you're dealing with larger databases to improve performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_autoextend_increment' knob in MySQL can be set to control the increment size (in MB) for extending the size of an InnoDB shared tablespace file when it becomes full, with the default value being 8MB, but it can be increased if you're dealing with larger databases to improve performance."
+    },
+    "innodb_autoinc_lock_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_chunk_size": {
+        "gpt": "The 'innodb_buffer_pool_chunk_size' in MySQL should be set to a value that is a multiple of 'innodb_page_size' (default is 16KB), and it should be equal to or less than the 'innodb_buffer_pool_size' (default is 128MB), with the recommended value being 1/64th of the 'innodb_buffer_pool_size'.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_buffer_pool_chunk_size' in MySQL should be set to a value that is a multiple of 'innodb_page_size' (default is 16KB), and it should be equal to or less than the 'innodb_buffer_pool_size' (default is 128MB), with the recommended value being 1/64th of the 'innodb_buffer_pool_size'."
+    },
+    "innodb_buffer_pool_dump_at_shutdown": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_dump_now": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_dump_pct": {
+        "gpt": "The 'innodb_buffer_pool_dump_pct' knob in MySQL is set as a percentage, ranging from 1 to 100, which specifies the percentage of the most recently used pages in each buffer pool to be dumped to a disk when the MySQL server is shut down.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_buffer_pool_dump_pct' knob in MySQL is set as a percentage, ranging from 1 to 100, which specifies the percentage of the most recently used pages in each buffer pool to be dumped to a disk when the MySQL server is shut down."
+    },
+    "innodb_buffer_pool_filename": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_in_core_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_load_abort": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_load_at_startup": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_load_now": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_buffer_pool_size": {
+        "gpt": "Set the 'innodb_buffer_pool_size' in MySQL to about 70-80% of your system's physical memory when the server uses only InnoDB tables, as it is the most crucial InnoDB performance tuning setting.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the 'innodb_buffer_pool_size' in MySQL to about 70-80% of your system's physical memory when the server uses only InnoDB tables, as it is the most crucial InnoDB performance tuning setting."
+    },
+    "innodb_change_buffer_max_size": {
+        "gpt": "The 'innodb_change_buffer_max_size' in MySQL can be set to a value between 0 and 50, representing the percentage of the InnoDB buffer pool size, with the default value being 25, and it can be adjusted based on the workload and performance of the database.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_change_buffer_max_size' in MySQL can be set to a value between 0 and 50, representing the percentage of the InnoDB buffer pool size, with the default value being 25, and it can be adjusted based on the workload and performance of the database."
+    },
+    "innodb_change_buffering": {
+        "gpt": "The 'innodb_change_buffering' knob in MySQL can be set to one of seven options: none, inserts, deletes, changes, purges, all, or its default value which is 'all', and it controls the extent of change buffering that InnoDB performs, with 'all' enabling buffering of all types of operations and 'none' disabling the buffering.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_change_buffering' knob in MySQL can be set to one of seven options: none, inserts, deletes, changes, purges, all, or its default value which is 'all', and it controls the extent of change buffering that InnoDB performs, with 'all' enabling buffering of all types of operations and 'none' disabling the buffering."
+    },
+    "innodb_checksum_algorithm": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_cmp_per_index_enabled": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_commit_concurrency": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_compression_failure_threshold_pct": {
+        "gpt": "The 'innodb_compression_failure_threshold_pct' knob in MySQL is set as a percentage, typically between 5 and 50, which determines the threshold for compression failures, after which the InnoDB engine will stop attempting to compress and will store the page uncompressed.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_compression_failure_threshold_pct' knob in MySQL is set as a percentage, typically between 5 and 50, which determines the threshold for compression failures, after which the InnoDB engine will stop attempting to compress and will store the page uncompressed."
+    },
+    "innodb_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_compression_pad_pct_max": {
+        "gpt": "The 'innodb_compression_pad_pct_max' knob in MySQL can be set to a value between 0 to 50, which represents the percentage of additional space on a page to be reserved for further insertions, with a higher value potentially improving compression rates but at the cost of increased storage usage.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_compression_pad_pct_max' knob in MySQL can be set to a value between 0 to 50, which represents the percentage of additional space on a page to be reserved for further insertions, with a higher value potentially improving compression rates but at the cost of increased storage usage."
+    },
+    "innodb_concurrency_tickets": {
+        "gpt": "The 'innodb_concurrency_tickets' in MySQL can be set to a higher value like 5000 if there are many fast queries, but for a workload with long queries, a lower value like 100 may be more suitable to allow them to enter more frequently.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_concurrency_tickets' in MySQL can be set to a higher value like 5000 if there are many fast queries, but for a workload with long queries, a lower value like 100 may be more suitable to allow them to enter more frequently."
+    },
+    "innodb_data_file_path": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_data_home_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ddl_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ddl_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_deadlock_detect": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_dedicated_server": {
+        "gpt": "Set the value of 'innodb_dedicated_server' to 'ON' if MySQL is the only substantial service on your machine and MySQL can use all or nearly all available memory, otherwise, leave it as 'OFF'.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the value of 'innodb_dedicated_server' to 'ON' if MySQL is the only substantial service on your machine and MySQL can use all or nearly all available memory, otherwise, leave it as 'OFF'."
+    },
+    "innodb_default_row_format": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_directories": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_disable_sort_file_cache": {
+        "gpt": "The 'innodb_disable_sort_file_cache' is a Boolean value that controls whether to disable the operating system's file system cache for sorted data files. You can set it to 0 to enable the cache (default) or 1 to disable the cache, depending on your system's performance and requirements.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_disable_sort_file_cache' is a Boolean value that controls whether to disable the operating system's file system cache for sorted data files. You can set it to 0 to enable the cache (default) or 1 to disable the cache, depending on your system's performance and requirements."
+    },
+    "innodb_doublewrite": {
+        "gpt": "The 'innodb_doublewrite' knob in MySQL can be set to 1 (enabled) or 0 (disabled), with the default being 1, enabling the doublewrite buffer, which adds a layer of safety in case of a crash or power loss during a write, but may slightly decrease performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_doublewrite' knob in MySQL can be set to 1 (enabled) or 0 (disabled), with the default being 1, enabling the doublewrite buffer, which adds a layer of safety in case of a crash or power loss during a write, but may slightly decrease performance."
+    },
+    "innodb_doublewrite_batch_size": {
+        "gpt": "The 'innodb_doublewrite_batch_size' in MySQL is set to 127 by default, but it can be increased to improve write performance, especially on systems with high I/O capacity; however, it should not exceed the total number of pages that can fit into the doublewrite buffer, which is 1200 by default.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_doublewrite_batch_size' in MySQL is set to 127 by default, but it can be increased to improve write performance, especially on systems with high I/O capacity; however, it should not exceed the total number of pages that can fit into the doublewrite buffer, which is 1200 by default."
+    },
+    "innodb_doublewrite_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_doublewrite_files": {
+        "gpt": "The 'innodb_doublewrite_files' knob in MySQL can be set to a value between 1 and 127, which represents the number of doublewrite files that InnoDB uses, with a higher number potentially improving write performance but consuming more disk space.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_doublewrite_files' knob in MySQL can be set to a value between 1 and 127, which represents the number of doublewrite files that InnoDB uses, with a higher number potentially improving write performance but consuming more disk space."
+    },
+    "innodb_doublewrite_pages": {
+        "gpt": "The 'innodb_doublewrite_pages' knob in MySQL is not meant to be manually set by users, as it is automatically managed by the system to control the number of pages to be written into the doublewrite buffer, hence no specific value setting is recommended.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_doublewrite_pages' knob in MySQL is not meant to be manually set by users, as it is automatically managed by the system to control the number of pages to be written into the doublewrite buffer, hence no specific value setting is recommended."
+    },
+    "innodb_extend_and_initialize": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_fast_shutdown": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_file_per_table": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_fill_factor": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_flush_log_at_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_flush_method": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_flush_neighbors": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_flush_sync": {
+        "gpt": "The 'innodb_flush_sync' knob in MySQL can be set to ON or OFF, where ON enables flushing of dirty pages from the buffer pool during each commit operation, while OFF disables this, potentially improving performance but at the risk of losing about one second of transactions in a crash.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_flush_sync' knob in MySQL can be set to ON or OFF, where ON enables flushing of dirty pages from the buffer pool during each commit operation, while OFF disables this, potentially improving performance but at the risk of losing about one second of transactions in a crash."
+    },
+    "innodb_flushing_avg_loops": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_force_load_corrupted": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_force_recovery": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_fsync_threshold": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_aux_table": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_cache_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_enable_diag_print": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_enable_stopword": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_max_token_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_min_token_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_num_word_optimize": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_result_cache_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_server_stopword_table": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_sort_pll_degree": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_ft_total_cache_size": {
+        "gpt": "The 'innodb_ft_total_cache_size' knob in MySQL is used to set the total memory allocated for the InnoDB full-text search index cache, and it's recommended to set this value to about half of the system memory, but not more than 800MB, to ensure optimal performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_ft_total_cache_size' knob in MySQL is used to set the total memory allocated for the InnoDB full-text search index cache, and it's recommended to set this value to about half of the system memory, but not more than 800MB, to ensure optimal performance."
+    },
+    "innodb_ft_user_stopword_table": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_idle_flush_pct": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_io_capacity": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_io_capacity_max": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_lock_wait_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_log_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_log_checksums": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_log_compressed_pages": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_log_file_size": {
+        "gpt": "Set the 'innodb_log_file_size' in MySQL to about 25% of the size of your buffer pool, but not larger than 4GB, to ensure optimal performance and efficiency.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the 'innodb_log_file_size' in MySQL to about 25% of the size of your buffer pool, but not larger than 4GB, to ensure optimal performance and efficiency."
+    },
+    "innodb_log_files_in_group": {
+        "gpt": "The 'innodb_log_files_in_group' knob in MySQL should be set to 2, which is the default and recommended value, as increasing it can cause a delay in the startup time and doesn't provide any significant performance improvement.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_log_files_in_group' knob in MySQL should be set to 2, which is the default and recommended value, as increasing it can cause a delay in the startup time and doesn't provide any significant performance improvement."
+    },
+    "innodb_log_group_home_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_log_spin_cpu_abs_lwm": {
+        "gpt": "The 'innodb_log_spin_cpu_abs_lwm' knob in MySQL is used to set the lower limit for CPU usage, and its value can be adjusted according to the specific CPU usage of your system, but it generally ranges from 0 to 100, with the default value being 80.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_log_spin_cpu_abs_lwm' knob in MySQL is used to set the lower limit for CPU usage, and its value can be adjusted according to the specific CPU usage of your system, but it generally ranges from 0 to 100, with the default value being 80."
+    },
+    "innodb_log_spin_cpu_pct_hwm": {
+        "gpt": "The 'innodb_log_spin_cpu_pct_hwm' knob in MySQL is used to set the high-water mark for CPU usage, beyond which spinning will be paused; it can be set to a value between 0 to 100, with the default being 50, meaning if CPU usage exceeds 50%, spinning will be paused to reduce CPU load.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_log_spin_cpu_pct_hwm' knob in MySQL is used to set the high-water mark for CPU usage, beyond which spinning will be paused; it can be set to a value between 0 to 100, with the default being 50, meaning if CPU usage exceeds 50%, spinning will be paused to reduce CPU load."
+    },
+    "innodb_log_wait_for_flush_spin_hwm": {
+        "gpt": "The 'innodb_log_wait_for_flush_spin_hwm' knob in MySQL is used to set the maximum spin delay, and it can be set to any value between 0 to 4294967295; however, the optimal value depends on your specific workload and hardware, so it's recommended to monitor your system's performance and adjust accordingly.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_log_wait_for_flush_spin_hwm' knob in MySQL is used to set the maximum spin delay, and it can be set to any value between 0 to 4294967295; however, the optimal value depends on your specific workload and hardware, so it's recommended to monitor your system's performance and adjust accordingly."
+    },
+    "innodb_log_write_ahead_size": {
+        "gpt": "The 'innodb_log_write_ahead_size' in MySQL should be set to the size of the operating system's disk sector size, which is typically 512 bytes to 4KB, but it can be increased up to 32KB if the workload is write-intensive and the storage system can handle larger write requests efficiently.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_log_write_ahead_size' in MySQL should be set to the size of the operating system's disk sector size, which is typically 512 bytes to 4KB, but it can be increased up to 32KB if the workload is write-intensive and the storage system can handle larger write requests efficiently."
+    },
+    "innodb_log_writer_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_lru_scan_depth": {
+        "gpt": "The 'innodb_lru_scan_depth' knob in MySQL determines how many blocks to scan for each page made old, and its default value is 1024; however, if your workload is read-heavy, you may increase it to 2048 or 4096, but be cautious as higher values can cause a drop in performance due to increased CPU usage.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_lru_scan_depth' knob in MySQL determines how many blocks to scan for each page made old, and its default value is 1024; however, if your workload is read-heavy, you may increase it to 2048 or 4096, but be cautious as higher values can cause a drop in performance due to increased CPU usage."
+    },
+    "innodb_max_dirty_pages_pct": {
+        "gpt": "Set the value of 'innodb_max_dirty_pages_pct' in MySQL to a percentage (0-100) to specify the maximum amount of InnoDB buffer pool that can contain dirty pages; for instance, setting it to 90 means 90% of the buffer pool can be dirty pages before InnoDB starts to flush them.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the value of 'innodb_max_dirty_pages_pct' in MySQL to a percentage (0-100) to specify the maximum amount of InnoDB buffer pool that can contain dirty pages; for instance, setting it to 90 means 90% of the buffer pool can be dirty pages before InnoDB starts to flush them."
+    },
+    "innodb_max_dirty_pages_pct_lwm": {
+        "gpt": "The 'innodb_max_dirty_pages_pct_lwm' in MySQL is set as a percentage, typically between 0 and 100, which represents the percentage of the total InnoDB buffer pool size at which point the system starts to flush dirty pages in the background to prevent the total dirty page percentage from exceeding 'innodb_max_dirty_pages_pct'.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_max_dirty_pages_pct_lwm' in MySQL is set as a percentage, typically between 0 and 100, which represents the percentage of the total InnoDB buffer pool size at which point the system starts to flush dirty pages in the background to prevent the total dirty page percentage from exceeding 'innodb_max_dirty_pages_pct'."
+    },
+    "innodb_max_purge_lag": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_max_purge_lag_delay": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_max_undo_log_size": {
+        "gpt": "The 'innodb_max_undo_log_size' in MySQL is set to control the maximum size of UNDO logs, and it's recommended to set it to a large value, such as 4GB, to avoid unnecessary resizing, but it should not exceed 50% of the total InnoDB redo log size.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_max_undo_log_size' in MySQL is set to control the maximum size of UNDO logs, and it's recommended to set it to a large value, such as 4GB, to avoid unnecessary resizing, but it should not exceed 50% of the total InnoDB redo log size."
+    },
+    "innodb_monitor_disable": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_monitor_enable": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_monitor_reset": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_monitor_reset_all": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_numa_interleave": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_old_blocks_pct": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_old_blocks_time": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_online_alter_log_max_size": {
+        "gpt": "The 'innodb_online_alter_log_max_size' knob in MySQL can be set to control the maximum size of the temporary log files used during the InnoDB online DDL operations, and its default value is 128MB, but it can be increased if the operation requires more space.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_online_alter_log_max_size' knob in MySQL can be set to control the maximum size of the temporary log files used during the InnoDB online DDL operations, and its default value is 128MB, but it can be increased if the operation requires more space."
+    },
+    "innodb_open_files": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_optimize_fulltext_only": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_page_cleaners": {
+        "gpt": "Set the 'innodb_page_cleaners' value in MySQL to match the number of buffer pool instances, but not more than 64, which is the maximum value allowed.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the 'innodb_page_cleaners' value in MySQL to match the number of buffer pool instances, but not more than 64, which is the maximum value allowed."
+    },
+    "innodb_page_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_parallel_read_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_print_all_deadlocks": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_print_ddl_logs": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_purge_batch_size": {
+        "gpt": "The 'innodb_purge_batch_size' knob in MySQL can be set to a value between 1 and 5000, with the default being 300, and it determines the number of UNDO log pages that a purge operation will remove in one batch from the history list.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_purge_batch_size' knob in MySQL can be set to a value between 1 and 5000, with the default being 300, and it determines the number of UNDO log pages that a purge operation will remove in one batch from the history list."
+    },
+    "innodb_purge_rseg_truncate_frequency": {
+        "gpt": "The 'innodb_purge_rseg_truncate_frequency' knob in MySQL can be set to a value between 1 and 128, where a higher value means the system will more frequently attempt to truncate the undo log, which can help to reclaim disk space more quickly.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_purge_rseg_truncate_frequency' knob in MySQL can be set to a value between 1 and 128, where a higher value means the system will more frequently attempt to truncate the undo log, which can help to reclaim disk space more quickly."
+    },
+    "innodb_purge_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_random_read_ahead": {
+        "gpt": "The 'innodb_random_read_ahead' knob in MySQL can be set to either 0 or 1, where 0 disables the random read ahead feature and 1 enables it, which can help in workloads where data is read in a random order.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_random_read_ahead' knob in MySQL can be set to either 0 or 1, where 0 disables the random read ahead feature and 1 enables it, which can help in workloads where data is read in a random order."
+    },
+    "innodb_read_ahead_threshold": {
+        "gpt": "The 'innodb_read_ahead_threshold' knob in MySQL can be set to a value between 0 and 64, which determines the number of pages that must be accessed sequentially before InnoDB initiates a read-ahead request, with a lower value triggering read-ahead more quickly.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_read_ahead_threshold' knob in MySQL can be set to a value between 0 and 64, which determines the number of pages that must be accessed sequentially before InnoDB initiates a read-ahead request, with a lower value triggering read-ahead more quickly."
+    },
+    "innodb_read_io_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_read_only": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_redo_log_archive_dirs": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_redo_log_capacity": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_redo_log_encrypt": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_replication_delay": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_rollback_on_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_rollback_segments": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_segment_reserve_factor": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_sort_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_spin_wait_delay": {
+        "gpt": "The 'innodb_spin_wait_delay' knob in MySQL can be set to a value between 0 and 1 million, with the default being 6; increasing this value can reduce CPU usage, but may also increase response time, so it should be adjusted carefully based on system performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_spin_wait_delay' knob in MySQL can be set to a value between 0 and 1 million, with the default being 6; increasing this value can reduce CPU usage, but may also increase response time, so it should be adjusted carefully based on system performance."
+    },
+    "innodb_spin_wait_pause_multiplier": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_auto_recalc": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_include_delete_marked": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_method": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_on_metadata": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_persistent": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_persistent_sample_pages": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_stats_transient_sample_pages": {
+        "gpt": "The 'innodb_stats_transient_sample_pages' knob in MySQL determines the number of index pages to sample when estimating cardinality and other statistics for an indexed column, and you can set its value according to your specific needs, with the default value being 8, but be aware that larger values may increase the accuracy of statistics, but also increase the time taken for statistics estimation.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'innodb_stats_transient_sample_pages' knob in MySQL determines the number of index pages to sample when estimating cardinality and other statistics for an indexed column, and you can set its value according to your specific needs, with the default value being 8, but be aware that larger values may increase the accuracy of statistics, but also increase the time taken for statistics estimation."
+    },
+    "innodb_status_output": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_status_output_locks": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_strict_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_sync_array_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_sync_spin_loops": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_table_locks": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_temp_data_file_path": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_temp_tablespaces_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_thread_concurrency": {
+        "gpt": "Set the 'innodb_thread_concurrency' value in MySQL to 0 for unlimited concurrency, allowing the system to automatically adjust to the workload, or set it to a specific number based on the number of CPUs and disks if you want to limit the number of threads.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the 'innodb_thread_concurrency' value in MySQL to 0 for unlimited concurrency, allowing the system to automatically adjust to the workload, or set it to a specific number based on the number of CPUs and disks if you want to limit the number of threads."
+    },
+    "innodb_thread_sleep_delay": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_tmpdir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_undo_directory": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_undo_log_encrypt": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_undo_log_truncate": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_undo_tablespaces": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_use_fdatasync": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_use_native_aio": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_validate_tablespace_paths": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "innodb_write_io_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "insert_id": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "interactive_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "internal_tmp_mem_storage_engine": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "join_buffer_size": {
+        "gpt": "The 'join_buffer_size' in MySQL should be set based on the size of the tables you are joining; a larger size allows for faster performance but uses more memory, so a common starting point is 128KB and you can increase it incrementally while monitoring performance and memory usage.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'join_buffer_size' in MySQL should be set based on the size of the tables you are joining; a larger size allows for faster performance but uses more memory, so a common starting point is 128KB and you can increase it incrementally while monitoring performance and memory usage."
+    },
+    "keep_files_on_create": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "key_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "key_cache_age_threshold": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "key_cache_block_size": {
+        "gpt": "The 'key_cache_block_size' in MySQL should be set to a value that is a multiple of the file system I/O block size, typically 1024 to 16384 bytes, with the default being 1024.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'key_cache_block_size' in MySQL should be set to a value that is a multiple of the file system I/O block size, typically 1024 to 16384 bytes, with the default being 1024."
+    },
+    "key_cache_division_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "keyring_operations": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "large_files_support": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "large_page_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "large_pages": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "last_insert_id": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "lc_messages": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "lc_messages_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "lc_time_names": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "license": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "local_infile": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "lock_wait_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "locked_in_memory": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_bin": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_bin_basename": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_bin_index": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_bin_trust_function_creators": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_bin_use_v1_row_events": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_error": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_error_services": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_error_suppression_list": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_error_verbosity": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_output": {
+        "gpt": "The 'log_output' knob in MySQL determines where the output from general query and slow query logs should be written, and it can be set to 'FILE', 'TABLE', or 'NONE', with 'FILE' being the default value.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'log_output' knob in MySQL determines where the output from general query and slow query logs should be written, and it can be set to 'FILE', 'TABLE', or 'NONE', with 'FILE' being the default value."
+    },
+    "log_queries_not_using_indexes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_raw": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_replica_updates": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_slave_updates": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_slow_admin_statements": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_slow_extra": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_slow_replica_statements": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_slow_slave_statements": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_statements_unsafe_for_binlog": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_throttle_queries_not_using_indexes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "log_timestamps": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "long_query_time": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "low_priority_updates": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "lower_case_file_system": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "lower_case_table_names": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mandatory_roles": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "master_info_repository": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "master_verify_checksum": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_allowed_packet": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_binlog_cache_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_binlog_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_binlog_stmt_cache_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_connect_errors": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_connections": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_delayed_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_digest_length": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_error_count": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_execution_time": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_heap_table_size": {
+        "gpt": "The 'max_heap_table_size' in MySQL can be set by determining the maximum size for internal in-memory temporary tables, with the default value being 16MB, but it can be increased if your queries demand more memory, keeping in mind that setting it too high can lead to out of memory errors.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'max_heap_table_size' in MySQL can be set by determining the maximum size for internal in-memory temporary tables, with the default value being 16MB, but it can be increased if your queries demand more memory, keeping in mind that setting it too high can lead to out of memory errors."
+    },
+    "max_insert_delayed_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_join_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_length_for_sort_data": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_points_in_geometry": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_prepared_stmt_count": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_relay_log_size": {
+        "gpt": "The 'max_relay_log_size' knob in MySQL can be set by specifying a value in bytes, with the default value being 0, which means no limit; however, it's recommended to set a value that suits your system's capacity to avoid potential issues with disk space.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'max_relay_log_size' knob in MySQL can be set by specifying a value in bytes, with the default value being 0, which means no limit; however, it's recommended to set a value that suits your system's capacity to avoid potential issues with disk space."
+    },
+    "max_seeks_for_key": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_sort_length": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_sp_recursion_depth": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "max_user_connections": {
+        "gpt": "Set the 'max_user_connections' value in MySQL by determining the maximum number of simultaneous connections a single user may have, keeping in mind that the total number of connections should not exceed the 'max_connections' value, which defaults to 151.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the 'max_user_connections' value in MySQL by determining the maximum number of simultaneous connections a single user may have, keeping in mind that the total number of connections should not exceed the 'max_connections' value, which defaults to 151."
+    },
+    "max_write_lock_count": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "min_examined_row_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_data_pointer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_max_sort_file_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_mmap_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_recover_options": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_sort_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_stats_method": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "myisam_use_mmap": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysql_native_password_proxy_users": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_bind_address": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_compression_algorithms": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_connect_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_deflate_default_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_deflate_max_client_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_document_id_unique_prefix": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_enable_hello_notice": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_idle_worker_thread_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_interactive_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_lz4_default_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_lz4_max_client_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_max_allowed_packet": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_max_connections": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_min_worker_threads": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_port": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_port_open_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_read_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_socket": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_ca": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_capath": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_cert": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_cipher": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_crl": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_crlpath": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_ssl_key": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_wait_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_write_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_zstd_default_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "mysqlx_zstd_max_client_compression_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "net_buffer_length": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "net_read_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "net_retry_count": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "net_write_timeout": {
+        "gpt": "The 'net_write_timeout' in MySQL is the amount of time the server waits for a block to be written to a connection before it times out, and it should be set based on your specific needs, but the default value is 60 seconds, and increasing this value may help if you're experiencing issues with large data transfers timing out.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'net_write_timeout' in MySQL is the amount of time the server waits for a block to be written to a connection before it times out, and it should be set based on your specific needs, but the default value is 60 seconds, and increasing this value may help if you're experiencing issues with large data transfers timing out."
+    },
+    "new": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ngram_token_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "offline_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "old": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "old_alter_table": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "open_files_limit": {
+        "gpt": "To set the value for 'open_files_limit' in MySQL, you should first check the current limit by running 'show variables like 'open_files_limit';' in MySQL, then adjust the value in your MySQL configuration file (my.cnf or my.ini) under the [mysqld] section, e.g., 'open_files_limit=5000', and finally restart the MySQL server for changes to take effect.",
+        "web": null,
+        "manual": null,
+        "summary": "To set the value for 'open_files_limit' in MySQL, you should first check the current limit by running 'show variables like 'open_files_limit';' in MySQL, then adjust the value in your MySQL configuration file (my.cnf or my.ini) under the [mysqld] section, e.g., 'open_files_limit=5000', and finally restart the MySQL server for changes to take effect."
+    },
+    "optimizer_max_subgraph_pairs": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_prune_level": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_search_depth": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_switch": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_trace": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_trace_features": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_trace_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_trace_max_mem_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "optimizer_trace_offset": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "original_commit_timestamp": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "original_server_version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "parser_max_mem_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "partial_revokes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "password_history": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "password_require_current": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "password_reuse_interval": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_accounts_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_digests_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_error_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_stages_history_long_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_stages_history_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_statements_history_long_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_statements_history_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_transactions_history_long_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_transactions_history_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_waits_history_long_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_events_waits_history_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_hosts_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_cond_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_cond_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_digest_length": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_digest_sample_age": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_file_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_file_handles": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_file_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_index_stat": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_memory_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_metadata_locks": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_mutex_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_mutex_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_prepared_statements_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_program_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_rwlock_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_rwlock_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_socket_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_socket_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_sql_text_length": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_stage_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_statement_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_statement_stack": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_table_handles": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_table_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_table_lock_stat": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_thread_classes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_max_thread_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_session_connect_attrs_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_setup_actors_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_setup_objects_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_show_processlist": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "performance_schema_users_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "persist_only_admin_x509_subject": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "persist_sensitive_variables_in_plaintext": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "persisted_globals_load": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "pid_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "plugin_dir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "port": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "preload_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "print_identified_with_as_hex": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "profiling": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "profiling_history_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "protocol_compression_algorithms": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "protocol_version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "proxy_user": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "pseudo_replica_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "pseudo_slave_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "pseudo_thread_id": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "query_alloc_block_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "query_prealloc_size": {
+        "gpt": "The 'query_prealloc_size' knob in MySQL is used to specify the size in bytes for preallocation of memory to store queries; the default value is 8192, but if your queries are larger, you may need to increase this value to improve performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'query_prealloc_size' knob in MySQL is used to specify the size in bytes for preallocation of memory to store queries; the default value is 8192, but if your queries are larger, you may need to increase this value to improve performance."
+    },
+    "rand_seed1": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "rand_seed2": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "range_alloc_block_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "range_optimizer_max_mem_size": {
+        "gpt": "The 'range_optimizer_max_mem_size' knob in MySQL can be set to limit the amount of memory used for the range optimizer, with the default value being 1536000 (1.5 MB) and it can be increased or decreased based on the system's memory capacity and performance requirements.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'range_optimizer_max_mem_size' knob in MySQL can be set to limit the amount of memory used for the range optimizer, with the default value being 1536000 (1.5 MB) and it can be increased or decreased based on the system's memory capacity and performance requirements."
+    },
+    "rbr_exec_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "read_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "read_only": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "read_rnd_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "regexp_stack_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "regexp_time_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_basename": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_index": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_info_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_info_repository": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_purge": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_recovery": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "relay_log_space_limit": {
+        "gpt": "The 'relay_log_space_limit' in MySQL is set to control the maximum space that relay logs can occupy on a disk, and it's recommended to set it to a value that is a bit less than the total disk space, for example, if you have a 100GB disk, you might set it to 80GB, to ensure there is always some free space available.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'relay_log_space_limit' in MySQL is set to control the maximum space that relay logs can occupy on a disk, and it's recommended to set it to a value that is a bit less than the total disk space, for example, if you have a 100GB disk, you might set it to 80GB, to ensure there is always some free space available."
+    },
+    "replica_allow_batching": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_checkpoint_group": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_checkpoint_period": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_compressed_protocol": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_exec_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_load_tmpdir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_max_allowed_packet": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_net_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_parallel_type": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_parallel_workers": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_pending_jobs_size_max": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_preserve_commit_order": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_skip_errors": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_sql_verify_checksum": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_transaction_retries": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replica_type_conversions": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replication_optimize_for_static_plugin_config": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "replication_sender_observe_commit_only": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "report_host": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "report_password": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "report_port": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "report_user": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "require_row_format": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "require_secure_transport": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "resultset_metadata": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "rpl_read_size": {
+        "gpt": "The 'rpl_read_size' knob in MySQL is used to control the amount of data to read from the binary log for replication, and it can be set to any value between 1 and 4294967295, but it's typically recommended to set it to a value that matches the size of your OS disk I/O, such as 8192.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'rpl_read_size' knob in MySQL is used to control the amount of data to read from the binary log for replication, and it can be set to any value between 1 and 4294967295, but it's typically recommended to set it to a value that matches the size of your OS disk I/O, such as 8192."
+    },
+    "rpl_stop_replica_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "rpl_stop_slave_timeout": {
+        "gpt": "The 'rpl_stop_slave_timeout' in MySQL is set to specify the number of seconds that the slave thread waits for the master to become available during network outages, with the default value being 31536000 seconds (1 year), and it can be adjusted based on the specific needs of your database environment.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'rpl_stop_slave_timeout' in MySQL is set to specify the number of seconds that the slave thread waits for the master to become available during network outages, with the default value being 31536000 seconds (1 year), and it can be adjusted based on the specific needs of your database environment."
+    },
+    "schema_definition_cache": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "secondary_engine_cost_threshold": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "secure_file_priv": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "select_into_buffer_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "select_into_disk_sync": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "select_into_disk_sync_delay": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "server_id": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "server_id_bits": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "server_uuid": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "session_track_gtids": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "session_track_schema": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "session_track_state_change": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "session_track_system_variables": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "session_track_transaction_info": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sha256_password_auto_generate_rsa_keys": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sha256_password_private_key_path": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sha256_password_proxy_users": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sha256_password_public_key_path": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "show_create_table_skip_secondary_engine": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "show_create_table_verbosity": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "show_gipk_in_create_table_and_information_schema": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "show_old_temporals": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "skip_external_locking": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "skip_name_resolve": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "skip_networking": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "skip_replica_start": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "skip_show_database": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "skip_slave_start": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_allow_batching": {
+        "gpt": "The 'slave_allow_batching' knob in MySQL can be set to 1 to enable or 0 to disable the batching of transactions on the slave, where enabling can improve the performance of the replication process, but it should be used with caution as it can cause data loss if the slave server crashes.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'slave_allow_batching' knob in MySQL can be set to 1 to enable or 0 to disable the batching of transactions on the slave, where enabling can improve the performance of the replication process, but it should be used with caution as it can cause data loss if the slave server crashes."
+    },
+    "slave_checkpoint_group": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_checkpoint_period": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_compressed_protocol": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_exec_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_load_tmpdir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_max_allowed_packet": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_net_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_parallel_type": {
+        "gpt": "The 'slave_parallel_type' knob in MySQL can be set to either 'DATABASE' or 'LOGICAL_CLOCK' where 'DATABASE' allows parallelism for transactions using different databases and 'LOGICAL_CLOCK' allows parallelism for any transaction as long as they are not dependent on each other.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'slave_parallel_type' knob in MySQL can be set to either 'DATABASE' or 'LOGICAL_CLOCK' where 'DATABASE' allows parallelism for transactions using different databases and 'LOGICAL_CLOCK' allows parallelism for any transaction as long as they are not dependent on each other."
+    },
+    "slave_parallel_workers": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_pending_jobs_size_max": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_preserve_commit_order": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_rows_search_algorithms": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_skip_errors": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_sql_verify_checksum": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_transaction_retries": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slave_type_conversions": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slow_launch_time": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slow_query_log": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "slow_query_log_file": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "socket": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sort_buffer_size": {
+        "gpt": "The 'sort_buffer_size' in MySQL is a per-session buffer that is allocated when sorting rows for ORDER BY and GROUP BY statements, and its value can be set between the minimum of 32KB and the maximum of 4GB, but a good starting point could be 256KB to 1MB, and then adjust based on your workload and performance.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'sort_buffer_size' in MySQL is a per-session buffer that is allocated when sorting rows for ORDER BY and GROUP BY statements, and its value can be set between the minimum of 32KB and the maximum of 4GB, but a good starting point could be 256KB to 1MB, and then adjust based on your workload and performance."
+    },
+    "source_verify_checksum": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_auto_is_null": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_big_selects": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_buffer_result": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_generate_invisible_primary_key": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_log_bin": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_log_off": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_notes": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_quote_show_create": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_replica_skip_counter": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_require_primary_key": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_safe_updates": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_select_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_slave_skip_counter": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sql_warnings": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_ca": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_capath": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_cert": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_cipher": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_crl": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_crlpath": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_fips_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_key": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_session_cache_mode": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "ssl_session_cache_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "stored_program_cache": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "stored_program_definition_cache": {
+        "gpt": "The 'stored_program_definition_cache' knob in MySQL determines the number of stored program definitions that the server should keep in the cache and its default value is 256; you can increase this value if you have a large number of stored programs and you want to minimize disk I/O, but be aware that the memory used by the cache will increase accordingly.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'stored_program_definition_cache' knob in MySQL determines the number of stored program definitions that the server should keep in the cache and its default value is 256; you can increase this value if you have a large number of stored programs and you want to minimize disk I/O, but be aware that the memory used by the cache will increase accordingly."
+    },
+    "super_read_only": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sync_binlog": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sync_master_info": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sync_relay_log": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sync_relay_log_info": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "sync_source_info": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "system_time_zone": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "table_definition_cache": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "table_encryption_privilege_check": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "table_open_cache": {
+        "gpt": "Set the value for 'table_open_cache' in MySQL based on the number of tables your server will be using simultaneously, typically starting with a value around 2000 and increasing it if you see a high rate of table cache misses, but be cautious as setting it too high can consume a lot of memory.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the value for 'table_open_cache' in MySQL based on the number of tables your server will be using simultaneously, typically starting with a value around 2000 and increasing it if you see a high rate of table cache misses, but be cautious as setting it too high can consume a lot of memory."
+    },
+    "table_open_cache_instances": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "tablespace_definition_cache": {
+        "gpt": "The 'tablespace_definition_cache' knob in MySQL can be set to a specific value that determines the number of tablespace definitions that can be stored in the definition cache, with the default value being 256, but it can be increased if you have a large number of tablespaces.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'tablespace_definition_cache' knob in MySQL can be set to a specific value that determines the number of tablespace definitions that can be stored in the definition cache, with the default value being 256, but it can be increased if you have a large number of tablespaces."
+    },
+    "temptable_max_mmap": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "temptable_max_ram": {
+        "gpt": "The 'temptable_max_ram' knob in MySQL determines the maximum amount of RAM that can be used by internal temporary tables. The value should be set according to the available system memory, but it's recommended not to exceed 20% of the total RAM to avoid system instability.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'temptable_max_ram' knob in MySQL determines the maximum amount of RAM that can be used by internal temporary tables. The value should be set according to the available system memory, but it's recommended not to exceed 20% of the total RAM to avoid system instability."
+    },
+    "temptable_use_mmap": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "terminology_use_previous": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "thread_cache_size": {
+        "gpt": "Set the 'thread_cache_size' in MySQL based on your server's max connections, typically around 10% of max connections, but not more than 100, as it determines how many thread descriptors the server should cache for reuse.",
+        "web": null,
+        "manual": null,
+        "summary": "Set the 'thread_cache_size' in MySQL based on your server's max connections, typically around 10% of max connections, but not more than 100, as it determines how many thread descriptors the server should cache for reuse."
+    },
+    "thread_handling": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "thread_stack": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "time_zone": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "timestamp": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "tls_ciphersuites": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "tls_version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "tmp_table_size": {
+        "gpt": "The 'tmp_table_size' knob in MySQL should be set based on the size of your temporary tables, typically starting at 16M, but it can be increased if you have complex queries that create large temporary tables, but it should not exceed the maximum heap table size, which is typically set at 16M to 32M.",
+        "web": null,
+        "manual": null,
+        "summary": "The 'tmp_table_size' knob in MySQL should be set based on the size of your temporary tables, typically starting at 16M, but it can be increased if you have complex queries that create large temporary tables, but it should not exceed the maximum heap table size, which is typically set at 16M to 32M."
+    },
+    "tmpdir": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "transaction_alloc_block_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "transaction_allow_batching": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "transaction_isolation": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "transaction_prealloc_size": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "transaction_read_only": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "transaction_write_set_extraction": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "unique_checks": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "updatable_views_with_limit": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "use_secondary_engine": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "version": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "version_comment": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "version_compile_machine": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "version_compile_os": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "version_compile_zlib": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "wait_timeout": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "warning_count": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "windowing_use_high_precision": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    },
+    "xa_detach_on_prepare": {
+        "gpt": null,
+        "web": null,
+        "manual": null,
+        "summary": null
+    }
+}

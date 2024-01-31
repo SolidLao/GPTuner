@@ -1,0 +1,1 @@
+The 'track_functions' knob in PostgreSQL can be set to 'none', 'pl', 'all', where 'none' is the default and means no function stats are tracked, 'pl' tracks only procedural language functions, and 'all' tracks all functions.

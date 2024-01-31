@@ -1,0 +1,1 @@
+Based on the provided suggestions, it is recommended to utilize the 'enable_bitmapscan' knob as it permits the query planner to use bitmap-scan plan types. This feature is typically enabled by default.

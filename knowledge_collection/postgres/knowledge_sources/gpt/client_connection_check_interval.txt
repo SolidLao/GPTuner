@@ -1,0 +1,1 @@
+The 'client_connection_check_interval' knob in Postgres determines the frequency of checks for dead client connections, and its value can be set according to the specific needs of your system, with a lower value resulting in more frequent checks; for example, setting it to '5' would mean checks are performed every 5 seconds.

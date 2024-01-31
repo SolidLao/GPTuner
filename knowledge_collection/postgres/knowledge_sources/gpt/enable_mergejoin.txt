@@ -1,0 +1,1 @@
+The 'enable_mergejoin' knob in Postgres can be set to either 'on' or 'off', with 'on' enabling the merge join plan type and 'off' disabling it, and the default value is 'on'.

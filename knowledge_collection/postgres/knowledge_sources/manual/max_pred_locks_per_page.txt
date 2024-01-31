@@ -1,0 +1,1 @@
+The 'max_pred_locks_per_page' knob controls the maximum number of rows, default being 2, that can be predicate-locked on a single page before the lock is upgraded to cover the entire page, and this parameter can only be adjusted in the postgresql.conf file or on the server command line.

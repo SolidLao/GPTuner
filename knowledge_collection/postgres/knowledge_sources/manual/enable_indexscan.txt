@@ -1,0 +1,1 @@
+The 'enable_indexscan' knob allows the query planner to use index-scan plan types, and it is enabled by default.

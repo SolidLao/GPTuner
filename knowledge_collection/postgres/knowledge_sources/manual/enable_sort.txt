@@ -1,0 +1,1 @@
+The 'enable_sort' knob allows you to turn on or off the query planner's use of explicit sort steps, with the default setting being on, although it's not possible to completely eliminate explicit sorts.

@@ -1,0 +1,1 @@
+The 'enable_nestloop' knob in the query planner allows the use of nested-loop join plans, which cannot be completely suppressed, but can be discouraged if other methods are available, and is enabled by default.

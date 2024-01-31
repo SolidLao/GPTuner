@@ -1,0 +1,1 @@
+I suggest understanding the function of the 'vacuum_freeze_min_age' knob in PostgreSQL. It determines the cutoff age for VACUUM to decide when to freeze row versions in a table. However, it's important to note that it's effectively limited to half the value of autovacuum_freeze_max_age to prevent unreasonably short intervals between forced autovacuums.

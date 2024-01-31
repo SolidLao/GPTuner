@@ -1,0 +1,1 @@
+The 'autovacuum_work_mem' knob specifies the maximum memory each autovacuum worker process can use, defaulting to -1 kilobytes, which means the value of maintenance_work_mem will be used instead, and this setting doesn't affect the behavior of VACUUM when run in other contexts.

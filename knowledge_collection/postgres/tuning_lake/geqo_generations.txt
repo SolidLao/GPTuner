@@ -1,0 +1,1 @@
+Based on the provided suggestions, it is recommended to adjust the 'geqo_generations' knob as it controls the number of iterations used by the GEQO algorithm. Its default setting is zero, which automatically selects a value based on the 'geqo_pool_size'.

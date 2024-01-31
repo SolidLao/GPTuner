@@ -133,3 +133,19 @@ class PgDBMS(DBMSTemplate):
         row = cursor.fetchone()
         cursor.close()
         return row is not None
+
+    def exec_quries(self, sql):
+        """ Executes all SQL queries in given file and returns success flag. """
+        try:
+            self.connection.autocommit = True
+            cursor = self.connection.cursor()
+            sql_statements = sql.split(';')
+            for statement in sql_statements:
+                if statement.strip():
+                    cursor.execute(statement)
+            # cursor.execute(sql)
+            cursor.close()
+            return True
+        except Exception as e:
+            print(f'Exception execution {sql}: {e}')
+        return False

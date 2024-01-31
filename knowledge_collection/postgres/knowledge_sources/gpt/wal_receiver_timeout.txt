@@ -1,0 +1,1 @@
+The 'wal_receiver_timeout' in Postgres is set in milliseconds and determines the amount of time the system will wait for data from the master before giving up; the default value is 60000 milliseconds (60 seconds), but it can be adjusted based on the specific needs of your system.

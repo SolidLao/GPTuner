@@ -1,0 +1,1 @@
+The 'maintenance_io_concurrency' knob, used for maintenance work across multiple client sessions, has a default value of 10 on supported systems or 0 otherwise, and can be specifically adjusted for tables in a particular tablespace.

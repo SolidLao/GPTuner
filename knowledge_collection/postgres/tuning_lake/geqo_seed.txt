@@ -1,0 +1,1 @@
+Suggestion: The 'geqo_seed' parameter in Postgres controls the initial value of the random number generator utilized by the GEQO module to select random paths through the join order search space. Modifying this value can influence the set of join paths explored and may potentially impact the quality of the best path found, leading to different query plans being chosen.

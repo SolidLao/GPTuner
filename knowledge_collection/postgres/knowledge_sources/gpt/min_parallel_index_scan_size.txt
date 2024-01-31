@@ -1,0 +1,1 @@
+The 'min_parallel_index_scan_size' in Postgres is set to determine the minimum amount of index data that must be scanned in order for a parallel scan to be considered, and the default value is 512kB, but it can be increased or decreased based on the specific workload and system resources.

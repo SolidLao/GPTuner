@@ -1,0 +1,1 @@
+{"think_procedure": "The description of the knob 'max_files_per_process' does not mention any special values that would change the function of the knob. It only mentions that the default value is one thousand files and that it can be adjusted based on system requirements. Therefore, it behaves like a regular numerical knob.", "special_knob": false, "special_value": null}

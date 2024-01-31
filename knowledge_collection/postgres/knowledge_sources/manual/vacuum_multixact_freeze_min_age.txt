@@ -1,0 +1,1 @@
+The 'vacuum_multixact_freeze_min_age' knob in VACUUM determines the cutoff age, defaulting at 5 million multixacts, for replacing multixact IDs with a newer ID during a table scan, with the value being adjustable between zero to one billion but effectively limited to half of 'autovacuum_multixact_freeze_max_age' to prevent excessively frequent forced autovacuums.

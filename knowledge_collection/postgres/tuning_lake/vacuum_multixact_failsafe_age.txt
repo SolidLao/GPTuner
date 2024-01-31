@@ -1,0 +1,1 @@
+Based on the available suggestion, it is recommended to set the 'vacuum_multixact_failsafe_age' knob in postgres to a value less than half of 'autovacuum_multixact_freeze_max_age', typically around 400 million. This will ensure that emergency autovacuum processes are triggered before any data loss occurs.

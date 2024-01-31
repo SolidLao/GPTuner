@@ -1,0 +1,1 @@
+Set the value for 'autovacuum_vacuum_cost_delay' in postgres by specifying the number of milliseconds that the autovacuum process will sleep, to avoid consuming too much I/O; the default is 20ms, but it can be reduced for faster systems or increased if the autovacuum is causing performance issues.

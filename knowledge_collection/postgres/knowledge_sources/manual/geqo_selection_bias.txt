@@ -1,0 +1,1 @@
+The 'geqo_selection_bias' knob controls the selection bias used by GEQO, with values ranging from 1.50 to 2.00, and the default value being 2.00.

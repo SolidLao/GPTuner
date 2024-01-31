@@ -1,0 +1,1 @@
+The 'wal_compression' knob in PostgreSQL can be set to either 0 or 1, where 0 disables compression of write-ahead logs (WAL) and 1 enables it, potentially saving disk space but using more CPU resources.

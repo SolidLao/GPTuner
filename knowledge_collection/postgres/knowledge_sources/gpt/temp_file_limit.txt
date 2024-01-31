@@ -1,0 +1,1 @@
+The 'temp_file_limit' knob in Postgres can be set to limit the amount of disk space that a session can use for temporary files, such as sort and hash files, and the value is specified in kilobytes; if the limit is exceeded, the transaction will be canceled. For example, setting it to '50000' would limit the session to 50MB of disk space for temporary files.

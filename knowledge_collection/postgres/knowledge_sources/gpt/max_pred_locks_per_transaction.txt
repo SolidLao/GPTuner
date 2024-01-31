@@ -1,0 +1,1 @@
+The 'max_pred_locks_per_transaction' in Postgres is used to set the maximum number of predicate locks that can be held per transaction, and the default value is 64. If you have complex queries or a high level of concurrency, you may need to increase this value, but be aware that each lock consumes approximately 10 bytes of shared memory.

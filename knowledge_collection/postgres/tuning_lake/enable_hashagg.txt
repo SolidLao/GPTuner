@@ -1,0 +1,1 @@
+Based on the provided suggestions, it is recommended to adjust the 'enable_hashagg' knob in Postgres. This knob allows you to enable or disable the query planner's use of hashed aggregation plan types. The default setting is 'on', but it should be adjusted based on the specific workload and performance requirements.

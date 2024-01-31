@@ -1,0 +1,1 @@
+Set the value for 'autovacuum_vacuum_threshold' in postgres by specifying the minimum number of updated or deleted tuples needed to trigger a vacuum, with the default value being 50.

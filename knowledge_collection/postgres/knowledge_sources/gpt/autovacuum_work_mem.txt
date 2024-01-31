@@ -1,0 +1,1 @@
+The 'autovacuum_work_mem' knob in Postgres controls the amount of memory used by each autovacuum worker process, and it can be set to a specific number of bytes or -1 to allow the system to use the value of 'maintenance_work_mem', with the default being -1.

@@ -1,0 +1,1 @@
+The 'max_pred_locks_per_relation' knob in Postgres can be set to a specific value depending on the number of locks per relation, with the default value being 2^10 (1024), but it can be increased if a larger number of locks are needed, keeping in mind that each lock consumes 64 bytes of shared memory.

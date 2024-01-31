@@ -1,0 +1,1 @@
+The 'enable_indexonlyscan' knob in Postgres can be set to either 'on' or 'off', with 'on' enabling index-only scans when possible, which can improve query performance, and 'off' disabling this feature.

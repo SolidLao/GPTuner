@@ -1,0 +1,1 @@
+The 'autovacuum' knob in Postgres is typically set to 'on' to enable automatic vacuuming, but the frequency and specifics of the vacuuming process can be adjusted with parameters like 'autovacuum_vacuum_scale_factor' and 'autovacuum_analyze_scale_factor', which are usually set as a fraction of the total number of tuples in a table, often 0.2 and 0.1 respectively.

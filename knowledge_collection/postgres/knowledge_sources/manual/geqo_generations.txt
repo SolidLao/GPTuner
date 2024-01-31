@@ -1,0 +1,1 @@
+The 'geqo_generations' knob controls the number of iterations used by the GEQO algorithm, with a minimum value of one and a default setting of zero, which automatically selects a value based on the 'geqo_pool_size'.

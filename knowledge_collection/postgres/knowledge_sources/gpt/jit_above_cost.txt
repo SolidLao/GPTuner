@@ -1,0 +1,1 @@
+The 'jit_above_cost' knob in Postgres is used to set the query cost above which the JIT compiler is used, and its default value is 100000. You can increase or decrease this value based on your workload and performance requirements, but remember that setting it too low may cause the JIT compiler to be used too often, potentially slowing down your system.

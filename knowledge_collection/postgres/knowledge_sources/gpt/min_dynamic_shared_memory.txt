@@ -1,0 +1,1 @@
+The 'min_dynamic_shared_memory' knob in Postgres should be set to a value that is the minimum amount of dynamic shared memory to reserve, in kilobytes, with the default value being 64 kilobytes, and it should be increased if you are running out of dynamic shared memory.

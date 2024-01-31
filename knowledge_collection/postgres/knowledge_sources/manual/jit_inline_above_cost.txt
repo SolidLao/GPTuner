@@ -1,0 +1,1 @@
+The 'jit_inline_above_cost' knob sets the query cost threshold, defaulting at 500000, above which JIT compilation tries to inline functions and operators to potentially enhance execution speed, despite increasing planning time, and it cannot be set lower than 'jit_above_cost'; setting it to -1 turns off inlining.

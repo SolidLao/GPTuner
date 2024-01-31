@@ -1,0 +1,1 @@
+The 'max_standby_archive_delay' in Postgres can be set to the maximum delay in milliseconds that a standby server can lag behind the primary server before it starts to ignore the delay and apply changes immediately, with the default value being 30 seconds (30000 milliseconds), but it can be set to -1 to make the standby server wait indefinitely.

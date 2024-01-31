@@ -1,0 +1,1 @@
+Based on the provided suggestions, it is recommended to understand that the 'geqo_selection_bias' knob is a control feature used by GEQO. Its default value is set at 2.00.

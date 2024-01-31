@@ -1,0 +1,1 @@
+The 'track_activities' knob allows the gathering of data on the ongoing command of each session, including its starting time, and is automatically enabled, but only superusers and the session's owner can view this information and only superusers can modify this setting.

@@ -1,0 +1,1 @@
+The 'enable_hashjoin' knob in Postgres can be set to either 'on' or 'off', with 'on' enabling the query planner's use of hash join plans, and 'off' disabling it; the default value is 'on'.

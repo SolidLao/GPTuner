@@ -1,0 +1,1 @@
+The 'logical_decoding_work_mem' knob in Postgres controls the amount of memory used by logical decoding, and its value can be set according to the system's available memory, with the default being 64MB, but it can be increased if the system has sufficient memory to improve the performance of logical decoding.

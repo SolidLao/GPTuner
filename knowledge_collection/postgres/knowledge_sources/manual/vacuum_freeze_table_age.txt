@@ -1,0 +1,1 @@
+The 'vacuum_freeze_table_age' knob triggers an aggressive scan by VACUUM if a table's pg_class.relfrozenxid field reaches the age specified by this setting, which defaults to 150 million transactions and can be set between zero to two billion, but VACUUM will limit the effective value to 95% of autovacuum_freeze_max_age.

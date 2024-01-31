@@ -1,0 +1,1 @@
+I suggest enabling the 'parallel_leader_participation' knob as it allows the leader process to execute the query plan under Gather and Gather Merge nodes. This could potentially affect performance depending on the plan type, number of workers, and query duration. Please note that the default setting for this feature is on.

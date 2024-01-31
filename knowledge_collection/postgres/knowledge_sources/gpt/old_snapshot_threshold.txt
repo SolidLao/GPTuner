@@ -1,0 +1,1 @@
+The 'old_snapshot_threshold' in Postgres is set in minutes and determines the age at which snapshots are considered old; it can be set to -1 to disable the feature, or any positive integer up to 2^31-1, but a careful balance must be struck to avoid performance issues, with a recommended starting point often being 60 minutes.

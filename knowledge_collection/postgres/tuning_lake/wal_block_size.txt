@@ -1,0 +1,1 @@
+Based on the available information, the suggestion is to understand that the 'wal_block_size' in Postgres is a read-only parameter. It indicates the block size that Postgres uses to write the write-ahead log. Please note that this parameter is set at compile time and cannot be altered without recompiling Postgres.

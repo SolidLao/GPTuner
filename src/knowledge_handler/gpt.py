@@ -41,6 +41,8 @@ class GPT:
             return (self.calc_token(in_text) * 0.03 + self.calc_token(out_text) * 0.06) / 1000
         elif self.model == "gpt-3.5-turbo":
             return (self.calc_token(in_text) * 0.0015 + self.calc_token(out_text) * 0.002) / 1000
+        elif self.model == "gpt-4-1106-preview" or self.model == "gpt-4-1106-vision-preview":
+            return (self.calc_token(in_text) * 0.01 + self.calc_token(out_text) * 0.03) / 1000
 
     def remove_html_tags(self, text):
         clean = re.compile('<.*?>')

@@ -1,0 +1,1 @@
+The 'autovacuum_analyze_threshold' knob in PostgreSQL triggers an ANALYZE operation when a minimum of 50 tuples are inserted, updated, or deleted in a table, and this setting can be customized in the postgresql.conf file or server command line, or overridden for specific tables by altering table storage parameters.

@@ -1,0 +1,1 @@
+The 'trace_notify' knob generates extensive debugging output for LISTEN and NOTIFY commands, but requires 'client_min_messages' or 'log_min_messages' to be set to DEBUG1 or lower to send this output to the client or server logs.

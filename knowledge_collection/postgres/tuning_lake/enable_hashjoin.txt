@@ -1,0 +1,1 @@
+As a suggestion, you can utilize the 'enable_hashjoin' knob in Postgres to either enable or disable the query planner's use of hash-join plan types. The default setting for this feature is 'on'.

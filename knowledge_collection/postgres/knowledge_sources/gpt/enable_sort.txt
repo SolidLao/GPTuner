@@ -1,0 +1,1 @@
+The 'enable_sort' knob in Postgres can be set to either 1 (on) or 0 (off), with 1 enabling the query planner's ability to use sort and merge join plans, and 0 disabling it.

@@ -1,0 +1,1 @@
+The 'autovacuum_vacuum_cost_limit' in Postgres can be set by estimating the total disk I/O capacity and then setting the value to about 1/4th of that estimate, with the default value being 200, but it can be increased if your system has a high capacity for disk I/O.

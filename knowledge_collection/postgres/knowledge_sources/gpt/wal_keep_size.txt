@@ -1,0 +1,1 @@
+The 'wal_keep_size' knob in Postgres is set to determine the amount of WAL files (in megabytes) that the system retains for standby servers, with the default value being 0. The value should be set based on the expected volume of data changes between base backups, and it's recommended to set it to a value large enough to ensure that WAL files needed by the standby are not removed.

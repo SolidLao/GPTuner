@@ -1,0 +1,1 @@
+The 'max_sync_workers_per_subscription' knob in Postgres determines the maximum number of table synchronization workers per subscription, and it can be set based on the workload and system capacity, with the default value being 2, but it should not exceed the maximum number of background workers configured for the entire system.

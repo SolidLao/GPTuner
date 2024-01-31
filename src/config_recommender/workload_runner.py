@@ -18,24 +18,48 @@ class BenchbaseRunner:
         else:
             self.benchmark_path = "./benchbase/target/benchbase-mysql"
 
+    def check_sequence_in_file(self):
+        file_path = os.path.join(self.target_path, "out.txt")
+        try:
+            with open(file_path, 'r') as file:
+                content = file.read()
+                error_index = content.find("Unexpected SQL Errors")
+                if error_index != -1:
+                    for i in range(1, 23):
+                        formatted_num = "%02d" % i
+                        if f"Q{i}/{formatted_num}" in content[error_index:]:
+                            return True
+                else:
+                    return False
+        except FileNotFoundError:
+            print(f"File Not Found: {file_path}")
+            return False
+        except Exception as e:
+            print(f"Error: {e}")
+            return False
+
     def run_benchmark(self):
-        if isinstance(self.dbms, PgDBMS):
-            self.process = subprocess.Popen(
-                ['java', '-jar', 'benchbase.jar', '-b', self.test, 
-                "-c", "config/postgres/sample_{}_config.xml".format(self.test), 
-                "--create=false", "--clear=false", "--load=false", '--execute=true', 
-                "-d", os.path.join("../../../", self.target_path)],
-                cwd=self.benchmark_path
-            )
-        elif isinstance(self.dbms, MysqlDBMS):
-            self.process = subprocess.Popen(
-                ['java', '-jar', 'benchbase.jar', '-b', self.test, 
-                "-c", "config/mysql/sample_{}_config.xml".format(self.test), 
-                "--create=false", "--clear=false", "--load=false", '--execute=true', 
-                "-d", os.path.join("../../../", self.target_path)],
-                cwd=self.benchmark_path
-            )
-        self.process.wait()
+        with open(os.path.join(self.target_path, "out.txt"), 'w') as output_file:
+            if isinstance(self.dbms,PgDBMS):
+                self.process = subprocess.Popen(    
+                    ['java', '-jar', 'benchbase.jar', '-b', self.test, 
+                    "-c", "config/postgres/sample_{}_config.xml".format(self.test), 
+                    "--create=false", "--clear=false", "--load=false", '--execute=true', 
+                    "-d", os.path.join("../../../", self.target_path)],
+                    cwd=self.benchmark_path,
+                    stdout=output_file
+                )
+            elif isinstance(self.dbms, MysqlDBMS):
+                
+                self.process = subprocess.Popen(
+                    ['java', '-jar', 'benchbase.jar', '-b', self.test, 
+                    "-c", "config/mysql/sample_{}_config.xml".format(self.test), 
+                    "--create=false", "--clear=false", "--load=false", '--execute=true', 
+                    "-d", os.path.join("../../../", self.target_path)],
+                    cwd=self.benchmark_path,
+                    stdout=output_file
+                )
+            self.process.wait()
 
     def clear_summary_dir(self):
         for filename in os.listdir(self.target_path):
@@ -64,7 +88,6 @@ class BenchbaseRunner:
             print(f"Throughput: {throughput}")
         except Exception as e:
             print(f'Exception for JSON: {e}')
-            throughput = self.penalty - 2
         return throughput
 
     def get_latency(self):
@@ -78,5 +101,4 @@ class BenchbaseRunner:
             print(f"Latency: {average_latency}")
         except Exception as e:
             print(f'Exception for JSON: {e}')
-            average_latency = self.penalty - 2
         return average_latency

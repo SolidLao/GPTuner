@@ -1,0 +1,1 @@
+The 'autovacuum_vacuum_cost_delay' knob specifies the delay value for automatic VACUUM operations, defaulting to 2 milliseconds, and can be set in the postgresql.conf file or server command line, with the ability to override for individual tables.

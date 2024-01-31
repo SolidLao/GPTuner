@@ -1,0 +1,1 @@
+The 'enable_material' knob allows or prevents the query planner's use of materialization, with the default setting being on, although it cannot completely suppress materialization.

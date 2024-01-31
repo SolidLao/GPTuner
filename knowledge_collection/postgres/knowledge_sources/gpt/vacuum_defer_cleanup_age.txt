@@ -1,0 +1,1 @@
+The 'vacuum_defer_cleanup_age' knob in Postgres is set to control the number of transactions by which VACUUM and HOT cleanup is deferred, with the default value being 0, but it can be increased up to 1 billion if needed to delay cleanup and avoid conflicts with long-running transactions.

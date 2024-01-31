@@ -1,0 +1,1 @@
+The 'parallel_leader_participation' knob in Postgres determines whether the leader of a parallel query should participate in the processing of the query or not, with a value of 1 enabling participation and 0 disabling it.

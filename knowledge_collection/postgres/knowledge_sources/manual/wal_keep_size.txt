@@ -1,0 +1,1 @@
+The 'wal_keep_size' knob specifies the minimum size of past log file segments, in megabytes, to be kept in the pg_wal directory for streaming replication in case a standby server needs them; if set to zero (default), no extra segments are kept for standby purposes.

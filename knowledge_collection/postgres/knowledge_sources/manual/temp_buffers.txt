@@ -1,0 +1,1 @@
+The 'temp_buffers' knob sets the maximum memory used for temporary buffers in each database session, typically used for temporary tables, with a default of eight megabytes (8MB), and can be changed within sessions before the first use of temporary tables; each increase in temp_buffers costs about 64 bytes, and an additional 8192 bytes if a buffer is used.

@@ -1,0 +1,1 @@
+The 'autovacuum_vacuum_insert_scale_factor' knob is a parameter that determines a fraction of the table size, defaulting to 0.2 or 20%, to be added to autovacuum_vacuum_insert_threshold to decide when to trigger a VACUUM, and it can be set in the postgresql.conf file or on the server command line, with the ability to override the setting for individual tables.

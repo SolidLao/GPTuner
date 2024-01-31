@@ -1,0 +1,1 @@
+The 'geqo_seed' knob controls the initial value of the random number generator used by GEQO to select random paths through the join order search space, with a value range from zero (default) to one, and altering this value can change the set of join paths explored, potentially impacting the quality of the best path found.

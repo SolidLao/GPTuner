@@ -1,0 +1,1 @@
+The 'geqo' knob enables or disables genetic query optimization, which is typically left on in production, with the 'geqo_threshold' variable offering more specific control of GEQO.

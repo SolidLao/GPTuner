@@ -1,0 +1,1 @@
+The 'max_pred_locks_per_page' knob in PostgreSQL determines the maximum number of predicate locks that can be held per page, and its default value is 2. You can increase this value if you have a high contention workload, but be aware that it will consume more shared memory.

@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
 
     # prepare tuning lake and structured knowledge
-    target_knobs_path = f"./knowledge_collection/{args.db}/target_knobs.txt"
+    target_knobs_path = f"/home/knob/revision/GPTuner/knowledge_collection/postgres/target_knobs.txt"
     with open(target_knobs_path, 'r') as file:
         lines = file.readlines()
         target_knobs = [line.strip() for line in lines]

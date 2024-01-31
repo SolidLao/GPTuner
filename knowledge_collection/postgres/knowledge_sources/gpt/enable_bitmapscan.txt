@@ -1,0 +1,1 @@
+The 'enable_bitmapscan' knob in Postgres can be set to either 1 or 0, where 1 enables the bitmap scan feature and 0 disables it, depending on the specific requirements of your database queries and performance.

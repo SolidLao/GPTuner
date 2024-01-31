@@ -1,0 +1,1 @@
+The 'track_wal_io_timing' knob in Postgres can be set to either 1 (on) or 0 (off), with 1 enabling the tracking of WAL (Write-Ahead Logging) I/O timings, which can be useful for performance diagnostics.

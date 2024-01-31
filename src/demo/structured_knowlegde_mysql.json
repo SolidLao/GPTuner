@@ -1,0 +1,4631 @@
+{
+    "activate_all_roles_on_login": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_address": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_port": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_ca": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_capath": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_cert": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_cipher": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_crl": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_crlpath": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_ssl_key": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_tls_ciphersuites": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "admin_tls_version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "authentication_policy": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "auto_generate_certs": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "auto_increment_increment": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "auto_increment_offset": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "autocommit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "automatic_sp_privileges": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "avoid_temporal_upgrade": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "back_log": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "basedir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "big_tables": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "bind_address": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_cache_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_checksum": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_direct_non_transactional_updates": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_encryption": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_error_action": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_expire_logs_auto_purge": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_expire_logs_seconds": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_format": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_group_commit_sync_delay": {
+        "min_value": "0 ms",
+        "max_value": "1000 ms",
+        "suggested_values": [],
+        "special_knob": false,
+        "special_value": null
+    },
+    "binlog_group_commit_sync_no_delay_count": {
+        "suggested_values": [
+            10000
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "binlog_gtid_simple_recovery": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_max_flush_queue_time": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_order_commits": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_rotate_encryption_master_key_at_startup": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_row_event_max_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_row_image": {
+        "suggested_values": [
+            "full",
+            "minimal",
+            "noblob"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "binlog_row_metadata": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_row_value_options": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_rows_query_log_events": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_stmt_cache_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_transaction_compression": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_transaction_compression_level_zstd": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_transaction_dependency_history_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "binlog_transaction_dependency_tracking": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "block_encryption_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "bulk_insert_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "caching_sha2_password_auto_generate_rsa_keys": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "caching_sha2_password_digest_rounds": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "caching_sha2_password_private_key_path": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "caching_sha2_password_public_key_path": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_client": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_connection": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_database": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_filesystem": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_results": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_server": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_set_system": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "character_sets_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "check_proxy_users": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "collation_connection": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "collation_database": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "collation_server": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "completion_type": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "concurrent_insert": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "connect_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "connection_memory_chunk_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "connection_memory_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "core_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "create_admin_listener_thread": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "cte_max_recursion_depth": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "datadir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_authentication_plugin": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_collation_for_utf8mb4": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_password_lifetime": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_storage_engine": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_table_encryption": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_tmp_storage_engine": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "default_week_format": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "delay_key_write": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "delayed_insert_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "delayed_insert_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "delayed_queue_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "disabled_storage_engines": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "disconnect_on_expired_password": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "div_precision_increment": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "end_markers_in_json": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "enforce_gtid_consistency": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "eq_range_index_dive_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "error_count": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "event_scheduler": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "expire_logs_days": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "explicit_defaults_for_timestamp": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "external_user": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "flush": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "flush_time": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "foreign_key_checks": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ft_boolean_syntax": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ft_max_word_len": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ft_min_word_len": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ft_query_expansion_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ft_stopword_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "general_log": {
+        "suggested_values": [
+            0,
+            1
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": "0 or 'OFF', and 1 or 'ON'"
+    },
+    "general_log_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "generated_random_password_length": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "global_connection_memory_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "global_connection_memory_tracking": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "group_concat_max_len": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "group_replication_consistency": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "gtid_executed": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "gtid_executed_compression_period": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "gtid_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "gtid_next": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "gtid_owned": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "gtid_purged": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_compress": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_dynamic_loading": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_geometry": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_openssl": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_profiling": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_query_cache": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_rtree_keys": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_ssl": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_statement_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "have_symlink": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "histogram_generation_max_mem_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "host_cache_size": {
+        "suggested_values": [],
+        "min_value": 128,
+        "max_value": 65536,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "hostname": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "identity": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "immediate_server_version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "information_schema_stats_expiry": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "init_connect": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "init_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "init_replica": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "init_slave": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_adaptive_flushing": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_adaptive_flushing_lwm": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_adaptive_hash_index": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_adaptive_hash_index_parts": {
+        "suggested_values": [],
+        "min_value": "1",
+        "max_value": "512",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_adaptive_max_sleep_delay": {
+        "suggested_values": [],
+        "min_value": "10000",
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_api_bk_commit_interval": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_api_disable_rowlock": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_api_enable_binlog": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_api_enable_mdl": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_api_trx_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_autoextend_increment": {
+        "suggested_values": [],
+        "min_value": "8 MB",
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_autoinc_lock_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_chunk_size": {
+        "suggested_values": [],
+        "min_value": "16KB",
+        "max_value": "128MB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_buffer_pool_dump_at_shutdown": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_dump_now": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_dump_pct": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_buffer_pool_filename": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_in_core_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_load_abort": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_load_at_startup": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_load_now": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_buffer_pool_size": {
+        "suggested_values": [],
+        "min_value": "77 GB",
+        "max_value": "88 GB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_change_buffer_max_size": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_change_buffering": {
+        "suggested_values": [
+            "none",
+            "inserts",
+            "deletes",
+            "changes",
+            "purges",
+            "all"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_checksum_algorithm": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_cmp_per_index_enabled": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_commit_concurrency": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_compression_failure_threshold_pct": {
+        "suggested_values": [],
+        "min_value": 5,
+        "max_value": 50,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_compression_pad_pct_max": {
+        "suggested_values": [],
+        "min_value": "0",
+        "max_value": "50",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_concurrency_tickets": {
+        "suggested_values": [
+            5000,
+            100
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_data_file_path": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_data_home_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ddl_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ddl_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_deadlock_detect": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_dedicated_server": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 1
+    },
+    "innodb_default_row_format": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_directories": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_disable_sort_file_cache": {
+        "suggested_values": [
+            0,
+            1
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_doublewrite": {
+        "suggested_values": [
+            0,
+            1
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_doublewrite_batch_size": {
+        "suggested_values": [],
+        "min_value": 127,
+        "max_value": 1200,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_doublewrite_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_doublewrite_files": {
+        "suggested_values": [],
+        "min_value": 1,
+        "max_value": 127,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_doublewrite_pages": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_extend_and_initialize": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_fast_shutdown": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_file_per_table": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_fill_factor": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_flush_log_at_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_flush_method": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_flush_neighbors": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_flush_sync": {
+        "suggested_values": [
+            "ON",
+            "OFF"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_flushing_avg_loops": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_force_load_corrupted": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_force_recovery": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_fsync_threshold": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_aux_table": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_cache_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_enable_diag_print": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_enable_stopword": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_max_token_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_min_token_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_num_word_optimize": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_result_cache_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_server_stopword_table": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_sort_pll_degree": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_ft_total_cache_size": {
+        "suggested_values": [],
+        "min_value": "0MB",
+        "max_value": "800MB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_ft_user_stopword_table": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_idle_flush_pct": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_io_capacity": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_io_capacity_max": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_lock_wait_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_log_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_log_checksums": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_log_compressed_pages": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_log_file_size": {
+        "suggested_values": [],
+        "min_value": "0 GB",
+        "max_value": "4 GB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_log_files_in_group": {
+        "suggested_values": [
+            2
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_log_group_home_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_log_spin_cpu_abs_lwm": {
+        "suggested_values": [],
+        "min_value": 0,
+        "max_value": 100,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_log_spin_cpu_pct_hwm": {
+        "suggested_values": [],
+        "min_value": 0,
+        "max_value": 100,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_log_wait_for_flush_spin_hwm": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_log_write_ahead_size": {
+        "suggested_values": [],
+        "min_value": "512B",
+        "max_value": "32KB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_log_writer_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_lru_scan_depth": {
+        "suggested_values": [
+            2048,
+            4096
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_max_dirty_pages_pct": {
+        "suggested_values": [],
+        "min_value": "0",
+        "max_value": "100",
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_max_dirty_pages_pct_lwm": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_max_purge_lag": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_max_purge_lag_delay": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_max_undo_log_size": {
+        "suggested_values": [
+            "4GB"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_monitor_disable": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_monitor_enable": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_monitor_reset": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_monitor_reset_all": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_numa_interleave": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_old_blocks_pct": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_old_blocks_time": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_online_alter_log_max_size": {
+        "suggested_values": [],
+        "min_value": "128MB",
+        "max_value": "884GB",
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_open_files": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_optimize_fulltext_only": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_page_cleaners": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": "64",
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_page_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_parallel_read_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_print_all_deadlocks": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_print_ddl_logs": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_purge_batch_size": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_purge_rseg_truncate_frequency": {
+        "suggested_values": [],
+        "min_value": 1,
+        "max_value": 128,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_purge_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_random_read_ahead": {
+        "suggested_values": [
+            0,
+            1
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_read_ahead_threshold": {
+        "suggested_values": [],
+        "min_value": 0,
+        "max_value": 64,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_read_io_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_read_only": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_redo_log_archive_dirs": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_redo_log_capacity": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_redo_log_encrypt": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_replication_delay": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_rollback_on_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_rollback_segments": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_segment_reserve_factor": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_sort_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_spin_wait_delay": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_spin_wait_pause_multiplier": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_auto_recalc": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_include_delete_marked": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_method": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_on_metadata": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_persistent": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_persistent_sample_pages": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_stats_transient_sample_pages": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "innodb_status_output": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_status_output_locks": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_strict_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_sync_array_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_sync_spin_loops": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_table_locks": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_temp_data_file_path": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_temp_tablespaces_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_thread_concurrency": {
+        "suggested_values": [
+            0
+        ],
+        "min_value": 0,
+        "max_value": 24,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "innodb_thread_sleep_delay": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_tmpdir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_undo_directory": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_undo_log_encrypt": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_undo_log_truncate": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_undo_tablespaces": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_use_fdatasync": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_use_native_aio": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_validate_tablespace_paths": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "innodb_write_io_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "insert_id": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "interactive_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "internal_tmp_mem_storage_engine": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "join_buffer_size": {
+        "suggested_values": [
+            "128KB"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "keep_files_on_create": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "key_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "key_cache_age_threshold": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "key_cache_block_size": {
+        "suggested_values": [],
+        "min_value": "1KB",
+        "max_value": "16KB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "key_cache_division_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "keyring_operations": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "large_files_support": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "large_page_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "large_pages": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "last_insert_id": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "lc_messages": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "lc_messages_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "lc_time_names": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "license": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "local_infile": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "lock_wait_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "locked_in_memory": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_bin": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_bin_basename": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_bin_index": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_bin_trust_function_creators": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_bin_use_v1_row_events": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_error": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_error_services": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_error_suppression_list": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_error_verbosity": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_output": {
+        "suggested_values": [
+            "FILE",
+            "TABLE",
+            "NONE"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": "NONE"
+    },
+    "log_queries_not_using_indexes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_raw": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_replica_updates": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_slave_updates": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_slow_admin_statements": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_slow_extra": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_slow_replica_statements": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_slow_slave_statements": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_statements_unsafe_for_binlog": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_throttle_queries_not_using_indexes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "log_timestamps": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "long_query_time": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "low_priority_updates": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "lower_case_file_system": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "lower_case_table_names": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mandatory_roles": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "master_info_repository": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "master_verify_checksum": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_allowed_packet": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_binlog_cache_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_binlog_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_binlog_stmt_cache_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_connect_errors": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_connections": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_delayed_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_digest_length": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_error_count": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_execution_time": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_heap_table_size": {
+        "suggested_values": [],
+        "min_value": "16MB",
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "max_insert_delayed_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_join_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_length_for_sort_data": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_points_in_geometry": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_prepared_stmt_count": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_relay_log_size": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "max_seeks_for_key": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_sort_length": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_sp_recursion_depth": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "max_user_connections": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": 151,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "max_write_lock_count": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "min_examined_row_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_data_pointer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_max_sort_file_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_mmap_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_recover_options": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_sort_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_stats_method": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "myisam_use_mmap": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysql_native_password_proxy_users": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_bind_address": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_compression_algorithms": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_connect_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_deflate_default_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_deflate_max_client_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_document_id_unique_prefix": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_enable_hello_notice": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_idle_worker_thread_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_interactive_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_lz4_default_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_lz4_max_client_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_max_allowed_packet": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_max_connections": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_min_worker_threads": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_port": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_port_open_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_read_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_socket": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_ca": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_capath": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_cert": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_cipher": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_crl": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_crlpath": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_ssl_key": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_wait_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_write_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_zstd_default_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "mysqlx_zstd_max_client_compression_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "net_buffer_length": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "net_read_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "net_retry_count": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "net_write_timeout": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "new": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ngram_token_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "offline_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "old": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "old_alter_table": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "open_files_limit": {
+        "suggested_values": [
+            5000
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "optimizer_max_subgraph_pairs": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_prune_level": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_search_depth": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_switch": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_trace": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_trace_features": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_trace_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_trace_max_mem_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "optimizer_trace_offset": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "original_commit_timestamp": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "original_server_version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "parser_max_mem_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "partial_revokes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "password_history": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "password_require_current": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "password_reuse_interval": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_accounts_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_digests_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_error_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_stages_history_long_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_stages_history_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_statements_history_long_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_statements_history_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_transactions_history_long_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_transactions_history_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_waits_history_long_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_events_waits_history_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_hosts_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_cond_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_cond_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_digest_length": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_digest_sample_age": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_file_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_file_handles": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_file_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_index_stat": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_memory_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_metadata_locks": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_mutex_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_mutex_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_prepared_statements_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_program_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_rwlock_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_rwlock_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_socket_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_socket_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_sql_text_length": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_stage_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_statement_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_statement_stack": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_table_handles": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_table_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_table_lock_stat": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_thread_classes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_max_thread_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_session_connect_attrs_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_setup_actors_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_setup_objects_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_show_processlist": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "performance_schema_users_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "persist_only_admin_x509_subject": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "persist_sensitive_variables_in_plaintext": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "persisted_globals_load": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "pid_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "plugin_dir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "port": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "preload_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "print_identified_with_as_hex": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "profiling": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "profiling_history_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "protocol_compression_algorithms": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "protocol_version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "proxy_user": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "pseudo_replica_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "pseudo_slave_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "pseudo_thread_id": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "query_alloc_block_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "query_prealloc_size": {
+        "suggested_values": [],
+        "min_value": "8192 B",
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "rand_seed1": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "rand_seed2": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "range_alloc_block_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "range_optimizer_max_mem_size": {
+        "suggested_values": [],
+        "min_value": "1.5 MB",
+        "max_value": "110 GB",
+        "special_knob": true,
+        "special_value": 0
+    },
+    "rbr_exec_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "read_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "read_only": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "read_rnd_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "regexp_stack_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "regexp_time_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_basename": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_index": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_info_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_info_repository": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_purge": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_recovery": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "relay_log_space_limit": {
+        "suggested_values": [],
+        "min_value": "0 GB",
+        "max_value": "884 GB",
+        "special_knob": true,
+        "special_value": 0
+    },
+    "replica_allow_batching": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_checkpoint_group": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_checkpoint_period": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_compressed_protocol": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_exec_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_load_tmpdir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_max_allowed_packet": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_net_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_parallel_type": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_parallel_workers": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_pending_jobs_size_max": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_preserve_commit_order": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_skip_errors": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_sql_verify_checksum": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_transaction_retries": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replica_type_conversions": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replication_optimize_for_static_plugin_config": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "replication_sender_observe_commit_only": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "report_host": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "report_password": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "report_port": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "report_user": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "require_row_format": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "require_secure_transport": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "resultset_metadata": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "rpl_read_size": {
+        "suggested_values": [
+            "8192"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "rpl_stop_replica_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "rpl_stop_slave_timeout": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "schema_definition_cache": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "secondary_engine_cost_threshold": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "secure_file_priv": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "select_into_buffer_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "select_into_disk_sync": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "select_into_disk_sync_delay": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "server_id": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "server_id_bits": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "server_uuid": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "session_track_gtids": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "session_track_schema": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "session_track_state_change": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "session_track_system_variables": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "session_track_transaction_info": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sha256_password_auto_generate_rsa_keys": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sha256_password_private_key_path": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sha256_password_proxy_users": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sha256_password_public_key_path": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "show_create_table_skip_secondary_engine": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "show_create_table_verbosity": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "show_gipk_in_create_table_and_information_schema": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "show_old_temporals": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "skip_external_locking": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "skip_name_resolve": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "skip_networking": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "skip_replica_start": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "skip_show_database": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "skip_slave_start": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_allow_batching": {
+        "suggested_values": [
+            0,
+            1
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "slave_checkpoint_group": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_checkpoint_period": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_compressed_protocol": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_exec_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_load_tmpdir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_max_allowed_packet": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_net_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_parallel_type": {
+        "suggested_values": [
+            "DATABASE",
+            "LOGICAL_CLOCK"
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "slave_parallel_workers": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_pending_jobs_size_max": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_preserve_commit_order": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_rows_search_algorithms": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_skip_errors": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_sql_verify_checksum": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_transaction_retries": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slave_type_conversions": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slow_launch_time": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slow_query_log": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "slow_query_log_file": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "socket": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sort_buffer_size": {
+        "suggested_values": [],
+        "min_value": "256KB",
+        "max_value": "1MB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "source_verify_checksum": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_auto_is_null": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_big_selects": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_buffer_result": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_generate_invisible_primary_key": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_log_bin": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_log_off": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_notes": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_quote_show_create": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_replica_skip_counter": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_require_primary_key": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_safe_updates": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_select_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_slave_skip_counter": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sql_warnings": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_ca": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_capath": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_cert": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_cipher": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_crl": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_crlpath": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_fips_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_key": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_session_cache_mode": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "ssl_session_cache_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "stored_program_cache": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "stored_program_definition_cache": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": 0
+    },
+    "super_read_only": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sync_binlog": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sync_master_info": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sync_relay_log": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sync_relay_log_info": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "sync_source_info": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "system_time_zone": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "table_definition_cache": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "table_encryption_privilege_check": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "table_open_cache": {
+        "suggested_values": [
+            2000
+        ],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": false,
+        "special_value": null
+    },
+    "table_open_cache_instances": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "tablespace_definition_cache": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": null,
+        "special_knob": true,
+        "special_value": -1
+    },
+    "temptable_max_mmap": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "temptable_max_ram": {
+        "suggested_values": [],
+        "min_value": null,
+        "max_value": "22 GB",
+        "special_knob": false,
+        "special_value": null
+    },
+    "temptable_use_mmap": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "terminology_use_previous": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "thread_cache_size": {
+        "suggested_values": [],
+        "min_value": "0",
+        "max_value": "100",
+        "special_knob": true,
+        "special_value": 0
+    },
+    "thread_handling": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "thread_stack": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "time_zone": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "timestamp": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "tls_ciphersuites": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "tls_version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "tmp_table_size": {
+        "suggested_values": [],
+        "min_value": "16M",
+        "max_value": "32M",
+        "special_knob": false,
+        "special_value": null
+    },
+    "tmpdir": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "transaction_alloc_block_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "transaction_allow_batching": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "transaction_isolation": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "transaction_prealloc_size": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "transaction_read_only": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "transaction_write_set_extraction": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "unique_checks": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "updatable_views_with_limit": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "use_secondary_engine": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "version": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "version_comment": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "version_compile_machine": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "version_compile_os": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "version_compile_zlib": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "wait_timeout": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "warning_count": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "windowing_use_high_precision": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    },
+    "xa_detach_on_prepare": {
+        "min_value": null,
+        "max_value": null,
+        "suggested_values": null,
+        "special_knob": null,
+        "special_value": null
+    }
+}

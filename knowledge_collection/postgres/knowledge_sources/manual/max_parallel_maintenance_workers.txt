@@ -1,0 +1,1 @@
+The 'max_parallel_maintenance_workers' knob sets the maximum number of parallel workers, up to the default value of 2, that can be used by a single utility command such as CREATE INDEX or VACUUM, with the actual number available at run time potentially being less, and setting this value to 0 disables the use of parallel workers.

@@ -1,0 +1,1 @@
+Based on the available suggestion, it is recommended to adjust the 'client_connection_check_interval' knob in Postgres according to your system's specific needs. This knob determines the frequency of checks for dead client connections, and setting a lower value will result in more frequent checks.

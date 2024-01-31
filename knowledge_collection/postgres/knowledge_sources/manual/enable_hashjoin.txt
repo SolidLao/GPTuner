@@ -1,0 +1,1 @@
+The 'enable_hashjoin' knob allows you to turn on or off the query planner's use of hash-join plan types, with the default setting being on.

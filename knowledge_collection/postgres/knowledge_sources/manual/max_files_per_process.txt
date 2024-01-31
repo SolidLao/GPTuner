@@ -1,0 +1,1 @@
+The 'max_files_per_process' knob sets the limit for open files per server subprocess, defaulting to one thousand files, and should be reduced if 'Too many open files' failures occur; this setting can only be adjusted at server start.

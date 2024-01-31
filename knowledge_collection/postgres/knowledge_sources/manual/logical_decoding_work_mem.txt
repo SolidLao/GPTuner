@@ -1,0 +1,1 @@
+The 'logical_decoding_work_mem' knob specifies the maximum memory, defaulting to 64MB, to be used by logical decoding before some decoded changes are written to local disk, limiting the memory used by logical streaming replication connections, and can be set higher than work_mem to reduce the amount of decoded changes written to disk.

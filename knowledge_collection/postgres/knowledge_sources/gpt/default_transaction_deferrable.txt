@@ -1,0 +1,1 @@
+The 'default_transaction_deferrable' knob in Postgres can be set to either 1 (true) or 0 (false), with the default being 0; when set to 1, it ensures that the current transaction is deferrable, meaning it can be delayed in order to avoid conflicts with other transactions.

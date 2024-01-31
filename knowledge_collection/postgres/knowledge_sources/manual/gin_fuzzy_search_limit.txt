@@ -1,0 +1,1 @@
+The 'gin_fuzzy_search_limit' knob sets a soft upper limit on the size of the set returned by GIN index scans.

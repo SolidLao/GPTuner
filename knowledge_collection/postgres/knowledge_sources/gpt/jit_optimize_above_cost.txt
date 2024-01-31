@@ -1,0 +1,1 @@
+The 'jit_optimize_above_cost' knob in Postgres can be set to a specific value that determines the estimated cost for a query above which JIT compilation is performed, with a default value of 5000; lowering this value may increase the number of queries that use JIT compilation, but may also increase CPU usage.

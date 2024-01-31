@@ -36,9 +36,11 @@ class MysqlDBMS(DBMSTemplate):
             except Exception as e:
                 self.failed_times += 1
                 print(f'Exception while trying to connect: {e}')
-                if self.failed_times >= 4:
+                if self.failed_times <= 4:
                     self.recover_dbms()
-                print("Reconnet again")
+                    print("Reconnet again")
+                else:
+                    return False
                 time.sleep(3)
 
             
@@ -181,3 +183,18 @@ class MysqlDBMS(DBMSTemplate):
         row = cursor.fetchone()
         cursor.close()
         return row is not None
+
+    def exec_quries(self, sql):
+        """ Executes all SQL queries in given file and returns success flag. """
+        try:
+            self.connection.autocommit = True
+            cursor = self.connection.cursor()
+            sql_statements = sql.split(';')
+            for statement in sql_statements:
+                if statement.strip():
+                    cursor.execute(statement)
+            cursor.close()
+            return True
+        except Exception as e:
+            print(f'Exception execution {sql}: {e}')
+        return False

@@ -1,0 +1,1 @@
+Based on the provided suggestions, it is recommended to utilize the 'enable_tidscan' knob in Postgres. This feature allows the query planner to use TID scan plan types. It can be set to either 'on' or 'off', depending on your specific database requirements and performance needs. The default setting for this feature is enabled.

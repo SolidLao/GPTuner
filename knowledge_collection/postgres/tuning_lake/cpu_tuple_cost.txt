@@ -1,0 +1,1 @@
+I suggest adjusting the 'cpu_tuple_cost' knob, which is used to modify the planner's estimated cost of processing each row in a query. The default setting is 0.01. By increasing this value, the system is more likely to select plans that scan fewer rows, while decreasing it makes the system more likely to choose plans that involve more CPU operations.

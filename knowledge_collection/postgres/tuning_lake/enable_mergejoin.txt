@@ -1,0 +1,1 @@
+I suggest adjusting the 'enable_mergejoin' knob in Postgres to manage the use of merge-join plan types by the query planner. This knob can be set to either 'on' or 'off', with 'on' enabling the merge join plan type and 'off' disabling it. The default setting is 'on'.

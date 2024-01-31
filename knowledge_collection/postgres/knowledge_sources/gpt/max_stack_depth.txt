@@ -1,0 +1,1 @@
+The 'max_stack_depth' in Postgres should be set to a value that is a few kilobytes less than the actual stack size of your system, typically around 2MB to 7MB, to prevent stack overflow.

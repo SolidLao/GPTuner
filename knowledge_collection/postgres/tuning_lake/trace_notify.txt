@@ -1,0 +1,1 @@
+As a suggestion, you should utilize the 'trace_notify' knob as it generates extensive debugging output for LISTEN and NOTIFY commands. However, it's important to note that this requires 'client_min_messages' or 'log_min_messages' to be set to DEBUG1 or lower in order to send this output to the client or server logs.

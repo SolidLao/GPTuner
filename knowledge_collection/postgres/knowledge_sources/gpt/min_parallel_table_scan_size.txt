@@ -1,0 +1,1 @@
+The 'min_parallel_table_scan_size' knob in Postgres should be set based on the size of your tables, with the default value being 8MB, meaning that parallel scans will only be used for tables larger than this size, and increasing this value will reduce the number of tables that are scanned in parallel.

@@ -1,0 +1,1 @@
+Suggestion: The 'max_slot_wal_keep_size' knob in postgres specifies the maximum size of Write-Ahead Logging (WAL) files that replication slots can retain in the pg_wal directory at checkpoint time. The value is set in megabytes and if it is set to a negative number, it allows for unlimited retention of WAL files.

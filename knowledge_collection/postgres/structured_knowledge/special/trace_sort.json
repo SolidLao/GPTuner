@@ -1,0 +1,1 @@
+{"think_procedure": "The description of the knob 'trace_sort' does not mention any special values that would change the function of the knob or disable a feature. It only mentions that it emits information about resource usage during sort operations when it is on. Therefore, it does not seem to be a 'special' numerical knob.", "special_knob": false, "special_value": null}

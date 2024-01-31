@@ -1,0 +1,1 @@
+The 'enable_sort' knob in Postgres allows you to either enable or disable the query planner's use of explicit sort steps. When set to 'on', it enables the use of sort and merge join plans, while 'off' disables it. However, it's important to note that the default setting is 'on' and it's not possible to completely eliminate explicit sorts.

@@ -1,0 +1,1 @@
+The 'wal_compression' knob in PostgreSQL, when turned on, compresses full page images written to WAL to reduce the WAL volume and potentially prevent data corruption, but it may increase CPU usage due to the compression and decompression process; it is off by default and can only be changed by superusers.

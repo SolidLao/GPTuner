@@ -1,0 +1,1 @@
+The 'max_pred_locks_per_transaction' knob controls the average number of object locks per transaction, calculated as max_pred_locks_per_transaction * (max_connections + max_prepared_transactions), with a default value of 64, and can only be set at server start.

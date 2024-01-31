@@ -1,0 +1,1 @@
+I suggest adjusting the 'autovacuum_work_mem' knob which determines the maximum memory each autovacuum worker process can utilize. If left at its default value, the 'maintenance_work_mem' value will be used. However, please note that this setting does not influence the behavior of VACUUM when it is run in different contexts.

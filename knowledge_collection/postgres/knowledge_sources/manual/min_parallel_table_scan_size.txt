@@ -1,0 +1,1 @@
+The 'min_parallel_table_scan_size' knob sets the minimum amount of table data to be scanned for a parallel scan to be considered, typically set at 8 megabytes (8MB), and if specified without units, it is taken as blocks, with each block being BLCKSZ bytes, usually 8kB.

@@ -1,0 +1,1 @@
+The 'wal_skip_threshold' knob, applicable when 'wal_level' is minimal, dictates the method of persisting new data post-transaction, writing it to the WAL log if it's smaller than the set value, or using an fsync of affected files if larger; the value is in kilobytes if unspecified, with a default of 2MB.

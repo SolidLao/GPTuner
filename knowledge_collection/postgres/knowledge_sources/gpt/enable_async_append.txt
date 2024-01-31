@@ -1,0 +1,1 @@
+The 'enable_async_append' knob in Postgres can be set to either 0 or 1, where 0 disables the asynchronous append feature and 1 enables it, improving the performance of append-only scans on partitioned tables by allowing multiple partitions to be scanned simultaneously.

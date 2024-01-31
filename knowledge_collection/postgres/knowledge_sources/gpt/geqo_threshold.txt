@@ -1,0 +1,1 @@
+The 'geqo_threshold' knob in postgres can be set to a specific integer value that determines the minimum number of FROM items in a query before the GEQO module is activated for query optimization, with the default value being 12.

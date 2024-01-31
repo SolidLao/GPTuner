@@ -1,0 +1,1 @@
+The 'parallel_setup_cost' knob is used to determine the estimated cost of initiating parallel worker processes, with the default setting being 1000.

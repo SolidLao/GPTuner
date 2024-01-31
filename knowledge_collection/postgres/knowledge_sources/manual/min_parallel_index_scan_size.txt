@@ -1,0 +1,1 @@
+The 'min_parallel_index_scan_size' knob sets the minimum index data amount required for a parallel scan consideration, typically not touching the entire index but the pages believed to be touched by the scan, and is used to determine if an index can participate in a parallel vacuum, with the default value being 512 kilobytes (512kB).

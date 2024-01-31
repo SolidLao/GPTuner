@@ -1,0 +1,1 @@
+As a suggestion, it's important to note that the 'track_counts' knob is an automatically enabled feature designed to collect statistics on database activity. This feature is primarily used by the autovacuum daemon. However, only superusers have the authority to make alterations to this feature.

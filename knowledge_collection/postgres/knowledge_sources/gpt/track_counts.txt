@@ -1,0 +1,1 @@
+The 'track_counts' knob in PostgreSQL is a boolean type, so it can be set to either 1 (on) or 0 (off), with the default being 1, and it is used to control whether the system collects statistics on database activity for use in query planning.

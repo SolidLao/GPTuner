@@ -1,0 +1,1 @@
+The 'maintenance_io_concurrency' knob in Postgres should be set to a value that matches the number of drives in your system that can perform maintenance work in parallel, typically between 1 and 10, but it can be set to 0 to disable I/O concurrency during maintenance operations.

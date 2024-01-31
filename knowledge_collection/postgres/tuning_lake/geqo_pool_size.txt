@@ -1,0 +1,1 @@
+I suggest adjusting the 'geqo_pool_size' knob, which controls the pool size used by GEQO. This represents the number of individuals in the genetic population. Useful values typically range from 100 to 1000. The default setting is zero, which automatically selects a value based on geqo_effort and the number of tables in the query.

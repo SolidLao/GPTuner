@@ -1,0 +1,1 @@
+I suggest you utilize the 'enable_indexonlyscan' knob in Postgres. This feature allows the query planner to use index-only-scan plan types, which can potentially enhance query performance. The default setting for this is enabled, but you have the option to turn it 'off' or 'on' as per your requirements.

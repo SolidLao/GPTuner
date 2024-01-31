@@ -1,0 +1,1 @@
+The 'temp_file_limit' knob in PostgreSQL specifies the maximum disk space a process can use for temporary files such as sort and hash temporary files, with the default setting being -1, indicating no limit, and the value is measured in kilobytes if no units are specified; exceeding this limit will cancel the transaction and only superusers can modify this setting.

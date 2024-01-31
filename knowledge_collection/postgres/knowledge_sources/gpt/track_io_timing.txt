@@ -1,0 +1,1 @@
+The 'track_io_timing' knob in Postgres is a Boolean type configuration, which means it can be set to either 'on' or 'off'. By default, it is set to 'on' in most systems to provide statistics on I/O timings, but if you don't need this information, you can set it to 'off' to potentially save some system resources.

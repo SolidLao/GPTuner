@@ -1,0 +1,1 @@
+The 'cursor_tuple_fraction' in Postgres is a configuration parameter that determines the estimated portion of a cursor's result that will be retrieved, and it can be set to any value between 0.0 and 1.0, with the default being 0.5, meaning it is estimated that half of the results will be retrieved.

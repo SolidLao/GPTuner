@@ -1,0 +1,1 @@
+The 'vacuum_cost_page_hit' knob in Postgres, which has a default value of 1, can be adjusted to balance the I/O impact of vacuuming; increasing its value will make the vacuum process slower but less resource-intensive, while decreasing it will speed up vacuuming at the cost of higher I/O impact.

@@ -13,21 +13,25 @@ class KnobSelection(GPT):
         self.db = db
         self.dbms = dbms
         self.benchmark = benchmark
+        self.config = ConfigParser()
         if self.benchmark == 'tpch':
             self.workload = "OLAP"
         else:
             self.workload = "OLTP"
-        self.candidate_konbs_dir = f"./knowledge_collection/{self.db}/candidate_knobs.txt"
+        self.system_view_dir = f"./knowledge_collection/{self.db}/candidate_knobs.txt"
         self.target_knobs_dir = f"./knowledge_collection/{self.db}/target_knobs.txt"
-        self.config = ConfigParser()
-        self.candidate_knobs = self.get_candidate_konbs()
+        if os.path.exists(self.target_knobs_dir):
+            print(f"Knobs already selected for {self.db}")
+        else:
+            self.candidate_knobs = self.get_candidate_konbs()
         
     def get_candidate_konbs(self):
-        knobs = set()
-        with open(self.candidate_konbs_dir, 'r') as file:
-            for line in file:
-                knobs.add(line.rstrip())
-        return list(knobs)
+        knobs = []
+        with open(self.system_view_dir, 'r') as file:
+            data = json.load(file)
+            for key, item in data.items():
+                knobs.append(key)
+        return knobs
 
     def read_files_in_directory(directory_path):
             files_and_directories = os.listdir(directory_path)
@@ -185,5 +189,6 @@ class KnobSelection(GPT):
         with open(self.target_knobs_dir, 'w') as file:
             for line in selected_knobs:
                 file.write(line + "\n")
-
+                
+        return selected_knobs
         

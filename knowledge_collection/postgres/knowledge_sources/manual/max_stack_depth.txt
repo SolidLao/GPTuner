@@ -1,0 +1,1 @@
+The 'max_stack_depth' knob specifies the maximum safe depth of the server's execution stack, ideally set to the kernel's stack size limit minus a safety margin of about a megabyte; it defaults to two megabytes (2MB) and can only be changed by superusers, with caution recommended as setting it higher than the kernel limit can crash the backend process.

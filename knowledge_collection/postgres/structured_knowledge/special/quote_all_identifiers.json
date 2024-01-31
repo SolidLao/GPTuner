@@ -1,0 +1,1 @@
+{"think_procedure": "The description of the knob 'quote_all_identifiers' does not mention any special numerical values that would change the function of the knob or disable a feature. It seems to be a regular knob that forces all identifiers to be quoted in SQL generation. Therefore, it does not qualify as a 'special' knob.", "special_knob": false, "special_value": null}

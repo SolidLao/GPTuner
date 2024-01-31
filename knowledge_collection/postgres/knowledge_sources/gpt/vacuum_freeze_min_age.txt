@@ -1,0 +1,1 @@
+The 'vacuum_freeze_min_age' knob in Postgres can be set to a specific value that determines the minimum age at which tuples are considered for freezing, with the default value being 50000000 and it can be set anywhere between 0 and 2000000000.

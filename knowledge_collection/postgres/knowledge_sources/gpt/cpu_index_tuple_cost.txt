@@ -1,0 +1,1 @@
+The 'cpu_index_tuple_cost' in Postgres is a parameter that sets the estimated cost of processing each index entry during an index scan, with the default value being 0.005; you can adjust this value based on your system's performance, but it's recommended to keep it lower than 'cpu_tuple_cost' to reflect the fact that index scans are usually faster than sequential scans.

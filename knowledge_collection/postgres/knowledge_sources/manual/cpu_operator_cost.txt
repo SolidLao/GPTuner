@@ -1,0 +1,1 @@
+The 'cpu_operator_cost' knob sets the estimated cost of processing each operator or function during a query, with the default setting being 0.0025.

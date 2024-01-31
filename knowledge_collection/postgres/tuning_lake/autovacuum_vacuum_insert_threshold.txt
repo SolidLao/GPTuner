@@ -1,0 +1,1 @@
+I suggest adjusting the 'autovacuum_vacuum_insert_threshold' parameter in the postgresql.conf file or server command line. This parameter triggers a VACUUM operation in a table after a specified number of tuples have been inserted, with the default set at 1000 tuples. It can also be deactivated or adjusted for individual tables by modifying table storage parameters.

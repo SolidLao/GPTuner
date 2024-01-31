@@ -1,0 +1,1 @@
+The 'geqo_pool_size' in postgres is set to a value that represents the number of individuals in the genetic algorithm population, and it's recommended to set it to 0 when the tables involved in the join are less than 'geqo_threshold', but for larger tables, a common choice is several hundred or even a thousand.

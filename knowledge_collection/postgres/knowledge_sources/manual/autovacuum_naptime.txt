@@ -1,0 +1,1 @@
+The 'autovacuum_naptime' knob sets the minimum delay between autovacuum runs on a database, defaulting to one minute, and can only be configured in the postgresql.conf file or on the server command line.

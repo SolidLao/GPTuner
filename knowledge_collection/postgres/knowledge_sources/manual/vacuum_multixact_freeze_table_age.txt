@@ -1,0 +1,1 @@
+The 'vacuum_multixact_freeze_table_age' knob triggers an aggressive scan by VACUUM if a table's pg_class.relminmxid field reaches the age specified by this setting, which defaults to 150 million multixacts, but can be set anywhere from zero to two billion, although VACUUM will limit the effective value to 95% of autovacuum_multixact_freeze_max_age.

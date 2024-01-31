@@ -1,0 +1,1 @@
+The 'data_sync_retry' knob in Postgres, when set to true (1), will make the server try to synchronize the data to disk again after a failure, but if set to false (0), it will not retry after a failure. The default value is false.

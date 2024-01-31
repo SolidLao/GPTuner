@@ -1,0 +1,1 @@
+The 'vacuum_multixact_freeze_table_age' knob in postgres can be set to a specific number of updated or deleted tuples before an automatic vacuum process is triggered, with the default value being 150 million.

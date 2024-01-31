@@ -1,0 +1,1 @@
+The 'track_io_timing' knob enables timing of database I/O calls, but is turned off by default to avoid potential overhead from repeated time queries to the operating system; its timing information can be viewed in pg_stat_database, sql-explain's BUFFERS option, and pgstatstatements, and can only be altered by superusers.

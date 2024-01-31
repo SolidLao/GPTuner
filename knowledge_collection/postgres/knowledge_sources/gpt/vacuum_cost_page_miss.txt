@@ -1,0 +1,1 @@
+The 'vacuum_cost_page_miss' knob in Postgres can be set to a value that represents the cost of a page not found in the buffer, typically set between 0 and 10000, with a default of 10; increasing this value will slow down vacuuming operations to reduce system load.

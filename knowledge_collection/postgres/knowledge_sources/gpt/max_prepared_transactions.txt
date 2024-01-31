@@ -1,0 +1,1 @@
+Set the value of 'max_prepared_transactions' in postgres to the maximum number of concurrent transactions that the system will have prepared, but not yet committed, at any given time, which should be at least as large as the maximum number of connections, but the default is typically 0.

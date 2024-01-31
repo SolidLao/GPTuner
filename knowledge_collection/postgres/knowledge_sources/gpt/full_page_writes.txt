@@ -1,0 +1,1 @@
+The 'full_page_writes' knob in Postgres should be set to 'on' for systems with non-atomic writes or unreliable hardware, as it ensures data integrity, but can be turned 'off' for a slight performance improvement on systems with reliable hardware, as it defaults to 'on'.

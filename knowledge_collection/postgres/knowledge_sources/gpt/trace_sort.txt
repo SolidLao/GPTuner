@@ -1,0 +1,1 @@
+The 'trace_sort' knob in Postgres is a debugging aid that, when enabled, produces trace information about sorting. It's a Boolean type parameter with a default value of 'off', but can be set to 'on' to enable the trace, typically used by developers rather than users.

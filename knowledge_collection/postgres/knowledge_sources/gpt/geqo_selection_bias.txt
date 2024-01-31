@@ -1,0 +1,1 @@
+The 'geqo_selection_bias' in Postgres is set to a value between 1.0 and 2.0, with the default being 2.0, which indicates strong bias towards choosing the better individuals in the population during the genetic query optimization process.

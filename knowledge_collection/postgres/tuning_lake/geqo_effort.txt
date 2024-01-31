@@ -1,0 +1,1 @@
+Based on the manual suggestion, it is recommended to adjust the 'geqo_effort' knob in GEQO to control the balance between planning time and query plan quality. By default, it is set at five. Increasing the value may result in longer planning time, but it also enhances the likelihood of selecting a more efficient query plan.

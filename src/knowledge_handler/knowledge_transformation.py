@@ -61,15 +61,17 @@ class KGTrans(GPT):
                 random_examples.append(example)
         return '\n'.join(random_examples)
 
-    def get_skill(self, knob):
+    def get_skill(self, knob, summary=None):
         cpu_cores, ram_size, disk_size = self.get_hardware_info()
         disk_type = self.get_disk_type()
-        try:
-            with open(os.path.join(self.summary_path, knob+".txt"), 'r') as file:
-                summary = file.read()
-        except:
-            print(f"The tuning pool of {knob} is empty, generate the tuning pool first.")
-            raise 
+        if summary is None:
+            try:
+                with open(os.path.join(self.summary_path, knob+".txt"), 'r') as file:
+                    summary = file.read()
+            except:
+                print(f"The tuning pool of {knob} is empty, generate the tuning pool first.")
+                raise 
+        
         
         prompt = textwrap.dedent(f"""
             Suppose you are an experienced DBA, and you are required to tune a knob of {self.db}.
@@ -118,16 +120,16 @@ class KGTrans(GPT):
         self.money += self.calc_money(prompt, answer)
         return answer
 
-    def vote(self, knob):
+    def vote(self, knob, summary=None):
         skill_json_files = os.listdir(self.skill_json_path)
-        if knob + ".txt" not in skill_json_files:
+        if knob + ".txt" not in skill_json_files or summary is not None:
             min_l = []
             max_l = []
             suggested_l = []
 
             for i in range(5):
                 print(f"vote for {knob}, round {i}")
-                result_txt = self.get_skill(knob)
+                result_txt = self.get_skill(knob, summary)
                 result_json = self.extract_json_from_text(result_txt)
                 suggested_values = result_json["suggested_values"]
                 min_value = result_json["min_value"]
@@ -160,10 +162,11 @@ class KGTrans(GPT):
                 skill_json["suggested_values"] = most_common_suggested
             else:
                 skill_json["suggested_values"] = []
+            if summary is None:
+                with open(os.path.join(self.skill_json_path, knob+".json"), 'w') as file:
+                    json.dump(skill_json, file)
+            return skill_json
             
-            with open(os.path.join(self.skill_json_path, knob+".json"), 'w') as file:
-                json.dump(skill_json, file)
-    
     def classify_special_knob(self, knob_name):
         if os.path.exists(self.official_path):
             with open(self.official_path, 'r') as json_file:
@@ -216,6 +219,7 @@ class KGTrans(GPT):
                 json_result = self.extract_json_from_text(result)
                 with open(f"{self.special_path}{file_name}", 'w') as file:
                     json.dump(json_result, file)
+        return json_result
 
     def mysql_provide_max(self, knob):
         if os.path.exists(os.path.join(self.max_path, knob+".txt")):

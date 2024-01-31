@@ -1,0 +1,1 @@
+The 'parallel_tuple_cost' knob is used to set the planner's estimated cost of transferring a single tuple from one parallel worker process to another, with the default setting being 0.1.

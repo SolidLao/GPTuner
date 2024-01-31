@@ -1,0 +1,1 @@
+The 'vacuum_cost_page_dirty' knob is an estimated cost applied when a vacuum modifies a previously clean block, accounting for the additional I/O needed to reflush the dirty block to the disk, with a default value of 20.

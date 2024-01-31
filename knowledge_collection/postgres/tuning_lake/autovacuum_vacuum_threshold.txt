@@ -1,0 +1,1 @@
+I suggest adjusting the 'autovacuum_vacuum_threshold' knob in the postgresql.conf file or server command line. This knob triggers a VACUUM in a table when the minimum number of updated or deleted tuples reaches 50. However, this setting can also be customized for individual tables by altering table storage parameters.

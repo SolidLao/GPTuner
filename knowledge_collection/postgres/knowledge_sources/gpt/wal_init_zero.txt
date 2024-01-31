@@ -1,0 +1,1 @@
+The 'wal_init_zero' knob in Postgres can be set to either 0 or 1, with 0 meaning that the write-ahead log (WAL) is not initialized with zeroes and 1 meaning that it is, which can be useful for debugging but may slow down the initialization process.

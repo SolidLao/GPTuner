@@ -1,0 +1,1 @@
+The 'geqo_generations' knob in Postgres controls the number of iterations of the Genetic Query Optimization algorithm, and its value can be set according to the complexity of the query, with a default value of 0, but it can be increased if the query involves many tables, typically in the range of 500 to 1000.

@@ -7,6 +7,8 @@ import json
 import threading
 import glob
 import re
+import time
+import functools
 from ConfigSpace import (
     ConfigurationSpace,
     UniformIntegerHyperparameter,
@@ -14,9 +16,10 @@ from ConfigSpace import (
     CategoricalHyperparameter,
 )
 
+
 class DefaultSpace:
     """ Base template of GPTuner"""
-    def __init__(self, dbms, test, timeout, target_knobs_path, seed=1):
+    def __init__(self, dbms, test, timeout, target_knobs_path,seed=1):
         self.dbms = dbms
         self.seed = seed if seed is not None else 1
         self.test = test
@@ -32,7 +35,22 @@ class DefaultSpace:
         if self.test in self.benchmark_copy_db:
             self.dbms.create_template(self.test)
         self.penalty = self.get_default_result()
+        print(f"DEFAULT : {self.penalty}")
+        self.log_file = f"./optimization_results/{self.dbms.name}/log/{self.seed}_log.txt"
+        self.init_log_file()
+        self.prev_end = 0
 
+
+    def init_log_file(self):
+        with open(self.log_file, 'w') as file:
+            file.write(f"Round\tStart\tEnd\tBenchmark_Elapsed\tTuning_overhead\n")
+
+    def _log(self, begin_time, end_time):
+        if self.round == 1:
+            self.prev_end = begin_time
+        with open(self.log_file, 'a') as file:
+            file.write(f"{self.round}\t{begin_time}\t{end_time}\t{end_time-begin_time}\t{begin_time-self.prev_end}\n")
+        self.prev_end = end_time
 
     def _transfer_unit(self, value):
         value = str(value)
@@ -166,7 +184,16 @@ class DefaultSpace:
         else:
             return average_latency
 
+
     def set_and_replay(self, config, seed=0):
+        begin_time = time.time()
+        cost = self.set_and_replay_ori(config, seed)
+        end_time = time.time()
+        self._log(begin_time, end_time)
+        return cost
+
+
+    def set_and_replay_ori(self, config, seed=0):
         self.round += 1
         print(f"Tuning round {self.round} ...")
         dbms = self.dbms
@@ -217,23 +244,26 @@ class DefaultSpace:
                 print("Benchmark is still running. Terminate it now.")
                 runner.process.terminate()
                 time.sleep(2)
-                throughput = self.penalty - 2
-                average_latency =  self.penalty - 2
+                raise RuntimeError("Benchmark is still running. Terminate it now.") 
             else:
                 print("Benchmark has finished.")
+                if runner.check_sequence_in_file():  ### 如果query出错
+                    raise RuntimeError("ERROR in Query.") 
                 throughput, average_latency = runner.get_throughput(), runner.get_latency()
+
+                if self.test not in self.benchmark_latency and throughput < self.penalty:
+                    self.penalty = throughput
+                if self.test in self.benchmark_latency and average_latency > self.penalty:
+                    self.penalty = average_latency
+
         except Exception as e:
             print(f'Exception for {self.test}: {e}')
             # update worst_perf
             if self.test not in self.benchmark_latency:
-                if throughput < self.penalty:
-                    self.penalty = throughput
                 return -int(self.penalty) / 2
                 ###tpch
             else:
-                if average_latency > self.penalty:
-                    self.penalty = average_latency
-                    return self.penalty * 2
+                return self.penalty * 2
     
 
         if self.test not in self.benchmark_latency:

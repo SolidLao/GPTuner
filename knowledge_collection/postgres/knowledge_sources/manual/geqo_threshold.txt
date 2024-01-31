@@ -1,0 +1,1 @@
+The 'geqo_threshold' knob utilizes genetic query optimization for planning queries that involve at least 12 FROM items, with simpler queries typically benefiting from the regular, exhaustive-search planner, and more complex queries using GEQO to avoid lengthy exhaustive searches.

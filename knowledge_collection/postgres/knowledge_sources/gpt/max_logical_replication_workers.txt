@@ -1,0 +1,1 @@
+The 'max_logical_replication_workers' knob in Postgres should be set based on the number of logical replication subscriptions, with the default value being 4, but it can be increased if there are more subscriptions, keeping in mind that each additional worker will consume more system resources.

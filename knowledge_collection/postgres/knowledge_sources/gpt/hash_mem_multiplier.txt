@@ -1,0 +1,1 @@
+The 'hash_mem_multiplier' in Postgres is a configuration parameter that allows you to adjust the amount of memory allocated for hash tables, and it can be set to any value greater than 1, with the default being 1.0, meaning that if you want to allocate more memory, you can increase this value, but be cautious not to set it too high to avoid excessive memory consumption.

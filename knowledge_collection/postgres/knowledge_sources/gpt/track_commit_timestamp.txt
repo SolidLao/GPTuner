@@ -1,0 +1,1 @@
+The 'track_commit_timestamp' knob in Postgres can be set by modifying the postgresql.conf file or using the SET command, where the value can be either 'on' or 'off', with 'on' enabling tracking of commit timestamps and 'off' disabling it.

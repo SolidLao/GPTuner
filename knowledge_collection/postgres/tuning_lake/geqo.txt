@@ -1,0 +1,1 @@
+The 'geqo' knob in PostgreSQL, which is a Boolean type, enables or disables the Genetic Query Optimization approach for executing complex queries. It is typically left 'on' in production settings. For more specific control of Genetic Query Optimization, you can adjust the 'geqo_threshold' variable.
