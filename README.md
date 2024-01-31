@@ -6,7 +6,7 @@
   - VLDB 2024 submission, [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://web1.arxiv.org/abs/2311.03157) 
   - SIGMOD 2024 Demo submission, [A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System](https://youtu.be/Hz5Zck-9TlA)
 - GPTuner collects and refines heterogeneous domain knowledge, unifies a structured view of the refined knowledge, and uses the knowlege to (1) select important knobs, (2) optimize the value range of each knob and (3) explore the optimized space with a novel Coarse-to-Fine Bayesian Optimization Framework.
-- A video demonstration is available at [YouTube!](https://youtu.be/Hz5Zck-9TlA)!
+- A video demonstration is available at [YouTube!](https://youtu.be/Hz5Zck-9TlA)
 
 >Stay tuned for the latest updates and enhancements in this project! 🚀<br/>
 >Remember to star ⭐ and subscribe 🔔 for the newest features and improvements!
