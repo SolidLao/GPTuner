@@ -113,7 +113,7 @@ PYTHONPATH=src python -m streamlit run src/demo/entrypage.py
 
 ### Baselines
 We compare GPTuner with state-of-the-art methods both using or not using natural language knowledge as input:
-- [DB-BERT SIGMOD'22](https://dl.acm.org/doi/10.1145/3514221.3517843): a DBMS tuning tool that uses BERT to read the manuals and use the gained information to guide Reinforcement Learning(RL)
+- [DB-BERT SIGMOD'22](https://dl.acm.org/doi/10.1145/3514221.3517843): a DBMS tuning tool that uses BERT to read the manuals and use the gained information to guide Reinforcement Learning (RL)
 - SMAC: the best Bayesian Optimiztion (BO)-based method evaluated in an [Experimental Evaluation VLDB'22](https://dl.acm.org/doi/10.14778/3538598.3538604)
 - GP: the classic Gassian Process-based BO approach used in [iTuned VLDB'09](https://dl.acm.org/doi/10.14778/1687627.1687767) and [OtterTune SIGMOD'17](https://dl.acm.org/doi/10.1145/3035918.3064029)
 - DDPG++: a RL-based tuning method proposed in [CDBTune SIGMOD'19](https://dl.acm.org/doi/10.1145/3299869.3300085) and improved in [Inquiry VLDB'21](https://dl.acm.org/doi/10.14778/3450980.3450992)
