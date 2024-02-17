@@ -119,7 +119,7 @@ We compare GPTuner with state-of-the-art methods both using or not using natural
 - DDPG++: a RL-based tuning method proposed in [CDBTune SIGMOD'19](https://dl.acm.org/doi/10.1145/3299869.3300085) and improved in [Inquiry VLDB'21](https://dl.acm.org/doi/10.14778/3450980.3450992)
 
 ### Result on PostgreSQL
-We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benchmarks (TPC-H and TPC-C) and metrics (throughput and latency). We present the results on PostgreSQL in this repository. For more details, please refer to our [paper](https://web1.arxiv.org/abs/2311.03157).
+We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benchmarks (TPC-H and TPC-C) and metrics (throughput and latency). We present the results on PostgreSQL in this repository. For more details, please refer to our [paper](https://web1.arxiv.org/abs/2311.03157) or [technical report](https://github.com/SolidLao/GPTuner/blob/main/gptuner-technical-report.pdf).
 
 <img src="/assets/gptuner_result_postgresql.png" alt="GPTuner result on postgres" width="500">
 
