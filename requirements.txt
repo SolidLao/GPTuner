@@ -7,6 +7,6 @@ openai==0.28.0
 streamlit==1.30.0
 streamlit-autorefresh==1.0.1
 streamlit-echarts==0.4.0
-streamlit-moda==0.1.1
+streamlit-modal==0.1.1
 streamlit-option-menu==0.3.6
 matplotlib==3.8.2
