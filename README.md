@@ -43,7 +43,7 @@ sudo apt-get install postgresql-14
 ```
 
 ### Step 2: Install [BenchBase](https://github.com/cmu-db/benchbase) with our script
-- Note: the script is tested on `openjdk version "17.0.8.1" 2023-08-24`, please prepare your JAVA environment first
+- Note: the script is tested on `openjdk version "17.0.8.1" 2023-08-24`, (you may need to update openjdk to `version 21` to keep in pace with the newest benchbase), please prepare your JAVA environment first
 ```
 cd ./scripts
 sh install_benchbase.sh postgres
