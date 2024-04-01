@@ -295,6 +295,7 @@ class DefaultSpace:
             dbms.reconfigure()
             if dbms.failed_times == 4:
                     return self.penalty * 2
+            dbms.exec_quries("DROP VIEW IF EXISTS revenue0;") # Q15 in TPCH may contain 2 SQLs.make sure revenue is dropped.
             start_ms = time.time() * 1000.0
             flag = dbms.exec_quries(self.workload_queries)
             end_ms = time.time() * 1000.0
