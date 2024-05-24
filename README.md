@@ -202,20 +202,20 @@ If you use this codebase, or otherwise found our work valuable, please cite 📒
 }
 
 @inproceedings{10.1145/3626246.3654739,
-author = {Lao, Jiale and Wang, Yibo and Li, Yufei and Wang, Jianping and Zhang, Yunjia and Cheng, Zhiyuan and Chen, Wanghu and Zhou, Yuanchun and Tang, Mingjie and Wang, Jianguo},
-title = {A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System},
-year = {2024},
-isbn = {9798400704222},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3626246.3654739},
-doi = {10.1145/3626246.3654739},
-abstract = {Selecting appropriate values for the configurable knobs of Database Management Systems (DBMS) is crucial to improve performance. But because such complexity has surpassed the abilities of even the best human experts, database community turns to machine learning (ML)-based automatic tuning systems. However, these systems still incur significant tuning costs or only yield sub-optimal performance, attributable to their overly high reliance on black-box optimization and an oversight of domain knowledge. This paper demonstrates GPTuner, a manual-reading database tuning system that leverages Large Language Model (LLM) to bridge the gap between black-box optimization and white-box domain knowledge. This demonstration empowers (1) regular users with limited tuning experience to gain qualitative insights on the features of knobs, and optimize their DBMS performance automatically and efficiently, (2) database administrators and experts to further enhance GPTuner by simply contributing their invaluable tuning suggestions in natural language. Finally, we offer visitors the opportunity to explore a range of DBMS and optimization metrics, coupled with the flexibility to tailor their target workloads to their specific needs.},
-booktitle = {Companion of the 2024 International Conference on Management of Data},
-pages = {504–507},
-numpages = {4},
-keywords = {bayesian optimization, database tuning, large language model},
-location = {<conf-loc>, <city>Santiago AA</city>, <country>Chile</country>, </conf-loc>},
-series = {SIGMOD/PODS '24}
+    author = {Lao, Jiale and Wang, Yibo and Li, Yufei and Wang, Jianping and Zhang, Yunjia and Cheng, Zhiyuan and Chen, Wanghu and Zhou, Yuanchun and Tang, Mingjie and Wang, Jianguo},
+    title = {A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System},
+    year = {2024},
+    isbn = {9798400704222},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3626246.3654739},
+    doi = {10.1145/3626246.3654739},
+    abstract = {Selecting appropriate values for the configurable knobs of Database Management Systems (DBMS) is crucial to improve performance. But because such complexity has surpassed the abilities of even the best human experts, database community turns to machine learning (ML)-based automatic tuning systems. However, these systems still incur significant tuning costs or only yield sub-optimal performance, attributable to their overly high reliance on black-box optimization and an oversight of domain knowledge. This paper demonstrates GPTuner, a manual-reading database tuning system that leverages Large Language Model (LLM) to bridge the gap between black-box optimization and white-box domain knowledge. This demonstration empowers (1) regular users with limited tuning experience to gain qualitative insights on the features of knobs, and optimize their DBMS performance automatically and efficiently, (2) database administrators and experts to further enhance GPTuner by simply contributing their invaluable tuning suggestions in natural language. Finally, we offer visitors the opportunity to explore a range of DBMS and optimization metrics, coupled with the flexibility to tailor their target workloads to their specific needs.},
+    booktitle = {Companion of the 2024 International Conference on Management of Data},
+    pages = {504–507},
+    numpages = {4},
+    keywords = {bayesian optimization, database tuning, large language model},
+    location = {<conf-loc>, <city>Santiago AA</city>, <country>Chile</country>, </conf-loc>},
+    series = {SIGMOD/PODS '24}
 }
 ```
