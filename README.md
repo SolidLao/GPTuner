@@ -3,7 +3,7 @@
 # GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization
 
 - This repository hosts the source code and supplementary materials for our: 
-  - VLDB 2024 submission (accepted), [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://arxiv.org/abs/2311.03157) 
+  - VLDB 2024 submission (accepted), [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://dl.acm.org/doi/abs/10.14778/3659437.3659449) 
   - SIGMOD 2024 Demo submission (accepted), [A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System](https://dl.acm.org/doi/10.1145/3626246.3654739) 
 - GPTuner collects and refines heterogeneous domain knowledge, unifies a structured view of the refined knowledge, and uses the knowlege to (1) select important knobs, (2) optimize the value range of each knob and (3) explore the optimized space with a novel Coarse-to-Fine Bayesian Optimization Framework.
 - A video demonstration is available at [YouTube!](https://youtu.be/Hz5Zck-9TlA)
@@ -192,13 +192,22 @@ We compare GPTuner with baselines on different DBMS (PostgreSQL and MySQL), benc
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite 📒:
 ```
-@misc{lao2023gptuner,
-    title={GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization}, 
-    author={Jiale Lao and Yibo Wang and Yufei Li and Jianping Wang and Yunjia Zhang and Zhiyuan Cheng and Wanghu Chen and Mingjie Tang and Jianguo Wang},
-    year={2023},
-    eprint={2311.03157},
-    archivePrefix={arXiv},
-    primaryClass={cs.DB}
+@article{10.14778/3659437.3659449,
+  author = {Lao, Jiale and Wang, Yibo and Li, Yufei and Wang, Jianping and Zhang, Yunjia and Cheng, Zhiyuan and Chen, Wanghu and Tang, Mingjie and Wang, Jianguo},
+  title = {GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization},
+  year = {2024},
+  issue_date = {April 2024},
+  publisher = {VLDB Endowment},
+  volume = {17},
+  number = {8},
+  issn = {2150-8097},
+  url = {https://doi.org/10.14778/3659437.3659449},
+  doi = {10.14778/3659437.3659449},
+  abstract = {Modern database management systems (DBMS) expose hundreds of configurable knobs to control system behaviours. Determining the appropriate values for these knobs to improve DBMS performance is a long-standing problem in the database community. As there is an increasing number of knobs to tune and each knob could be in continuous or categorical values, manual tuning becomes impractical. Recently, automatic tuning systems using machine learning methods have shown great potentials. However, existing approaches still incur significant tuning costs or only yield sub-optimal performance. This is because they either ignore the extensive domain knowledge available (e.g., DBMS manuals and forum discussions) and only rely on the runtime feedback of benchmark evaluations to guide the optimization, or they utilize the domain knowledge in a limited way. Hence, we propose GPTuner, a manual-reading database tuning system that leverages domain knowledge extensively and automatically to optimize search space and enhance the runtime feedback-based optimization process. Firstly, we develop a Large Language Model (LLM)-based pipeline to collect and refine heterogeneous knowledge, and propose a prompt ensemble algorithm to unify a structured view of the refined knowledge. Secondly, using the structured knowledge, we (1) design a workload-aware and training-free knob selection strategy, (2) develop a search space optimization technique considering the value range of each knob, and (3) propose a Coarse-to-Fine Bayesian Optimization Framework to explore the optimized space. Finally, we evaluate GPTuner under different benchmarks (TPC-C and TPC-H), metrics (throughput and latency) as well as DBMS (PostgreSQL and MySQL). Compared to the state-of-the-art approaches, GPTuner identifies better configurations in 16x less time on average. Moreover, GPTuner achieves up to 30\% performance improvement (higher throughput or lower latency) over the best-performing alternative.},
+  journal = {Proc. VLDB Endow.},
+  month = {may},
+  pages = {1939–1952},
+  numpages = {14}
 }
 
 @inproceedings{10.1145/3626246.3654739,
