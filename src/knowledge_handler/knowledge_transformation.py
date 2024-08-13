@@ -1,4 +1,4 @@
-import psutil
+from knowledge_handler.utils import get_hardware_info, get_disk_type
 import textwrap
 import json
 import os
@@ -25,30 +25,6 @@ class KGTrans(GPT):
         self.official_path = os.path.join(self.knob_path, "/knob_info/official_document.json")
         self.special_path = os.path.join(self.knob_path, "structured_knowledge/special/")
 
-    def get_hardware_info(self):
-        available_cpu_cores = psutil.cpu_count(logical=False)
-        memory = psutil.virtual_memory()
-        total_memory = memory.total
-        total_memory = total_memory / (1024 * 1024 * 1024)
-        root_disk = psutil.disk_usage('/')
-        total_disk_space = root_disk.total
-        total_disk_space = total_disk_space / (1024 * 1024 * 1024)
-        return available_cpu_cores, int(total_memory), int(total_disk_space)
-
-    def get_disk_type(self, device="sda"):
-        rotational_path = f'/sys/block/{device}/queue/rotational'
-        if os.path.exists(rotational_path):
-            with open(rotational_path, 'r') as file:
-                rotational_value = file.read().strip()
-                if rotational_value == '0':
-                    return 'SSD'
-                elif rotational_value == '1':
-                    return 'HDD'
-                else:
-                    return 'Unknown'
-        else:
-            return 'Unknown'
-
     def get_examples(self):
         example_path = f"./example_pool/"
         file_list = os.listdir(example_path)
@@ -62,8 +38,8 @@ class KGTrans(GPT):
         return '\n'.join(random_examples)
 
     def get_skill(self, knob, summary=None):
-        cpu_cores, ram_size, disk_size = self.get_hardware_info()
-        disk_type = self.get_disk_type()
+        cpu_cores, ram_size, disk_size = get_hardware_info()
+        disk_type = get_disk_type()
         if summary is None:
             try:
                 with open(os.path.join(self.summary_path, knob+".txt"), 'r') as file:
@@ -115,7 +91,7 @@ class KGTrans(GPT):
 
                 """)
 
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         return answer
@@ -129,8 +105,7 @@ class KGTrans(GPT):
 
             for i in range(5):
                 print(f"vote for {knob}, round {i}")
-                result_txt = self.get_skill(knob, summary)
-                result_json = self.extract_json_from_text(result_txt)
+                result_json = self.get_skill(knob, summary)
                 suggested_values = result_json["suggested_values"]
                 min_value = result_json["min_value"]
                 max_value = result_json["max_value"]
@@ -205,7 +180,7 @@ class KGTrans(GPT):
             }}
         """)
 
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         print(f"prepare special skill for {knob_name}")
@@ -216,7 +191,7 @@ class KGTrans(GPT):
         if file_name not in os.listdir(self.special_path):
             result = self.classify_special_knob(knob)
             if result is not None:
-                json_result = self.extract_json_from_text(result)
+                json_result = result
                 with open(f"{self.special_path}{file_name}", 'w') as file:
                     json.dump(json_result, file)
         # return json_result
@@ -225,8 +200,8 @@ class KGTrans(GPT):
         if os.path.exists(os.path.join(self.max_path, knob+".txt")):
             return None
 
-        cpu_cores, ram_size, disk_size = self.get_hardware_info()
-        disk_type = self.get_disk_type()
+        cpu_cores, ram_size, disk_size = get_hardware_info()
+        disk_type = get_disk_type()
 
         with open(self.knob_info_path, 'r') as file:
             knob_info = json.load(file)[knob]
@@ -244,7 +219,7 @@ class KGTrans(GPT):
             Now think step by step and give me the suggested upper bound. The answer should either be a number or null. Just return the answer, do not provide other information.
         """)
         
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         with open(os.path.join(self.max_path, knob+".txt"), 'w') as file:

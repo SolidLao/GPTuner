@@ -1,0 +1,6 @@
+{
+    "cpu_related": [],
+    "ram_related": ["shared_buffers"],
+    "disk_size_related": [],
+    "disk_type_related": []
+}
