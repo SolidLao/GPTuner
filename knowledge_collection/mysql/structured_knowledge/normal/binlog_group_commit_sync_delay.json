@@ -1,1 +1,1 @@
-{"min_value": "0 ms", "max_value": "1000 ms", "suggested_values": []}
+{"min_value": "0 ms", "max_value": "1000000 ms", "suggested_values": ["0 ms"], "cpu": 8, "ram": 62, "disk_size": 884, "disk_type": "Unknown"}

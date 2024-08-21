@@ -2,6 +2,9 @@ from configparser import ConfigParser
 import argparse
 import time
 import os
+import openai
+import concurrent.futures
+from knowledge_handler.knowledge_update import KGUpdate
 from dbms.postgres import PgDBMS
 from dbms.mysql import  MysqlDBMS
 from config_recommender.coarse_stage import CoarseStage
@@ -9,6 +12,20 @@ from config_recommender.fine_stage import FineStage
 from knowledge_handler.knowledge_preparation import KGPre
 from knowledge_handler.knowledge_transformation import KGTrans
 from space_optimizer.knob_selection import KnobSelection
+
+def process_knob(knob, knowledge_pre, knowledge_trans, knowledge_update):
+    try:
+        knowledge_pre.pipeline(knob)
+        knowledge_trans.pipeline(knob)
+        new_structure = knowledge_update.pipeline(knob)
+        if new_structure is False:
+            return f"Skipped processing for {knob}"
+        return f"Processed {knob}"
+    except openai.RateLimitError as e:
+        wait_time = float(e.response.headers.get('Retry-After', 0.5))
+        print(f"Rate limit hit. Waiting for {wait_time} seconds before retrying...")
+        time.sleep(wait_time)
+        return process_knob(knob, knowledge_pre, knowledge_trans, knowledge_update)  # Retry recursively after waiting
 
 if __name__ == '__main__':
 
@@ -37,7 +54,7 @@ if __name__ == '__main__':
 
     # Select target knobs, write your api_base and api_key
     dbms._connect("benchbase")
-    knob_selection = KnobSelection(db=args.db, dbms=dbms, benchmark=args.test, api_base="your_api_base", api_key="your_api_key", model="gpt-4")
+    knob_selection = KnobSelection(db=args.db, dbms=dbms, benchmark=args.test, api_base="your_api_base", api_key="your_api_key", model="gpt-4o")
     knob_selection.select_interdependent_all_knobs()
 
 
@@ -49,11 +66,16 @@ if __name__ == '__main__':
 
 
     # write your api_base and api_key
-    knowledge_pre = KGPre(db=args.db, api_base="your_api_base", api_key="your_api_key", model="gpt-4")
-    knowledge_trans = KGTrans(db=args.db, api_base="your_api_base", api_key="your_api_key", model="gpt-4")
-    for knob in target_knobs:
-        knowledge_pre.pipeline(knob)
-        knowledge_trans.pipeline(knob)
+    knowledge_pre = KGPre(db=args.db, api_base="your_api_base", api_key="your_api_key", model="gpt-4o")
+    knowledge_trans = KGTrans(db=args.db, api_base="your_api_base", api_key="your_api_key", model="gpt-4o")
+    knowledge_update = KGUpdate(db=args.db, api_base="your_api_base", api_key="your_api_key", model="gpt-4o")
+    for i in range(1, 6):
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            futures = {executor.submit(process_knob, knob, knowledge_pre, knowledge_trans, knowledge_update): knob for knob in target_knobs}
+            for future in concurrent.futures.as_completed(futures):
+                print(future.result())
+        print(f"Update {i} completed")
+
 
     if args.db == 'postgres':
         config_path = "./configs/postgres.ini"

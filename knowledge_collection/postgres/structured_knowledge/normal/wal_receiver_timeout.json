@@ -1,1 +1,1 @@
-{"min_value": null, "max_value": null, "suggested_values": ["60 s"]}
+{"min_value": null, "max_value": "60 s", "suggested_values": ["60 s"], "cpu": 8, "ram": 62, "disk_size": 884, "disk_type": "Unknown"}

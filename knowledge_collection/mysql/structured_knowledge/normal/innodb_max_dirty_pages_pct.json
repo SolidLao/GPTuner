@@ -1,1 +1,1 @@
-{"suggested_values": [], "min_value": "0", "max_value": "100"}
+{"min_value": "0", "max_value": "100", "suggested_values": ["90"], "cpu": 8, "ram": 62, "disk_size": 884, "disk_type": "Unknown"}

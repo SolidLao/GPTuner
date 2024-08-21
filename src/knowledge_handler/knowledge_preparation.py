@@ -27,7 +27,7 @@ class KGPre(GPT):
         suggestions_prompt = textwrap.dedent(f"""
             There are many useful manuals to guide the knob tuning process. For knob '{knob_name}' in {self.db}, summerize the way to set the value for it in a sentence. This sentence should be associated with concrete numbers as more detailed information if needed.
         """)
-        suggestions = self.get_answer(suggestions_prompt)
+        suggestions = self.get_GPT_response_json(suggestions_prompt)
         self.token += self.calc_token(suggestions_prompt, suggestions)
         self.money += self.calc_money(suggestions_prompt, suggestions)
         return suggestions
@@ -50,7 +50,7 @@ class KGPre(GPT):
                 {description}
                 SENTECNCE:
             """)
-            answer = self.get_answer(summerize_prompt)
+            answer = self.get_GPT_response_json(summerize_prompt)
             self.token += self.calc_token(summerize_prompt, answer)
             self.money += self.calc_money(summerize_prompt, answer)
             return answer
@@ -95,10 +95,10 @@ class KGPre(GPT):
             }}
     """    
     )
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
-        return self.extract_json_from_text(answer)
+        return answer
 
     def prune_contradiction(self, suggestions_json):
         prompt = textwrap.dedent(f"""
@@ -114,10 +114,10 @@ class KGPre(GPT):
             }}
         """    
         )
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
-        return self.extract_json_from_text(answer)
+        return answer
 
     def prune_default(self, official_doc, suggestions_json):
         prompt = textwrap.dedent(f"""
@@ -142,10 +142,10 @@ class KGPre(GPT):
                 }}
             """    
             )
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
-        return self.extract_json_from_text(answer)
+        return answer
 
     def greedy_summarize(self, suggestions_json):
         prompt = textwrap.dedent(f"""
@@ -154,7 +154,7 @@ class KGPre(GPT):
         {suggestions_json}
         """    
         )
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         return answer
@@ -166,7 +166,7 @@ class KGPre(GPT):
         Summary:{summary}
         """    
         )
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         return answer
@@ -179,7 +179,7 @@ class KGPre(GPT):
             IMPROPER SUMMARY SUGGESTION: {summary}
         """    
         )
-        answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt)
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         return answer

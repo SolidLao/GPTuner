@@ -1,10 +1,10 @@
-import openai
+from openai import OpenAI, APIError
 import re
 import json
 import tiktoken
 
 class GPT:
-    def __init__(self, api_base, api_key, model="gpt-4"):
+    def __init__(self, api_base, api_key, model="gpt-4o-mini"):
         self.api_base = api_base
         self.api_key = api_key
         self.model = model
@@ -12,26 +12,35 @@ class GPT:
         self.token = 0
         self.cur_token = 0
         self.cur_money = 0
-        self.__connect()
-        
-    def __connect(self):
-        openai.api_base = self.api_base
-        openai.api_key = self.api_key
 
-    def get_answer(self, prompt):
-        response = openai.ChatCompletion.create(
-            model=self.model,
-            messages = [{
-            "role": "user",
-            "content": prompt
-            }],
-            n=1,
-            stop=None,
-            temperature=0
-        )
-        return response.choices[0].message["content"].strip()
+    def get_GPT_response_json(self, prompt, json_format=True): # This function returns the GPT response, which can be specified to return json or string format
+        client = OpenAI(api_key=self.api_key, base_url = self.api_base)
+        if json_format: # json
+            response = client.chat.completions.create(
+                messages=[
+                    {"role": "system", "content": "You should output JSON."},
+                    {'role':'user', 'content':prompt}],
+                model=self.model, 
+                response_format={"type": "json_object"}, 
+                temperature=0.5,
+            )
+            # print(response)
+            ans = response.choices[0].message.content
+            completion = json.loads(ans)  # Convert to json object
+            
+        else: # string
+            response = client.chat.completions.create(
+                messages=[
+                    {'role':'user', 'content':prompt}],
+                model=self.model, 
+                temperature=1,     
+            )
+            completion = response.choices[0].message.content
+        return completion
     
     def calc_token(self, in_text, out_text=""):
+        if isinstance(out_text, dict):
+            out_text = json.dumps(out_text)
         enc = tiktoken.encoding_for_model(self.model)
         return len(enc.encode(out_text+in_text))
 
@@ -43,20 +52,10 @@ class GPT:
             return (self.calc_token(in_text) * 0.0015 + self.calc_token(out_text) * 0.002) / 1000
         elif self.model == "gpt-4-1106-preview" or self.model == "gpt-4-1106-vision-preview":
             return (self.calc_token(in_text) * 0.01 + self.calc_token(out_text) * 0.03) / 1000
+        else:
+            return 0 
 
     def remove_html_tags(self, text):
         clean = re.compile('<.*?>')
         return re.sub(clean, '', text)
     
-    def extract_json_from_text(self, text):
-        json_pattern = r'\{[^{}]*\}'
-        match = re.search(json_pattern, text)
-        if match:
-            try:
-                json_data = json.loads(match.group())
-                return json_data
-            except json.JSONDecodeError:
-                return None
-        else:
-            return None
-
