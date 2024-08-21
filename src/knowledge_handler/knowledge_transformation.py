@@ -83,11 +83,8 @@ class KGTrans(GPT):
             {{
                 "suggested_values": [], // these should be exact values with a unit if needed (allowable units: KB, MB, GB, ms, s, min)
                 "min_value": null,      // change it if there is a hint about the minimum value in SUGGESTIONS
-                "max_value": null,      // change it if there is a hint about the maximum value in SUGGESTIONS, it should be larger than min_value
-                "cpu": {cpu_cores},
-                "ram": {ram_size},
-                "disk_size": {disk_size},
-                "disk_type": {disk_type}
+                "max_value": null      // change it if there is a hint about the maximum value in SUGGESTIONS, it should be larger than min_value
+
             }}
             </question>
 
@@ -96,6 +93,7 @@ class KGTrans(GPT):
                 """)
 
         answer = self.get_GPT_response_json(prompt)
+        answer.update({"cpu":cpu_cores, "ram":ram_size, "disk_size":disk_size, "disk_type":disk_type})
         self.token += self.calc_token(prompt, answer)
         self.money += self.calc_money(prompt, answer)
         return answer
