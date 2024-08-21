@@ -1,1 +1,1 @@
-{"suggested_values": [2048, 4096], "min_value": null, "max_value": null}
+{"min_value": "1024", "max_value": "4096", "suggested_values": ["2048", "4096"], "cpu": 8, "ram": 62, "disk_size": 884, "disk_type": "Unknown"}

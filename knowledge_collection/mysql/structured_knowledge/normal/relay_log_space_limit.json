@@ -1,1 +1,1 @@
-{"suggested_values": [], "min_value": "0 GB", "max_value": "884 GB"}
+{"min_value": null, "max_value": "884 GB", "suggested_values": ["80 GB"], "cpu": 8, "ram": 62, "disk_size": 884, "disk_type": "Unknown"}

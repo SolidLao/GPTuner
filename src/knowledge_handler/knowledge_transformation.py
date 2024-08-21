@@ -83,7 +83,11 @@ class KGTrans(GPT):
             {{
                 "suggested_values": [], // these should be exact values with a unit if needed (allowable units: KB, MB, GB, ms, s, min)
                 "min_value": null,      // change it if there is a hint about the minimum value in SUGGESTIONS
-                "max_value": null       // change it if there is a hint about the maximum value in SUGGESTIONS, it should be larger than min_value
+                "max_value": null,      // change it if there is a hint about the maximum value in SUGGESTIONS, it should be larger than min_value
+                "cpu": {cpu_cores},
+                "ram": {ram_size},
+                "disk_size": {disk_size},
+                "disk_type": {disk_type}
             }}
             </question>
 
@@ -137,6 +141,22 @@ class KGTrans(GPT):
                 skill_json["suggested_values"] = most_common_suggested
             else:
                 skill_json["suggested_values"] = []
+            if result_json["cpu"] is not None:  
+                skill_json["cpu"] = result_json["cpu"]  
+            else:
+                skill_json["cpu"] = None 
+            if result_json["ram"] is not None:  
+                skill_json["ram"] = result_json["ram"]  
+            else:
+                skill_json["ram"] = None 
+            if result_json["disk_size"] is not None:  
+                skill_json["disk_size"] = result_json["disk_size"]  
+            else:
+                skill_json["disk_size"] = None 
+            if result_json["disk_type"] is not None:  
+                skill_json["disk_type"] = result_json["disk_type"]  
+            else:
+                skill_json["disk_type"] = None                                                                                         
             if summary is None:
                 with open(os.path.join(self.skill_json_path, knob+".json"), 'w') as file:
                     json.dump(skill_json, file)
