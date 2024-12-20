@@ -2,6 +2,7 @@
 
 # GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization
 
+- Congratulations! GPTuner has been selected for the **SIGMOD Research Highlight Award 2025!** 
 - This repository hosts the source code and supplementary materials for our: 
   - VLDB 2024 submission (accepted), [GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization](https://dl.acm.org/doi/abs/10.14778/3659437.3659449) 
   - SIGMOD 2024 Demo submission (accepted), [A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System](https://dl.acm.org/doi/10.1145/3626246.3654739) 
