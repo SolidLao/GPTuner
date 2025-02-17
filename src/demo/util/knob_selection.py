@@ -34,8 +34,8 @@ class KnobSelection(GPT):
                         }}
                         If no knobs are suggested, just fill "knob_list" with "None" and also return result in json format. 
                         """)
-                    response = self.get_answer(prompt)
-                    json_result = self.extract_json_from_text(response)
+
+                    json_result = self.get_GPT_response_json(prompt, json_format=True)
                     print(json_result)
                     selected_knobs.update(json_result)
                     success = True
@@ -63,8 +63,8 @@ class KnobSelection(GPT):
                         }}
                         If no knobs are suggested, just fill "knob_list" with "None" and also return result in json format. 
                         """)
-                    response = self.get_answer(prompt)
-                    json_result = self.extract_json_from_text(response)
+                    
+                    json_result = self.get_GPT_response_json(prompt, json_format=True)
                     print(json_result)
                     selected_knobs.update(json_result)
                     success = True
@@ -125,8 +125,8 @@ class KnobSelection(GPT):
                     }}
                     If no knobs are suggested, just fill "knob_list" with "None" and also return result in json format. 
                     """)
-                response = self.get_answer(prompt)
-                json_result = self.extract_json_from_text(response)
+
+                json_result = self.get_GPT_response_json(prompt, json_format=True)
                 print(json_result)
                 selected_knobs.update(json_result)
         print(selected_knobs)
@@ -168,8 +168,8 @@ class KnobSelection(GPT):
         If no knobs are interdependent, just fill "knob_list" with "None". 
         """
         )
-        response = self.get_answer(prompt)
-        json_result = self.extract_json_from_text(response)
+
+        json_result = self.get_GPT_response_json(prompt, json_format=True)
         if json_result.get("knob_list") != 'None':
             selected_knobs = list(selected_knobs) + json_result["knob_list"]
         else:

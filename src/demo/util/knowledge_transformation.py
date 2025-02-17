@@ -119,8 +119,8 @@ class KGTrans(GPT):
 
                 """)
 
-        answer = self.get_answer(prompt)
-
+        # answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt, json_format=True)
         return answer
 
     def vote(self, knob, summary=None):
@@ -132,8 +132,10 @@ class KGTrans(GPT):
 
             for i in range(5):
                 print(f"vote for {knob}, round {i}")
-                result_txt = self.get_skill(knob, summary)
-                result_json = self.extract_json_from_text(result_txt)
+                # result_txt = self.get_skill(knob, summary)
+                # result_json = self.extract_json_from_text(result_txt)
+                
+                result_json = self.get_skill(knob, summary)
                 suggested_values = result_json["suggested_values"]
                 min_value = result_json["min_value"]
                 max_value = result_json["max_value"]
@@ -208,7 +210,8 @@ class KGTrans(GPT):
             }}
         """)
 
-        answer = self.get_answer(prompt)
+        # answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt, json_format=False)
 
         print(f"prepare special skill for {knob_name}")
         return answer
@@ -246,7 +249,8 @@ class KGTrans(GPT):
             Now think step by step and give me the suggested upper bound. The answer should either be a number or null. Just return the answer, do not provide other information.
         """)
         
-        answer = self.get_answer(prompt)
+        # answer = self.get_answer(prompt)
+        answer = self.get_GPT_response_json(prompt, json_format=False)
 
         with open(os.path.join(self.max_path, knob+".txt"), 'w') as file:
             file.write(answer)

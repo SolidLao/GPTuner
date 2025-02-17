@@ -161,8 +161,8 @@ def gpt_filter_noisy_knowledge(official_doc, gpt_suggestion, web_suggestion, add
                 ""explaination":        // you should give the reason for your answer.
             }}
         """)
-        answer = gpt.get_answer(prompt)
-        ans_json = gpt.extract_json_from_text(answer)
+
+        ans_json = gpt.get_GPT_response_json(prompt, json_format=True)
         print(ans_json)
         if ans_json is None:
             continue
