@@ -66,6 +66,8 @@ sudo pip install -r requirements.txt
 
 - Note: modify `configs/postgres.ini` to determine the target DBMS first, the `restart` and `recover` commands depend on the environment and we provide Docker version
 - Note: modify `src/run_gptuner.py` to set up your `api_base`, `api_key` and `model` first
+- Note: please **update the structured knowledge** based on your hardware resources before running experiments. Just provide your `api_base`, `api_key` and `model`, then GPTuner's knowledge updater will complete this automatically
+
 ```
 # PYTHONPATH=src python src/run_gptuner.py <dbms> <benchmark> <timeout> <seed>
 PYTHONPATH=src python src/run_gptuner.py postgres tpch 180 -seed=100
