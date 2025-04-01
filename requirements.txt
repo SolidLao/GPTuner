@@ -3,7 +3,7 @@ mysql-connector-python==8.1.0
 ConfigSpace==0.7.1
 smac==2.0.2
 tiktoken==0.5.1
-openai==0.28.0
+openai==1.35.6
 streamlit==1.30.0
 streamlit-autorefresh==1.0.1
 streamlit-echarts==0.4.0

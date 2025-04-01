@@ -15,7 +15,7 @@ from dbms.postgres import PgDBMS
 from dbms.mysql import  MysqlDBMS
 from demo.util.coarse_stage import CoarseStage
 from demo.util.fine_stage import FineStage
-from knowledge_handler.knowledge_transformation import KGTrans
+from knowledge_handler.utils import get_hardware_info, get_disk_type
 from demo.util.knob_selection import KnobSelection
 from demo.util.handle_res_page import *
 from streamlit_autorefresh import st_autorefresh
@@ -696,8 +696,7 @@ if 'current_page' not in st.session_state:
     st.session_state.start = False
     st.session_state.workload = "TPC-H"
     st.session_state.default = None
-    kgtrans = KGTrans(st.session_state.api_base, st.session_state.api_key)
-    st.session_state.hardware_info = (*kgtrans.get_hardware_info(), kgtrans.get_disk_type())
+    st.session_state.hardware_info = (*get_hardware_info(), get_disk_type())
     st.session_state.u_gpt, st.session_state.u_manual, st.session_state.u_web, st.session_state.u_add = True, True, True, False
     st.session_state.go_filter = False
     st.session_state.get_default = 0 
