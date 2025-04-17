@@ -2,7 +2,6 @@ import subprocess
 import os
 import glob
 import json
-from dbms.mysql import MysqlDBMS
 from dbms.postgres import PgDBMS
 
 class BenchbaseRunner:
@@ -44,16 +43,6 @@ class BenchbaseRunner:
                 self.process = subprocess.Popen(    
                     ['java', '-jar', 'benchbase.jar', '-b', self.test, 
                     "-c", "config/postgres/sample_{}_config.xml".format(self.test), 
-                    "--create=false", "--clear=false", "--load=false", '--execute=true', 
-                    "-d", os.path.join("../../../", self.target_path)],
-                    cwd=self.benchmark_path,
-                    stdout=output_file
-                )
-            elif isinstance(self.dbms, MysqlDBMS):
-                
-                self.process = subprocess.Popen(
-                    ['java', '-jar', 'benchbase.jar', '-b', self.test, 
-                    "-c", "config/mysql/sample_{}_config.xml".format(self.test), 
                     "--create=false", "--clear=false", "--load=false", '--execute=true', 
                     "-d", os.path.join("../../../", self.target_path)],
                     cwd=self.benchmark_path,

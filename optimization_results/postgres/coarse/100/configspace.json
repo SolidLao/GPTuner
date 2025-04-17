@@ -1,0 +1,126 @@
+{
+  "hyperparameters": [
+    {
+      "name": "control_backend_flush_after",
+      "type": "categorical",
+      "choices": [
+        "0",
+        "1"
+      ],
+      "default": "0",
+      "weights": null
+    },
+    {
+      "name": "control_checkpoint_flush_after",
+      "type": "categorical",
+      "choices": [
+        "0",
+        "1"
+      ],
+      "default": "0",
+      "weights": null
+    },
+    {
+      "name": "control_wal_buffers",
+      "type": "categorical",
+      "choices": [
+        "0",
+        "1"
+      ],
+      "default": "0",
+      "weights": null
+    },
+    {
+      "name": "backend_flush_after",
+      "type": "categorical",
+      "choices": [
+        "0",
+        "64",
+        "128"
+      ],
+      "default": "0",
+      "weights": null
+    },
+    {
+      "name": "checkpoint_flush_after",
+      "type": "categorical",
+      "choices": [
+        "16",
+        "24",
+        "32",
+        "88",
+        "144"
+      ],
+      "default": "32",
+      "weights": null
+    },
+    {
+      "name": "special_backend_flush_after",
+      "type": "constant",
+      "value": 0
+    },
+    {
+      "name": "special_checkpoint_flush_after",
+      "type": "constant",
+      "value": 0
+    },
+    {
+      "name": "special_wal_buffers",
+      "type": "constant",
+      "value": -1
+    },
+    {
+      "name": "wal_buffers",
+      "type": "categorical",
+      "choices": [
+        "512",
+        "1004",
+        "1502",
+        "2000"
+      ],
+      "default": "512",
+      "weights": null
+    }
+  ],
+  "conditions": [
+    {
+      "child": "backend_flush_after",
+      "parent": "control_backend_flush_after",
+      "type": "EQ",
+      "value": "0"
+    },
+    {
+      "child": "special_backend_flush_after",
+      "parent": "control_backend_flush_after",
+      "type": "EQ",
+      "value": "1"
+    },
+    {
+      "child": "checkpoint_flush_after",
+      "parent": "control_checkpoint_flush_after",
+      "type": "EQ",
+      "value": "0"
+    },
+    {
+      "child": "special_checkpoint_flush_after",
+      "parent": "control_checkpoint_flush_after",
+      "type": "EQ",
+      "value": "1"
+    },
+    {
+      "child": "special_wal_buffers",
+      "parent": "control_wal_buffers",
+      "type": "EQ",
+      "value": "1"
+    },
+    {
+      "child": "wal_buffers",
+      "parent": "control_wal_buffers",
+      "type": "EQ",
+      "value": "0"
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

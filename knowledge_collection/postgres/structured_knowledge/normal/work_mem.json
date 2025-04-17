@@ -1,1 +1,1 @@
-{"min_value": "4 MB", "max_value": "62 GB", "suggested_values": ["4 MB"], "cpu": 8, "ram": 62, "disk_size": 884, "disk_type": "Unknown"}
+{"min_value": null, "max_value": "GB", "suggested_values": ["4 MB"], "cpu": 24, "ram": 216, "disk_size": 992, "disk_type": "HDD"}

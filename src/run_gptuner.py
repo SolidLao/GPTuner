@@ -6,7 +6,6 @@ import openai
 import concurrent.futures
 from knowledge_handler.knowledge_update import KGUpdate
 from dbms.postgres import PgDBMS
-from dbms.mysql import  MysqlDBMS
 from config_recommender.coarse_stage import CoarseStage
 from config_recommender.fine_stage import FineStage
 from knowledge_handler.knowledge_preparation import KGPre
@@ -44,10 +43,6 @@ if __name__ == '__main__':
         config_path = "./configs/postgres.ini"
         config.read(config_path)
         dbms = PgDBMS.from_file(config)
-    elif args.db == 'mysql':
-        config_path = "./configs/mysql.ini"
-        config.read(config_path)
-        dbms = MysqlDBMS.from_file(config)
     else:
         raise ValueError("Illegal dbms!")
 
@@ -59,7 +54,7 @@ if __name__ == '__main__':
 
 
     # prepare tuning lake and structured knowledge
-    target_knobs_path = f"/home/knob/revision/GPTuner/knowledge_collection/{args.db}/target_knobs.txt"
+    target_knobs_path = f"/home/v-zhiyzhao/GPTuner/knowledge_collection/{args.db}/target_knobs.txt"
     with open(target_knobs_path, 'r') as file:
         lines = file.readlines()
         target_knobs = [line.strip() for line in lines]
@@ -81,10 +76,6 @@ if __name__ == '__main__':
         config_path = "./configs/postgres.ini"
         config.read(config_path)
         dbms = PgDBMS.from_file(config)
-    elif args.db == 'mysql':
-        config_path = "./configs/mysql.ini"
-        config.read(config_path)
-        dbms = MysqlDBMS.from_file(config)
     else:
         raise ValueError("Illegal dbms!")
     

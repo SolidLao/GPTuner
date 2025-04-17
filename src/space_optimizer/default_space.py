@@ -159,6 +159,7 @@ class DefaultSpace:
             # reload the data
                 print("Reloading the data")
                 dbms._disconnect()
+                print("come here")
                 dbms._connect(f"{self.test}_template")
                 dbms.copy_db(target_db="benchbase", source_db=f"{self.test}_template")
                 print("Reloading completed")

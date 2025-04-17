@@ -1,0 +1,80 @@
+[INFO ] 2025-04-16 15:43:09,709 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:                       TPCH {com.oltpbenchmark.benchmarks.tpch.TPCHBenchmark}
+Configuration:                   config/postgres/sample_tpch_config.xml
+Type:                            POSTGRES
+Driver:                          org.postgresql.Driver
+URL:                             jdbc:postgresql://localhost:5432/benchbase?sslmode=disable&ApplicationName=tpch&reWriteBatchedInserts=true
+Isolation:                       TRANSACTION_SERIALIZABLE
+Batch Size:                      1024
+DDL Path:                        null
+Loader Threads:                  24
+Session Setup File:              null
+Scale Factor:                    0.1
+Terminals:                       1
+New Connection Per Txn:          false
+Reconnect on Connection Failure: true
+
+[INFO ] 2025-04-16 15:43:09,710 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2025-04-16 15:43:09,750 [main]  com.oltpbenchmark.DBWorkload main - Timer disabled for serial run; will execute all queries exactly once.
+[WARN ] 2025-04-16 15:43:09,750 [main]  com.oltpbenchmark.DBWorkload main - rounded weight [22] does not equal 100.  Original weight is [22.0]
+[INFO ] 2025-04-16 15:43:10,022 [main]  com.oltpbenchmark.DBWorkload runWorkload - Creating 1 virtual terminals...
+[INFO ] 2025-04-16 15:43:10,023 [main]  com.oltpbenchmark.benchmarks.tpch.TPCHBenchmark makeWorkersImpl - Creating 1 workers for TPC-H
+[INFO ] 2025-04-16 15:43:10,043 [main]  com.oltpbenchmark.DBWorkload runWorkload - Launching the TPCH Benchmark with 1 Phase...
+[INFO ] 2025-04-16 15:43:10,045 [main]  com.oltpbenchmark.ThreadBench runRateLimitedMultiPhase - [0;1mPHASE START[0;0m :: [Workload=TPCH] [Serial=true] [Time=n/a] [WarmupTime=0] [Rate=unlimited] [Arrival=REGULAR] [Ratios=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]] [ActiveWorkers=1]
+[INFO ] 2025-04-16 15:43:12,589 [TPCHWorker<000>]  com.oltpbenchmark.api.Worker getTransactionType - [Serial] Updating workload state to LATENCY_COMPLETE.
+[INFO ] 2025-04-16 15:43:13,045 [main]  com.oltpbenchmark.ThreadBench runRateLimitedMultiPhase - [0;1mTERMINATE[0;0m :: Waiting for all terminals to finish ..
+[INFO ] 2025-04-16 15:43:13,046 [Thread-1]  com.oltpbenchmark.ThreadBench run - Starting WatchDogThread
+[INFO ] 2025-04-16 15:43:13,048 [main]  com.oltpbenchmark.DBWorkload runWorkload - ======================================================================
+[INFO ] 2025-04-16 15:43:13,048 [main]  com.oltpbenchmark.DBWorkload runWorkload - Rate limited reqs/s: Results(state=EXIT, nanoSeconds=3000115308, measuredRequests=22) = 7.333051480166642 requests/sec (throughput), 14.666102960333284 requests/sec (goodput)
+[INFO ] 2025-04-16 15:43:13,084 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output Raw data into file: tpch_2025-04-16_15-43-13.raw.csv
+[INFO ] 2025-04-16 15:43:13,086 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output samples into file: tpch_2025-04-16_15-43-13.samples.csv
+[INFO ] 2025-04-16 15:43:13,088 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output summary data into file: tpch_2025-04-16_15-43-13.summary.json
+[INFO ] 2025-04-16 15:43:13,095 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output DBMS parameters into file: tpch_2025-04-16_15-43-13.params.json
+[INFO ] 2025-04-16 15:43:13,101 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output DBMS metrics into file: tpch_2025-04-16_15-43-13.metrics.json
+[INFO ] 2025-04-16 15:43:13,107 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output benchmark config into file: tpch_2025-04-16_15-43-13.config.xml
+[INFO ] 2025-04-16 15:43:13,140 [main]  com.oltpbenchmark.DBWorkload writeOutputs - Output results into file: tpch_2025-04-16_15-43-13.results.csv with window size 5
+[INFO ] 2025-04-16 15:43:13,151 [main]  com.oltpbenchmark.DBWorkload writeHistograms - ======================================================================
+[INFO ] 2025-04-16 15:43:13,152 [main]  com.oltpbenchmark.DBWorkload writeHistograms - Workload Histograms:
+
+[0;1mCompleted Transactions:[0;0m
+com.oltpbenchmark.benchmarks.tpch.procedures.Q1/01                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q2/02                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q3/03                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q4/04                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q5/05                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q6/06                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q7/07                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q8/08                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q9/09                               [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q10/10                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q11/11                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q12/12                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q13/13                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q14/14                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q15/15                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q16/16                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q17/17                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q18/18                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q19/19                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q20/20                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q21/21                              [   2] ********************************************************************************
+com.oltpbenchmark.benchmarks.tpch.procedures.Q22/22                              [   2] ********************************************************************************
+
+[0;1mAborted Transactions:[0;0m
+<EMPTY>
+
+[0;1mRejected Transactions (Server Retry):[0;0m
+<EMPTY>
+
+[0;1mRejected Transactions (Retry Different):[0;0m
+<EMPTY>
+
+[0;1mUnexpected SQL Errors:[0;0m
+<EMPTY>
+
+[0;1mUnknown Status Transactions:[0;0m
+<EMPTY>
+
+
+[INFO ] 2025-04-16 15:43:13,152 [main]  com.oltpbenchmark.DBWorkload writeHistograms - ======================================================================

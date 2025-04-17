@@ -1,0 +1,223 @@
+{
+  "stats": {
+    "submitted": 10,
+    "finished": 10,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      186422792,
+      null,
+      52789.0,
+      8.657303810119629,
+      1,
+      1744772391.5934417,
+      1744772400.2516632,
+      {}
+    ],
+    [
+      2,
+      null,
+      186422792,
+      null,
+      54471.0,
+      8.668561458587646,
+      1,
+      1744772400.2539313,
+      1744772408.923406,
+      {}
+    ],
+    [
+      3,
+      null,
+      186422792,
+      null,
+      54085.0,
+      8.92797303199768,
+      1,
+      1744772408.9257789,
+      1744772417.854664,
+      {}
+    ],
+    [
+      4,
+      null,
+      186422792,
+      null,
+      53100.0,
+      8.752421855926514,
+      1,
+      1744772417.8571463,
+      1744772426.6104934,
+      {}
+    ],
+    [
+      5,
+      null,
+      186422792,
+      null,
+      53234.0,
+      8.776857852935791,
+      1,
+      1744772426.6129167,
+      1744772435.3906794,
+      {}
+    ],
+    [
+      6,
+      null,
+      186422792,
+      null,
+      53137.0,
+      8.774972438812256,
+      1,
+      1744772435.3933382,
+      1744772444.16929,
+      {}
+    ],
+    [
+      7,
+      null,
+      186422792,
+      null,
+      54229.0,
+      8.679973840713501,
+      1,
+      1744772444.1718602,
+      1744772452.8527658,
+      {}
+    ],
+    [
+      8,
+      null,
+      186422792,
+      null,
+      53393.0,
+      8.660053730010986,
+      1,
+      1744772452.8553054,
+      1744772461.5162783,
+      {}
+    ],
+    [
+      9,
+      null,
+      186422792,
+      null,
+      52702.0,
+      8.662709474563599,
+      1,
+      1744772461.5189042,
+      1744772470.1825068,
+      {}
+    ],
+    [
+      10,
+      null,
+      186422792,
+      null,
+      53774.0,
+      8.907642602920532,
+      1,
+      1744772470.1853714,
+      1744772479.0938983,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "control_backend_flush_after": "0",
+      "control_checkpoint_flush_after": "0",
+      "control_wal_buffers": "0",
+      "backend_flush_after": "128",
+      "checkpoint_flush_after": "32",
+      "wal_buffers": "2000"
+    },
+    "2": {
+      "control_backend_flush_after": "0",
+      "control_checkpoint_flush_after": "1",
+      "control_wal_buffers": "0",
+      "backend_flush_after": "0",
+      "special_checkpoint_flush_after": 0,
+      "wal_buffers": "1004"
+    },
+    "3": {
+      "control_backend_flush_after": "0",
+      "control_checkpoint_flush_after": "0",
+      "control_wal_buffers": "1",
+      "backend_flush_after": "0",
+      "checkpoint_flush_after": "32",
+      "special_wal_buffers": -1
+    },
+    "4": {
+      "control_backend_flush_after": "0",
+      "control_checkpoint_flush_after": "0",
+      "control_wal_buffers": "0",
+      "backend_flush_after": "64",
+      "checkpoint_flush_after": "88",
+      "wal_buffers": "1502"
+    },
+    "5": {
+      "control_backend_flush_after": "1",
+      "control_checkpoint_flush_after": "1",
+      "control_wal_buffers": "1",
+      "special_backend_flush_after": 0,
+      "special_checkpoint_flush_after": 0,
+      "special_wal_buffers": -1
+    },
+    "6": {
+      "control_backend_flush_after": "1",
+      "control_checkpoint_flush_after": "1",
+      "control_wal_buffers": "0",
+      "special_backend_flush_after": 0,
+      "special_checkpoint_flush_after": 0,
+      "wal_buffers": "2000"
+    },
+    "7": {
+      "control_backend_flush_after": "0",
+      "control_checkpoint_flush_after": "1",
+      "control_wal_buffers": "1",
+      "backend_flush_after": "64",
+      "special_checkpoint_flush_after": 0,
+      "special_wal_buffers": -1
+    },
+    "8": {
+      "control_backend_flush_after": "1",
+      "control_checkpoint_flush_after": "0",
+      "control_wal_buffers": "0",
+      "checkpoint_flush_after": "144",
+      "special_backend_flush_after": 0,
+      "wal_buffers": "512"
+    },
+    "9": {
+      "control_backend_flush_after": "1",
+      "control_checkpoint_flush_after": "0",
+      "control_wal_buffers": "1",
+      "checkpoint_flush_after": "16",
+      "special_backend_flush_after": 0,
+      "special_wal_buffers": -1
+    },
+    "10": {
+      "control_backend_flush_after": "0",
+      "control_checkpoint_flush_after": "0",
+      "control_wal_buffers": "0",
+      "backend_flush_after": "0",
+      "checkpoint_flush_after": "32",
+      "wal_buffers": "512"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Latin Hypercube",
+    "2": "Initial Design: Latin Hypercube",
+    "3": "Initial Design: Latin Hypercube",
+    "4": "Initial Design: Latin Hypercube",
+    "5": "Initial Design: Latin Hypercube",
+    "6": "Initial Design: Latin Hypercube",
+    "7": "Initial Design: Latin Hypercube",
+    "8": "Initial Design: Latin Hypercube",
+    "9": "Initial Design: Latin Hypercube",
+    "10": "Initial Design: Default configuration"
+  }
+}

@@ -1,5 +1,4 @@
 from space_optimizer.default_space import DefaultSpace
-from dbms.mysql import MysqlDBMS
 import sys
 import os
 import json
@@ -75,18 +74,7 @@ class CoarseSpace(DefaultSpace):
                         sys_max_value = self._type_transfer(knob_type, info["max_val"])
                         if max_value > sys_max_value:
                             max_value = sys_max_value
-                # Since the upper bound of some knob in mysql is too big, use GPT's offered upperbound for mysql
-                if isinstance(self.dbms, MysqlDBMS):
-                    if max_from_sys or max_value >= sys.maxsize / 10:  #   for mysql
-                        max_path = "./knowledge_collection/mysql/structured_knowledge/max"
-                        with open(os.path.join(max_path, knob+".txt"), 'r') as file:
-                            upperbound = file.read()
-                        if upperbound != 'null':
-                            upperbound = self._type_transfer(knob_type, upperbound)
-                            max_value = self._type_transfer(knob_type, max_value)
-                            if int(upperbound) < max_value:
-                                max_value = upperbound
-
+                
                 # unit transformation
                 if unit is not None:
                     unit = self._transfer_unit(unit)
