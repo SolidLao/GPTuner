@@ -216,6 +216,25 @@ If you use this codebase, or otherwise found our work valuable, please cite 📒
   numpages = {14}
 }
 
+@article{10.1145/3733620.3733641,
+author = {Lao, Jiale and Wang, Yibo and Li, Yufei and Wang, Jianping and Zhang, Yunjia and Cheng, Zhiyuan and Chen, Wanghu and Tang, Mingjie and Wang, Jianguo},
+title = {GPTuner: An LLM-Based Database Tuning System},
+year = {2025},
+issue_date = {March 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {54},
+number = {1},
+issn = {0163-5808},
+url = {https://doi.org/10.1145/3733620.3733641},
+doi = {10.1145/3733620.3733641},
+abstract = {Selecting appropriate values for the configurable knobs of Database Management Systems (DBMS) is essential to improve performance. But because the complexity of this task has surpassed the abilities of even the best human experts, the database community turns to machine learning (ML)- based automatic tuning systems. However, these systems still incur significant tuning costs or only yield suboptimal performance, attributable to their overly high reliance on black-box optimization and the lack of integration with domain knowledge, such as DBMS manuals and forum discussions. Hence, we propose GPTuner, a manual-reading database tuning system that extensively leverages domain knowledge to automatically optimize the search space and enhance the runtime feedback-based optimization process. Firstly, we develop a Large Language Model (LLM)-based pipeline to collect and refine heterogeneous knowledge, and propose a prompt ensemble algorithm to unify a structured view of the refined knowledge. Secondly, using the structured knowledge, we (1) design a workload-aware, trainingfree knob selection strategy, (2) develop a search space optimization technique considering the value range of each knob, (3) propose a Coarse-to-Fine Bayesian Optimization Framework to explore the optimized space. Finally, we evaluate GPTuner under different benchmarks (TPC-C and TPC-H), metrics (throughput and latency) and DBMS (PostgreSQL and MySQL). Compared to state-of-the-art methods, GPTuner identifies better configurations in 16x less time on average. Moreover, GPTuner achieves up to 30\% performance improvement over the best-performing alternative.},
+journal = {SIGMOD Rec.},
+month = apr,
+pages = {101–110},
+numpages = {10}
+}
+
 @inproceedings{10.1145/3626246.3654739,
     author = {Lao, Jiale and Wang, Yibo and Li, Yufei and Wang, Jianping and Zhang, Yunjia and Cheng, Zhiyuan and Chen, Wanghu and Zhou, Yuanchun and Tang, Mingjie and Wang, Jianguo},
     title = {A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System},
